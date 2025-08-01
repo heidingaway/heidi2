@@ -1,26 +1,5 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-
-.semantic-graph {
-    margin-top: 2rem;
-    background-color: var(--light);
-    /* Use theme background color */
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid var(--lightgray);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
-}
-
-.semantic-graph h3 {
-    margin-bottom: 1rem;
-    color: var(--dark);
-    /* Use theme text color */
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
 /* Basic Mermaid styling to make it fit better within the container */
 .mermaid {
     text-align: center;
@@ -58,4 +37,30 @@
 .mermaid .arrowheadPath {
     fill: var(--gray);
     /* Arrowhead color */
+}
+
+/* --- Styling for the current-page-node (highlighted node) --- */
+/* This targets the SVG shape elements (rect, circle, polygon) of the highlighted node */
+.mermaid .current-page-node>rect,
+.mermaid .current-page-node>circle,
+.mermaid .current-page-node>polygon {
+    fill: var(--texthighlight) !important;
+    /* Use secondary color for background */
+    stroke: var(--texthighlight) !important;
+    /* Use secondary color for border */
+    stroke-width: 4px !important;
+    /* Make border thicker */
+}
+
+/* This targets the text within the label group of the highlighted node */
+/* It applies to both SVG text elements and HTML elements (p, span) embedded via foreignObject */
+.mermaid .current-page-node>g.label,
+.mermaid .current-page-node>g.label p,
+.mermaid .current-page-node>g.label span {
+    fill: var(--light) !important;
+    /* Use light color for text (for SVG fill) */
+    color: var(--light) !important;
+    /* Use light color for text (for HTML color) */
+    font-weight: bold !important;
+    /* Make text bold */
 }

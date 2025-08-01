@@ -1,6 +1,11 @@
 ---
-title: Welcome to Quartz
+title: index
 draft: false
+aliases:
+- Welcome to Quartz
+entities: []
+links: []
+related: []
 ---
 
 This is a blank Quartz installation.

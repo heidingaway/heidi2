@@ -25,27 +25,35 @@ entities:
   entity: https://gcxgce.sharepoint.com/teams/10001579/#drives
 - inverse_relationship: http://www.w3.org/2000/01/rdf-schema#range
   entity: https://gcxgce.sharepoint.com/teams/10001579/#delivers
-links:
+- inverse_relationship: http://www.w3.org/2000/01/rdf-schema#range
+  entity: https://gcxgce.sharepoint.com/teams/10001579/#isDrivenBy
+- inverse_relationship: http://www.w3.org/2000/01/rdf-schema#domain
+  entity: https://gcxgce.sharepoint.com/teams/10001579/#isDeliveredBy
+related:
 - '[[businessline]]'
+- '[[function]]'
 - '[[outcomestatement]]'
 - '[[stakeholder]]'
 ---
 
 # Output
 
----
-
 ### Semantic Connections
 
 ```mermaid
 graph TD
-  output["output"]
-  Class["Class"]
-  Output["Output"]
-  What_does_it_produce["What does it produce"]
-  outcomeStatement["outcomeStatement<br>+ type: Class<br>+ type: organizeAction"]
-  stakeholder["stakeholder"]
-  businessLine["businessLine"]
-  drives["drives<br>+ type: ObjectProperty"]
-  delivers["delivers<br>+ type: ObjectProperty"]
+  output["output<br>+ label: Output<br>+ comment: What does it produce"]:::current-page-node
+  outcomeStatement["outcomeStatement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
+  stakeholder["stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
+  businessLine["businessLine<br>+ label: Business Line<br>+ comment: Where is the work structured"]
+  function["function<br>+ label: Function"]
+  orgOntology["orgOntology<br>+ label: OCHRO Function Ontology<br>+ comment: An ontology for modeling Government of Canada functions.<br>+ versionInfo: v1.0"]
+  function-->|" hasPart "|stakeholder
+  stakeholder-->|" interactsWith "|output
+  function-->|" hasPart "|businessLine
+  businessLine-->|" delivers "|output
+  outcomeStatement-->|" defines "|function
+  output-->|" drives "|outcomeStatement
+  stakeholder-->|" interactsWith "|businessLine
+  orgOntology-->|" subject "|function
 ```
