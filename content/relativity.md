@@ -11,6 +11,7 @@ entities:
   entity: http://example.org/AlbertEinstein
 - relationship: http://purl.org/dc/elements/1.1/subject
   entity: http://example.org/Physics
+related: []
 ---
 
 # The Theory of General Relativity
@@ -32,4 +33,6 @@ graph TD
   Physics-->|" hasField "|QuantumMechanics
   MaxPlanck["MaxPlanck<br>+ birthDate: 1858-04-23<br>+ field: Theoretical Physics"]
   AlbertEinstein-->|" influencedBy "|MaxPlanck
+  photoelectric_effect["photoelectric-effect"]
+  photoelectric_effect-->|" creator "|AlbertEinstein
 ```
