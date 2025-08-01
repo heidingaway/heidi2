@@ -72,7 +72,6 @@ export const defaultContentPageLayout: PageLayout = {
     enableRadial: true, // whether to constrain the graph, similar to Obsidian
   },
 }),
-    Component.SemanticGraph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

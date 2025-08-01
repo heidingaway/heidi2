@@ -16,3 +16,17 @@ entities:
 # The Theory of General Relativity
 
 This document discusses Albert Einstein's theory of relativity.
+
+---
+
+### Semantic Connections
+
+```mermaid
+graph TD
+  relativity["relativity"]
+  relativity-->|" creator "|AlbertEinstein
+  AlbertEinstein["AlbertEinstein"]
+  relativity-->|" subject "|Physics
+  Physics["Physics"]
+
+```
