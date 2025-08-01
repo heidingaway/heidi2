@@ -1,3 +1,61 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.semantic-graph {
+    margin-top: 2rem;
+    background-color: var(--light);
+    /* Use theme background color */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--lightgray);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.semantic-graph h3 {
+    margin-bottom: 1rem;
+    color: var(--dark);
+    /* Use theme text color */
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Basic Mermaid styling to make it fit better within the container */
+.mermaid {
+    text-align: center;
+    /* Center the graph */
+}
+
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    background-color: transparent;
+    /* Ensure Mermaid background is transparent */
+}
+
+/* Adjust Mermaid node and text colors to match theme */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+    fill: var(--lightgray);
+    /* Node background */
+    stroke: var(--gray);
+    /* Node border */
+}
+
+.mermaid .node text {
+    fill: var(--darkgray);
+    /* Node text color */
+}
+
+.mermaid .edgePaths .edgeLabel text {
+    fill: var(--darkgray);
+    /* Edge label text color */
+}
+
+.mermaid .arrowheadPath {
+    fill: var(--gray);
+    /* Arrowhead color */
+}
