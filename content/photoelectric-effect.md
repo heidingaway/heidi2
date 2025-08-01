@@ -2,7 +2,7 @@
 title: photoelectric-effect
 aliases:
 - On a Heuristic Point of View Concerning the Production and Transformation of Light
-draft: 'false'
+draft: false
 entities:
 - relationship: http://schema.org/name
   entity: On a Heuristic Point of View Concerning the Production and Transformation
@@ -11,7 +11,7 @@ entities:
   entity: http://example.org/AlbertEinstein
 - relationship: http://purl.org/dc/elements/1.1/subject
   entity: http://example.org/QuantumMechanics
-related:
+links:
 - '[[relativity]]'
 ---
 

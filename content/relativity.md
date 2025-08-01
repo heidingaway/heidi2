@@ -5,13 +5,13 @@ aliases:
 tags:
 - physics
 - science
-draft: 'false'
+draft: false
 entities:
 - relationship: http://purl.org/dc/elements/1.1/creator
   entity: http://example.org/AlbertEinstein
 - relationship: http://purl.org/dc/elements/1.1/subject
   entity: http://example.org/Physics
-related: []
+links: []
 ---
 
 # The Theory of General Relativity
