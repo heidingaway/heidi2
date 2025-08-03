@@ -1,38 +1,39 @@
 ---
-title: output
-aliases: []
+title: Output
+aliases:
+- Output
 created: 2025-07-28
-modified: 2025-08-01
+modified: 2025-08-03
 tags: []
-date: null
-description: null
 draft: false
+mermaid_layers: 3
 permalink: null
+entities:
+- https://gcxgce.sharepoint.com/teams/10001579/#business_line
+- https://gcxgce.sharepoint.com/teams/10001579/#function
+- https://gcxgce.sharepoint.com/teams/10001579/#outcome_statement
+- https://gcxgce.sharepoint.com/teams/10001579/#output
+- https://gcxgce.sharepoint.com/teams/10001579/#stakeholder
 ---
 
 ## Related Links
 
-- [[businessline]]
+- [[business_line]]
 - [[function]]
-- [[outcomestatement]]
+- [[outcome_statement]]
 - [[stakeholder]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  output["output<br>+ label: Output<br>+ comment: What does it produce"]:::current-page-node
-  outcomeStatement["outcomeStatement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
-  stakeholder["stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
-  businessLine["businessLine<br>+ label: Business Line<br>+ comment: Where is the work structured"]
-  function["function<br>+ label: Function"]
-  orgOntology["orgOntology<br>+ label: OCHRO Function Ontology<br>+ comment: An ontology for modeling Government of Canada functions.<br>+ versionInfo: v1.0"]
-  orgOntology-->|" subject "|function
-  businessLine-->|" delivers "|output
-  output-->|" drives "|outcomeStatement
-  function-->|" hasPart "|businessLine
-  stakeholder-->|" interactsWith "|output
-  stakeholder-->|" interactsWith "|businessLine
-  outcomeStatement-->|" defines "|function
-  function-->|" hasPart "|stakeholder
+  Output["Output<br>+ label: Output<br>+ comment: What does it produce"]:::current-page-node
+  Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
+  Function["Function<br>+ label: Function"]
+  Stakeholder["Stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
+  Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
+  Function-->|" hasPart "|Business_Line
+  Outcome_Statement-->|" defines "|Function
+  Function-->|" hasPart "|Stakeholder
+  Output-->|" drives "|Outcome_Statement
 ```

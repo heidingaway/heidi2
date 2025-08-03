@@ -39,7 +39,17 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        // The FileTrieNode has a 'file' property containing the frontmatter
+        if (node.file?.frontmatter?.title) {
+          // Set the displayName to the front matter title
+          node.displayName = node.file.frontmatter.title
+        }
+        // Return the node
+        return node
+      },
+    }),
   ],
   right: [
     Component.Graph({

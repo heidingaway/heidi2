@@ -1,19 +1,25 @@
 ---
-title: function
-aliases: []
+title: Function
+aliases:
+- Function
 created: 2025-07-28
-modified: 2025-08-01
+modified: 2025-08-03
 tags: []
-date: null
-description: null
 draft: false
+mermaid_layers: 3
 permalink: null
+entities:
+- https://gcxgce.sharepoint.com/teams/10001579/#business_line
+- https://gcxgce.sharepoint.com/teams/10001579/#function
+- https://gcxgce.sharepoint.com/teams/10001579/#outcome_statement
+- https://gcxgce.sharepoint.com/teams/10001579/#output
+- https://gcxgce.sharepoint.com/teams/10001579/#stakeholder
 ---
 
 ## Related Links
 
-- [[businessline]]
-- [[outcomestatement]]
+- [[business_line]]
+- [[outcome_statement]]
 - [[output]]
 - [[stakeholder]]
 
@@ -21,18 +27,17 @@ permalink: null
 
 ```mermaid
 graph TD
-  function["function<br>+ label: Function"]:::current-page-node
-  stakeholder["stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
-  businessLine["businessLine<br>+ label: Business Line<br>+ comment: Where is the work structured"]
-  orgOntology["orgOntology<br>+ label: OCHRO Function Ontology<br>+ comment: An ontology for modeling Government of Canada functions.<br>+ versionInfo: v1.0"]
-  outcomeStatement["outcomeStatement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
-  output["output<br>+ label: Output<br>+ comment: What does it produce"]
-  orgOntology-->|" subject "|function
-  businessLine-->|" delivers "|output
-  output-->|" drives "|outcomeStatement
-  function-->|" hasPart "|businessLine
-  stakeholder-->|" interactsWith "|output
-  stakeholder-->|" interactsWith "|businessLine
-  outcomeStatement-->|" defines "|function
-  function-->|" hasPart "|stakeholder
+  Function["Function<br>+ label: Function"]:::current-page-node
+  Stakeholder["Stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
+  Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
+  Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
+  Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
+  Stakeholder-->|" interactsWith "|Business_Line
+  Business_Line-->|" delivers "|Output
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" subClassOf "|Function
+  Function-->|" hasPart "|Stakeholder
+  Stakeholder-->|" interactsWith "|Output
+  Output-->|" drives "|Outcome_Statement
+  Business_Line-->|" subClassOf "|Function
 ```
