@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/strategic_enablement_function
 ---
 
-Documents and shares the most holistic architecture* view of the enterprise with a focus on how humans experience the processes that make up the architecture.'
-
-## Related Links
-
-- [[strategic_enablement_function]]
+Documents and shares the most holistic architecture* view of the enterprise with a focus on how humans experience the processes that make up the architecture.'- [[strategic_enablement_function]]
 
 ## Semantic Connections
 

@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/service_design_delivery_functions
 ---
 
-Works collectively (across government or service value chain) to reduce user burden, by creating, improving and re-using shared components to common service needs.
-
-## Related Links
-
-- [[service_design_delivery_functions]]
+Works collectively (across government or service value chain) to reduce user burden, by creating, improving and re-using shared components to common service needs.- [[service_design_delivery_functions]]
 
 ## Semantic Connections
 

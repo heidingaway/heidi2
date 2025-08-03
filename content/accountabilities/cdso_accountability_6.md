@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/technology_infrastructure
 ---
 
-Oversees the delivery of, and day to day operations of the enterprise digital services infrastructure this includes prioritizing AI infrastructure
-
-## Related Links
-
-- [[technology_infrastructure]]
+Oversees the delivery of, and day to day operations of the enterprise digital services infrastructure this includes prioritizing AI infrastructure- [[technology_infrastructure]]
 
 ## Semantic Connections
 

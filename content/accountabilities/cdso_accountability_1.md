@@ -11,15 +11,11 @@ draft: false
 subClassOf:
 - '[[leadership]]'
 entities:
+- http://www.thesaurus.gc.ca/#leadership
 - https://heidingaway.github.io/heidi2/cdso_accountability_1
-- https://heidingaway.github.io/heidi2/leadership
 ---
 
-Leads the development, implementation, and enhancement of strategies, architectures, and governance structures to foster digital, connected, client-focused programs and services across the organization.
-
-## Related Links
-
-- [[leadership]]
+Leads the development, implementation, and enhancement of strategies, architectures, and governance structures to foster digital, connected, client-focused programs and services across the organization.- [[leadership]]
 
 ## Semantic Connections
 

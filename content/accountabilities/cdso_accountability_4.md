@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/service_design_delivery
 ---
 
-Ensures that enterprise digital services infrastructure enables effective information and data governance. (Note that this accountability cannot be delegated as it will involve directing the CDO and CTO).
-
-## Related Links
-
-- [[service_design_delivery]]
+Ensures that enterprise digital services infrastructure enables effective information and data governance. (Note that this accountability cannot be delegated as it will involve directing the CDO and CTO).- [[service_design_delivery]]
 
 ## Semantic Connections
 

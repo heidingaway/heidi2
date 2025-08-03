@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/management_functions
 ---
 
-The CDSO works closely with colleagues in performance measurement, evaluation, and audit (PMEA) functions to share data and adopt common components to improve efficiency.'
-
-## Related Links
-
-- [[management_functions]]
+The CDSO works closely with colleagues in performance measurement, evaluation, and audit (PMEA) functions to share data and adopt common components to improve efficiency.'- [[management_functions]]
 
 ## Semantic Connections
 

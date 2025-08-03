@@ -14,8 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_function
 ---
 
-## Related Links
-
 - [[advice_partnerships]]
 
 ## Semantic Connections
@@ -25,6 +23,6 @@ graph TD
   CDSO_Function["CDSO Function"]:::current-page-node
   cdso_accountabilities["cdso_accountabilities"]
   advice_partnerships["advice_partnerships"]
-  advice_partnerships-->|" subClassOf "|CDSO_Function
   CDSO_Function-->|" subClassOf "|cdso_accountabilities
+  advice_partnerships-->|" subClassOf "|CDSO_Function
 ```

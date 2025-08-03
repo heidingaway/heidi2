@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/technology_infrastructure_function
 ---
 
-Enable the delivery of business and program innovation through related service agreements, vendor management and infrastructure configuration.
-
-## Related Links
-
-- [[technology_infrastructure_function]]
+Enable the delivery of business and program innovation through related service agreements, vendor management and infrastructure configuration.- [[technology_infrastructure_function]]
 
 ## Semantic Connections
 

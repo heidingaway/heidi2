@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/technology_infrastructure_function
 ---
 
-Provides strategic advice on technology investments.
-
-## Related Links
-
-- [[technology_infrastructure_function]]
+Provides strategic advice on technology investments.- [[technology_infrastructure_function]]
 
 ## Semantic Connections
 

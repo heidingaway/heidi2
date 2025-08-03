@@ -16,11 +16,6 @@ entities:
 - https://heidingaway.github.io/heidi2/service_design_delivery_functions
 ---
 
-## Related Links
-
-- [[cdso_accountability_3]]
-- [[cdso_accountability_4]]
-- [[cdso_specific_accountability]]
 - [[service_design_delivery_functions]]
 
 ## Semantic Connections
@@ -32,8 +27,8 @@ graph TD
   cdso_accountability_3["cdso_accountability_3"]
   cdso_accountability_4["cdso_accountability_4"]
   service_design_delivery_functions["service_design_delivery_functions"]
-  service_design_delivery_functions-->|" subClassOf "|Service_Design_Delivery
-  Service_Design_Delivery-->|" subClassOf "|cdso_specific_accountability
   cdso_accountability_4-->|" subClassOf "|Service_Design_Delivery
+  Service_Design_Delivery-->|" subClassOf "|cdso_specific_accountability
+  service_design_delivery_functions-->|" subClassOf "|Service_Design_Delivery
   cdso_accountability_3-->|" subClassOf "|Service_Design_Delivery
 ```

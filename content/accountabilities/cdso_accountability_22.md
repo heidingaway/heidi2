@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/information_data_governance_functions
 ---
 
-Collaborates and builds trust within federated structures such as departmental operations, services, policy, program, or regulatory development.'
-
-## Related Links
-
-- [[information_data_governance_functions]]
+Collaborates and builds trust within federated structures such as departmental operations, services, policy, program, or regulatory development.'- [[information_data_governance_functions]]
 
 ## Semantic Connections
 

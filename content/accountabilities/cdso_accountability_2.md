@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/strategic_enablement
 ---
 
-Directs alignment of departmental digital investments with government wide initiatives and service delivery partners to optimize interoperability and the human experience.  Ensures that across the enterprise, user adoption, experience and satisfaction data are consistently collected and shared to continuously improve services and products.
-
-## Related Links
-
-- [[strategic_enablement]]
+Directs alignment of departmental digital investments with government wide initiatives and service delivery partners to optimize interoperability and the human experience.  Ensures that across the enterprise, user adoption, experience and satisfaction data are consistently collected and shared to continuously improve services and products.- [[strategic_enablement]]
 
 ## Semantic Connections
 

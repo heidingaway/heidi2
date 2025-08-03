@@ -10,13 +10,13 @@ subClassOf:
 - '[[CreativeWork]]'
 entities:
 - https://schema.org/CreativeWork
-- https://schema.org/DataCatalog
-- https://schema.org/dataset
+- https://schema.org/Dataset
+- https://schema.org/docs/collab/DatasetClass
 ---
 
 > A body of structured information describing some topic(s) of interest.[^1]
 
-[^1]: [Dataset - Schema.org Type](https://schema.org/Dataset)
+[^1]: [Dataset - Schema.org Type](https://schema.org/Dataset)- [[CreativeWork]]- [[CreativeWork]]- [[CreativeWork]]- [[CreativeWork]]
 
 ## Related Links
 
@@ -26,11 +26,15 @@ entities:
 
 ```mermaid
 graph TD
-  Dataset["Dataset<br>+ label: dataset<br>+ comment: A dataset contained in this catalog."]:::current-page-node
-  DataCatalog["DataCatalog<br>+ label: DataCatalog<br>+ comment: A collection of datasets."]
-  Dataset_1["Dataset<br>+ label: Dataset<br>+ comment: A body of structured information describing some topic(s) of interest."]
+  Dataset["Dataset<br>+ label: Dataset<br>+ comment: A body of structured information describing some topic(s) of interest."]:::current-page-node
   CreativeWork["CreativeWork<br>+ label: CreativeWork<br>+ comment: The most generic kind of creative work, including books, movies, photographs, software programs, etc."]
-  Dataset-->|" rangeIncludes "|Dataset_1
+  Dataset_1["Dataset"]
+  Dataset_2["Dataset"]
+  Dataset_3["Dataset"]
+  DatasetClass["DatasetClass"]
+  Dataset-->|" equivalentClass "|Dataset_1
+  Dataset-->|" equivalentClass "|Dataset_2
+  Dataset-->|" equivalentClass "|Dataset_3
   Dataset-->|" subClassOf "|CreativeWork
-  Dataset-->|" domainIncludes "|DataCatalog
+  Dataset-->|" contributor "|DatasetClass
 ```

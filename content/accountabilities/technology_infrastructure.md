@@ -15,10 +15,6 @@ entities:
 - https://heidingaway.github.io/heidi2/technology_infrastructure_function
 ---
 
-## Related Links
-
-- [[cdso_accountability_6]]
-- [[cdso_specific_accountability]]
 - [[technology_infrastructure_function]]
 
 ## Semantic Connections
@@ -29,7 +25,7 @@ graph TD
   cdso_specific_accountability["cdso_specific_accountability"]
   cdso_accountability_6["cdso_accountability_6"]
   technology_infrastructure_function["technology_infrastructure_function"]
-  Technology_Infrastructure-->|" subClassOf "|cdso_specific_accountability
-  cdso_accountability_6-->|" subClassOf "|Technology_Infrastructure
   technology_infrastructure_function-->|" subClassOf "|Technology_Infrastructure
+  cdso_accountability_6-->|" subClassOf "|Technology_Infrastructure
+  Technology_Infrastructure-->|" subClassOf "|cdso_specific_accountability
 ```

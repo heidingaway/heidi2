@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/information_data_governance_functions
 ---
 
-Oversees the strategic management of all information and data functions to advance the stewardship, interoperability and the ethical use of information and data across the organization.'
-
-## Related Links
-
-- [[information_data_governance_functions]]
+Oversees the strategic management of all information and data functions to advance the stewardship, interoperability and the ethical use of information and data across the organization.'- [[information_data_governance_functions]]
 
 ## Semantic Connections
 

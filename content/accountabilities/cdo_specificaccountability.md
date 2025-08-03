@@ -14,11 +14,7 @@ entities:
 ---
 
 1. [[leads_data_operations]]
-2. [[leads_data_innovation]]
-
-## Related Links
-
-- [[cdo_accountabilities]]
+2. [[leads_data_innovation]]- [[cdo_accountabilities]]
 
 ## Semantic Connections
 

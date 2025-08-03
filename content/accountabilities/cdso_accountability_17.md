@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/service_design_delivery_functions
 ---
 
-Ensures that experience design* is applied to address complex service delivery challenges and create human-centered outcomes.
-
-## Related Links
-
-- [[service_design_delivery_functions]]
+Ensures that experience design* is applied to address complex service delivery challenges and create human-centered outcomes.- [[service_design_delivery_functions]]
 
 ## Semantic Connections
 

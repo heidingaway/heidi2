@@ -14,9 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/strategic_enablement
 ---
 
-## Related Links
-
-- [[cdso_accountability_2]]
 - [[cdso_specific_accountability]]
 
 ## Semantic Connections

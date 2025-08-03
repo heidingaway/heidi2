@@ -16,11 +16,6 @@ entities:
 - https://heidingaway.github.io/heidi2/information_data_governance_functions
 ---
 
-## Related Links
-
-- [[cdso_accountability_20]]
-- [[cdso_accountability_21]]
-- [[cdso_accountability_22]]
 - [[cdso_function]]
 
 ## Semantic Connections
@@ -32,8 +27,8 @@ graph TD
   cdso_accountability_20["cdso_accountability_20"]
   cdso_accountability_21["cdso_accountability_21"]
   cdso_accountability_22["cdso_accountability_22"]
-  cdso_accountability_20-->|" subClassOf "|Information_and_Data_Governance_Functions
-  cdso_accountability_22-->|" subClassOf "|Information_and_Data_Governance_Functions
   Information_and_Data_Governance_Functions-->|" subClassOf "|cdso_function
   cdso_accountability_21-->|" subClassOf "|Information_and_Data_Governance_Functions
+  cdso_accountability_22-->|" subClassOf "|Information_and_Data_Governance_Functions
+  cdso_accountability_20-->|" subClassOf "|Information_and_Data_Governance_Functions
 ```

@@ -15,6 +15,8 @@ entities:
 - https://schema.org/GovernmentOrganization
 ---
 
+- [[GovernmentOrganization]]
+
 ## Related Links
 
 - [[GovernmentOrganization]]

@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_accountability_30
 ---
 
-Actively partners with other CDSOs and digital leaders to explore opportunities for and prioritize investments for shared enterprise solutions for common problems.
-
-## Related Links
-
-- [[advice_partnerships]]
+Actively partners with other CDSOs and digital leaders to explore opportunities for and prioritize investments for shared enterprise solutions for common problems.- [[advice_partnerships]]
 
 ## Semantic Connections
 

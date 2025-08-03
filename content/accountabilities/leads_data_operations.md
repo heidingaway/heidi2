@@ -19,10 +19,6 @@ entities:
 ---
 
 The [[chief_data_officer]] leads data operations, including:
-- [[curates_open_data]]
-
-## Related Links
-
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections

@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/information_data_governance_functions
 ---
 
-Directs the strategy and governance for the development, application and use of artificial intelligence models and algorithms in alignment with government-wide policy and direction.
-
-## Related Links
-
-- [[information_data_governance_functions]]
+Directs the strategy and governance for the development, application and use of artificial intelligence models and algorithms in alignment with government-wide policy and direction.- [[information_data_governance_functions]]
 
 ## Semantic Connections
 

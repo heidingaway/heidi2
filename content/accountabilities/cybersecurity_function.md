@@ -14,9 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/cybersecurity_function
 ---
 
-## Related Links
-
-- [[cdso_accountability_23]]
 - [[cdso_function]]
 
 ## Semantic Connections

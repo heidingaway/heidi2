@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/leadership_functions
 ---
 
-Establishes feedback loops, and champions the continuous improvement of the enterprise digital service infrastructure*.'
-
-## Related Links
-
-- [[leadership_functions]]
+Establishes feedback loops, and champions the continuous improvement of the enterprise digital service infrastructure*.'- [[leadership_functions]]
 
 ## Semantic Connections
 

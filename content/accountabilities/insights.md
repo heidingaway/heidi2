@@ -14,9 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/insights
 ---
 
-## Related Links
-
-- [[cdo_accountability_6]]
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections

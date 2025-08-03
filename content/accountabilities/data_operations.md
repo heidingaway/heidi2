@@ -15,8 +15,6 @@ entities:
 - https://heidingaway.github.io/heidi2/data_operations
 ---
 
-## Related Links
-
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections

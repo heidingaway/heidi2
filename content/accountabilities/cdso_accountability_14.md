@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/leadership_functions
 ---
 
-Implements a program to enhance and measure digital competency7 across the departmental workforce.'
-
-## Related Links
-
-- [[leadership_functions]]
+Implements a program to enhance and measure digital competency7 across the departmental workforce.'- [[leadership_functions]]
 
 ## Semantic Connections
 

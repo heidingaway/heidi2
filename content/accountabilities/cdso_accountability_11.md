@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/leadership_functions
 ---
 
-Communicates priorities and adjudicates disputes6 related to service delivery and the Digital Agenda* across the organization.''
-
-## Related Links
-
-- [[leadership_functions]]
+Communicates priorities and adjudicates disputes6 related to service delivery and the Digital Agenda* across the organization.''- [[leadership_functions]]
 
 ## Semantic Connections
 

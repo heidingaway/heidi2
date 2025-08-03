@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/management_functions
 ---
 
-Oversees the management of human and financial resources with efficiency, integrity, and accountability.'
-
-## Related Links
-
-- [[management_functions]]
+Oversees the management of human and financial resources with efficiency, integrity, and accountability.'- [[management_functions]]
 
 ## Semantic Connections
 

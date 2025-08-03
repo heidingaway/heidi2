@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/service_design_delivery
 ---
 
-Directs enterprise-wide adoption of human-centred, connected digital services, enabled by a centre of excellence and knowledge network* focused on product management and service design, resulting in improved service outcomes and integration across the organization.
-
-## Related Links
-
-- [[service_design_delivery]]
+Directs enterprise-wide adoption of human-centred, connected digital services, enabled by a centre of excellence and knowledge network* focused on product management and service design, resulting in improved service outcomes and integration across the organization.- [[service_design_delivery]]
 
 ## Semantic Connections
 

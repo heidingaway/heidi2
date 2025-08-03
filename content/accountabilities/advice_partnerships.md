@@ -13,8 +13,6 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_function
 ---
 
-## Related Links
-
 - [[cdso_function]]
 
 ## Semantic Connections

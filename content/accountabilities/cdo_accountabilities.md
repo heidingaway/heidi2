@@ -17,11 +17,6 @@ entities:
 ---
 
 CDO Accountabilities include
-- [[cdo_generalaccountability]]
-
-## Related Links
-
-- [[cdo_generalaccountability]]
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections

@@ -17,11 +17,6 @@ entities:
 - https://heidingaway.github.io/heidi2/strategic_enablement_function
 ---
 
-## Related Links
-
-- [[cdso_accountability_15]]
-- [[cdso_accountability_16]]
-- [[cdso_function]]
 - [[strategic_enablement]]
 
 ## Semantic Connections
@@ -34,7 +29,7 @@ graph TD
   cdso_accountability_15["cdso_accountability_15"]
   cdso_accountability_16["cdso_accountability_16"]
   cdso_accountability_15-->|" subClassOf "|Strategic_Enablement_Function
+  cdso_accountability_16-->|" subClassOf "|Strategic_Enablement_Function
   Strategic_Enablement_Function-->|" subClassOf "|cdso_function
   Strategic_Enablement_Function-->|" subClassOf "|strategic_enablement
-  cdso_accountability_16-->|" subClassOf "|Strategic_Enablement_Function
 ```

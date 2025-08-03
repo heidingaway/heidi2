@@ -11,15 +11,11 @@ draft: false
 subClassOf:
 - '[[governance]]'
 entities:
+- http://www.thesaurus.gc.ca/#governance
 - https://heidingaway.github.io/heidi2/cdo_accountability_2
-- https://heidingaway.github.io/heidi2/governance
 ---
 
-Leads the development of corporate, standards, and architectures that define govern and establishes departmental processes for the lifecycle management of enterprise information, data, analytics, and artificial intelligence models and algorithms.'
-
-## Related Links
-
-- [[governance]]
+Leads the development of corporate, standards, and architectures that define govern and establishes departmental processes for the lifecycle management of enterprise information, data, analytics, and artificial intelligence models and algorithms.'- [[governance]]
 
 ## Semantic Connections
 

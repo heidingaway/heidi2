@@ -32,12 +32,12 @@ graph TD
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
   Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
-  Stakeholder-->|" interactsWith "|Business_Line
-  Business_Line-->|" delivers "|Output
-  Function-->|" hasPart "|Business_Line
-  Stakeholder-->|" subClassOf "|Function
-  Function-->|" hasPart "|Stakeholder
-  Stakeholder-->|" interactsWith "|Output
   Output-->|" drives "|Outcome_Statement
+  Stakeholder-->|" subClassOf "|Function
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interactsWith "|Output
+  Stakeholder-->|" interactsWith "|Business_Line
+  Function-->|" hasPart "|Stakeholder
   Business_Line-->|" subClassOf "|Function
+  Business_Line-->|" delivers "|Output
 ```

@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/technology_infrastructure_function
 ---
 
-Advises on, and enforces departmental, government wide, and international standards as relevant.
-
-## Related Links
-
-- [[technology_infrastructure_function]]
+Advises on, and enforces departmental, government wide, and international standards as relevant.- [[technology_infrastructure_function]]
 
 ## Semantic Connections
 

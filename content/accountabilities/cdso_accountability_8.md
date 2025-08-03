@@ -11,15 +11,11 @@ draft: false
 subClassOf:
 - '[[management]]'
 entities:
+- http://www.thesaurus.gc.ca/#management
 - https://heidingaway.github.io/heidi2/cdso_accountability_8
-- https://heidingaway.github.io/heidi2/management
 ---
 
-Oversees the management functions of the Chief Digital Service Officer unit to drive development and promotion of digital talent.
-
-## Related Links
-
-- [[management]]
+Oversees the management functions of the Chief Digital Service Officer unit to drive development and promotion of digital talent.- [[management]]
 
 ## Semantic Connections
 

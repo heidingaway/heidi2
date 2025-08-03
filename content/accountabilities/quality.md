@@ -14,9 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/quality
 ---
 
-## Related Links
-
-- [[cdo_accountability_3]]
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections

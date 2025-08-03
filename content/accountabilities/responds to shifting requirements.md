@@ -12,8 +12,6 @@ entities:
 - https://heidingaway.github.io/heidi2/responds_to_shifting_requirements
 ---
 
-## Related Links
-
 - [[responds_to_shifting_requirements]]
 
 ## Semantic Connections

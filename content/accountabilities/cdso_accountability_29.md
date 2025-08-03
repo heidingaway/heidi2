@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_accountability_29
 ---
 
-Oversees collaboration with partners such as other government data domain leads, central agencies, international organizations, private sector experts, indigenous, academia and third party service providers to advance the digital agenda.
-
-## Related Links
-
-- [[advice_partnerships]]
+Oversees collaboration with partners such as other government data domain leads, central agencies, international organizations, private sector experts, indigenous, academia and third party service providers to advance the digital agenda.- [[advice_partnerships]]
 
 ## Semantic Connections
 

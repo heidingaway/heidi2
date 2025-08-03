@@ -14,9 +14,6 @@ entities:
 - https://heidingaway.github.io/heidi2/collaboration
 ---
 
-## Related Links
-
-- [[cdo_accountability_4]]
 - [[cdo_specificaccountability]]
 
 ## Semantic Connections
@@ -26,6 +23,6 @@ graph TD
   Collaboration["Collaboration"]:::current-page-node
   cdo_specificaccountability["cdo_specificaccountability"]
   cdo_accountability_4["cdo_accountability_4"]
-  cdo_accountability_4-->|" subClassOf "|Collaboration
   Collaboration-->|" subClassOf "|cdo_specificaccountability
+  cdo_accountability_4-->|" subClassOf "|Collaboration
 ```

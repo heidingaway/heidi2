@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_accountability_28
 ---
 
-Provides outward facing representation of the Government's and organisation's vision, directions and strategies relating to digital transformation of programs and services.'
-
-## Related Links
-
-- [[advice_partnerships]]
+Provides outward facing representation of the Government's and organisation's vision, directions and strategies relating to digital transformation of programs and services.'- [[advice_partnerships]]
 
 ## Semantic Connections
 

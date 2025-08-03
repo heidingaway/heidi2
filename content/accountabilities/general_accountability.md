@@ -13,8 +13,6 @@ entities:
 - https://heidingaway.github.io/heidi2/general_accountability
 ---
 
-## Related Links
-
 - [[cdso_general_accountability]]
 
 ## Semantic Connections

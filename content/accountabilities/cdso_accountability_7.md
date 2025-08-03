@@ -15,11 +15,7 @@ entities:
 - https://heidingaway.github.io/heidi2/cdso_accountability_7
 ---
 
-Advances whole-of-government digital transformation through strategic advice, partnerships, and collaboration.
-
-## Related Links
-
-- [[advice_partnerships]]
+Advances whole-of-government digital transformation through strategic advice, partnerships, and collaboration.- [[advice_partnerships]]
 
 ## Semantic Connections
 
