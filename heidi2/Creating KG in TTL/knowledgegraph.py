@@ -4,10 +4,12 @@
 # ==============================================================================
 
 # Required: The URL of the article to process.
-ARTICLE_URL = "https://finance.yahoo.com/news/microstrategy-bitcoin-millions-142143795.html"
+# This is a placeholder URL for GitHub syncing. In a real application,
+# this would be the actual URL of the article you want to process.
+ARTICLE_URL = "https://example.com/news/article-placeholder.html"
 
 # Required: The filename for the Turtle (.ttl) output.
-OUTPUT_FILENAME = "microstrategy_knowledge_graph.ttl"
+OUTPUT_FILENAME = "knowledge_graph_output.ttl"
 
 # Optional/Advanced: Adjust these for fine-tuning.
 # The length of the text chunks processed by the model.
@@ -335,10 +337,33 @@ def from_text_to_kb(text, article_url, span_length, article_title=None,
 
 def get_article(url):
     """Parses an article from a URL using newspaper3k."""
-    article = Article(url)
-    article.download()
-    article.parse()
-    return article
+    # For GitHub syncing, we'll simulate article content for a placeholder URL.
+    # In a real scenario, this would download and parse the actual article.
+    if url == "https://example.com/news/article-placeholder.html":
+        class MockArticle:
+            def __init__(self):
+                self.title = "Mock Article Title for GitHub Syncing"
+                self.url = url
+                self.publish_date = datetime(2023, 10, 26) # A dummy date
+                self.text = (
+                    "This is a mock article text for demonstration purposes. "
+                    "It contains some sample entities like MicroStrategy and Bitcoin. "
+                    "MicroStrategy is a company that holds a significant amount of Bitcoin. "
+                    "Bitcoin is a decentralized digital currency. "
+                    "The company CEO, Michael Saylor, is a strong proponent of Bitcoin. "
+                    "This article was published on October 26, 2023."
+                )
+            def download(self):
+                pass # No actual download needed for mock
+            def parse(self):
+                pass # No actual parsing needed for mock
+        return MockArticle()
+    else:
+        # Fallback for actual URLs if the script were run locally with real URLs
+        article = Article(url)
+        article.download()
+        article.parse()
+        return article
 
 def from_url_to_kb(url):
     """Extracts text from a URL, extracts relations, and populates a KB."""
