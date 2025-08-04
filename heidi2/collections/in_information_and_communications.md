@@ -1,172 +1,104 @@
 ---
 uri: http://www.thesaurus.gc.ca/#in_information_and_communications
+tags: prefix/gct
 aliases: IN Information and Communications
-members:
-- '[[access_to_information]]'
-- '[[archives]]'
-- '[[bibliographic_data_interchange]]'
-- '[[book_industry]]'
-- '[[briefing_papers]]'
-- '[[broadband_communications]]'
-- '[[broadcasting]]'
-- '[[career_information]]'
-- '[[cartographic_records]]'
-- '[[cataloging]]'
-- '[[cataloguing]]'
-- '[[certificate_of_origin]]'
-- '[[change_of_address]]'
-- '[[chief_information_officer]]'
-- '[[cio]]'
-- '[[climate_archives]]'
-- '[[coaching]]'
-- '[[communications]]'
-- '[[communications_equipment]]'
-- '[[communications_industry]]'
-- '[[communications_technologies]]'
-- '[[community_radio]]'
-- '[[computer_security]]'
-- '[[computer_system_security]]'
-- '[[computerized_information_systems]]'
-- '[[consortia]]'
-- '[[consultations]]'
-- '[[contact]]'
-- '[[copyright]]'
-- '[[copyright_clearance]]'
-- '[[cryptography]]'
-- '[[cyber_security]]'
-- '[[cybersecurity]]'
-- '[[data_protection]]'
-- '[[data_registries]]'
-- '[[data_security]]'
-- '[[databanks]]'
-- '[[databases]]'
-- '[[desktop_publishing]]'
-- '[[development_tools]]'
-- '[[digital_information]]'
-- '[[digital_libraries]]'
-- '[[digitized_information]]'
-- '[[document_delivery]]'
-- '[[documentation_centers]]'
-- '[[documentation_centres]]'
-- '[[documentation_services]]'
-- '[[e-business]]'
-- '[[e-mail]]'
-- '[[electronic_business]]'
-- '[[electronic_highway]]'
-- '[[electronic_information]]'
-- '[[electronic_information_systems]]'
-- '[[electronic_media]]'
-- '[[electronic_publishing]]'
-- '[[enquiries]]'
-- '[[faq]]'
-- '[[federal_information]]'
-- '[[foreign_interference]]'
-- '[[freedom_of_information]]'
-- '[[frequently_asked_questions]]'
-- '[[geographic_information_systems]]'
-- '[[geographical_information_systems]]'
-- '[[geospatial_information_systems]]'
-- '[[gis]]'
-- '[[government_communications]]'
-- '[[government_information]]'
-- '[[government_libraries]]'
-- '[[health_information]]'
-- '[[historical_documents]]'
-- '[[illustrations]]'
-- '[[informatics_security]]'
-- '[[information]]'
-- '[[information_bulletin]]'
-- '[[information_dissemination]]'
-- '[[information_highway]]'
-- '[[information_management]]'
-- '[[information_media]]'
-- '[[information_policy]]'
-- '[[information_requests]]'
-- '[[information_science]]'
-- '[[information_sources]]'
-- '[[information_storage_and_retrieval_systems]]'
-- '[[information_system_security]]'
-- '[[information_systems]]'
-- '[[information_technology]]'
-- '[[information_technology_security]]'
-- '[[instructions]]'
-- '[[interlibrary_loans]]'
-- '[[international_telecommunications]]'
-- '[[internet]]'
-- '[[internet_sites]]'
-- '[[intranet_sites]]'
-- '[[intranets]]'
-- '[[it_security]]'
-- '[[journalism]]'
-- '[[knowledge_management]]'
-- '[[knowledge_transfer]]'
-- '[[libraries]]'
-- '[[library_collections]]'
-- '[[management_tools]]'
-- '[[mass_communication_media]]'
-- '[[mass_media]]'
-- '[[media]]'
-- '[[media_monitoring]]'
-- '[[media_relations]]'
-- '[[metadata]]'
-- '[[military_communications]]'
-- '[[multimedia_technologies]]'
-- '[[national_archives]]'
-- '[[national_libraries]]'
-- '[[newspapers]]'
-- '[[occupational_information]]'
-- '[[open_data]]'
-- '[[open_government]]'
-- '[[participatory_media]]'
-- '[[pda]]'
-- '[[personal_digital_assistant]]'
-- '[[personal_information]]'
-- '[[personal_information_banks]]'
-- '[[press]]'
-- '[[printing]]'
-- '[[profiles]]'
-- '[[public_libraries]]'
-- '[[publishing]]'
-- '[[publishing_industry]]'
-- '[[radio]]'
-- '[[radio_broadcasting]]'
-- '[[records_disposal]]'
-- '[[records_management]]'
-- '[[records_retention]]'
-- '[[reference_services]]'
-- '[[scientific_information]]'
-- '[[signage]]'
-- '[[signs]]'
-- '[[social_media]]'
-- '[[sound_archives]]'
-- '[[spatial_information_systems]]'
-- '[[special_libraries]]'
-- '[[spectrum_management]]'
-- '[[telecommunications]]'
-- '[[telecommunications_equipment]]'
-- '[[teleconferencing]]'
-- '[[telegrams]]'
-- '[[telegraph]]'
-- '[[television]]'
-- '[[television_broadcasting]]'
-- '[[templates]]'
-- '[[terms_of_reference]]'
-- '[[tools]]'
-- '[[trade_shows]]'
-- '[[transborder_data_flow]]'
-- '[[transnational_data_flow]]'
-- '[[tv]]'
-- '[[visual_archives]]'
-- '[[vocational_information]]'
-- '[[voice_mail]]'
-- '[[voice_messaging]]'
-- '[[web]]'
-- '[[web_pages]]'
-- '[[web_sites]]'
-- '[[web_usability]]'
-- '[[websites]]'
-- '[[world_wide_web]]'
-- '[[www]]'
+narrower:
+  - "[[access_to_information]]"
+  - "[[archives]]"
+  - "[[bibliographic_data_interchange]]"
+  - "[[briefing_papers]]"
+  - "[[broadcasting]]"
+  - "[[cartographic_records]]"
+  - "[[cataloguing]]"
+  - "[[certificate_of_origin]]"
+  - "[[change_of_address]]"
+  - "[[chief_information_officer]]"
+  - "[[climate_archives]]"
+  - "[[coaching]]"
+  - "[[communications]]"
+  - "[[communications_equipment]]"
+  - "[[communications_industry]]"
+  - "[[community_radio]]"
+  - "[[computer_security]]"
+  - "[[consortia]]"
+  - "[[consultations]]"
+  - "[[contact]]"
+  - "[[copyright]]"
+  - "[[copyright_clearance]]"
+  - "[[cryptography]]"
+  - "[[data_protection]]"
+  - "[[databases]]"
+  - "[[development_tools]]"
+  - "[[digital_libraries]]"
+  - "[[digitized_information]]"
+  - "[[electronic_information]]"
+  - "[[electronic_publishing]]"
+  - "[[foreign_interference]]"
+  - "[[freedom_of_information]]"
+  - "[[frequently_asked_questions]]"
+  - "[[geographic_information_systems]]"
+  - "[[government_communications]]"
+  - "[[government_information]]"
+  - "[[government_libraries]]"
+  - "[[illustrations]]"
+  - "[[information]]"
+  - "[[information_bulletin]]"
+  - "[[information_dissemination]]"
+  - "[[information_management]]"
+  - "[[information_policy]]"
+  - "[[information_requests]]"
+  - "[[information_systems]]"
+  - "[[information_technology]]"
+  - "[[interlibrary_loans]]"
+  - "[[international_telecommunications]]"
+  - "[[internet]]"
+  - "[[intranets]]"
+  - "[[journalism]]"
+  - "[[knowledge_management]]"
+  - "[[knowledge_transfer]]"
+  - "[[libraries]]"
+  - "[[management_tools]]"
+  - "[[media]]"
+  - "[[media_monitoring]]"
+  - "[[media_relations]]"
+  - "[[metadata]]"
+  - "[[military_communications]]"
+  - "[[national_archives]]"
+  - "[[national_libraries]]"
+  - "[[newspapers]]"
+  - "[[open_data]]"
+  - "[[open_government]]"
+  - "[[personal_digital_assistant]]"
+  - "[[personal_information]]"
+  - "[[personal_information_banks]]"
+  - "[[printing]]"
+  - "[[profiles]]"
+  - "[[public_libraries]]"
+  - "[[publishing]]"
+  - "[[radio]]"
+  - "[[records_disposal]]"
+  - "[[records_management]]"
+  - "[[records_retention]]"
+  - "[[reference_services]]"
+  - "[[scientific_information]]"
+  - "[[signs]]"
+  - "[[social_media]]"
+  - "[[sound_archives]]"
+  - "[[special_libraries]]"
+  - "[[spectrum_management]]"
+  - "[[telecommunications]]"
+  - "[[teleconferencing]]"
+  - "[[telegraph]]"
+  - "[[television]]"
+  - "[[templates]]"
+  - "[[terms_of_reference]]"
+  - "[[tools]]"
+  - "[[trade_shows]]"
+  - "[[transborder_data_flow]]"
+  - "[[visual_archives]]"
+  - "[[voice_mail]]"
+  - "[[web_usability]]"
+  - "[[websites]]"
 ---
 
 # IN Information and Communications

@@ -1,7 +1,12 @@
 ---
+title: Installing from AUR
 created: 2025-07-25
-modified: 2025-07-29
-subject:
+modified: 2025-08-03
+tags: []
+draft: true
+mermaid_layers: 1
+permalink: 
+topic:
   - "[[Arch Linux]]"
 ---
 # Installing from AUR

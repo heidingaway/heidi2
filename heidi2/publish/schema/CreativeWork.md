@@ -1,16 +1,18 @@
 ---
 title: Creative Work
 aliases:
-- Creative Work
+  - Creative Work
 created: 2025-07-23
-modified: 2025-08-03
-tags: []
-context: schema
+modified: 2025-08-04
+tags:
+  - prefix/schema
 draft: true
-subClassOf:
-- '[[Thing]]'
+mermaid_layers: 1
+permalink: 
 related:
-- '[[Thing]]'
+  - "[[Thing]]"
+subClassOf:
+  - "[[Thing]]"
 ---
 # Creative Work
 

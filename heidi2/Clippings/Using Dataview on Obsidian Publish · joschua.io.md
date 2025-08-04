@@ -1,7 +1,7 @@
 ---
 title: Using Dataview on Obsidian Publish · joschua.io
 created: 2025-07-27
-modified: 2025-07-27
+modified: 2025-08-03
 tags:
   - clippings
 author:
@@ -9,9 +9,12 @@ author:
 class:
   - "[[BlogPosting]]"
 description: By default, you cannot use the Obsidian Dataview plugin on Obsidian Publish. But this blog post shows you how to use Dataview queries on you digital garden by using methods built into the Dataview API. We run through this by solving the problem of how to display recently edited files on Obsidian Publish.
+draft: true
+mermaid_layers: 1
+permalink: 
 published: 2023-09-01
 source: https://joschua.io/posts/2023/09/01/obsidian-publish-dataview
-subject:
+topic:
   - "[[ObsidianMD]]"
 ---
 # Using Dataview on Obsidian Publish · joschua.io

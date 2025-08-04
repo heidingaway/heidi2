@@ -2,14 +2,13 @@
 title: Thing
 created: 2025-07-23
 modified: 2025-08-03
-tags: []
+tags: prefix/schema
 class:
-- '[[Class]]'
-context: schema
+  - "[[Class]]"
 draft: true
 mermaid_layers: 1
-permalink: null
-subClassOf: '[[schema]]'
+permalink:
+subClassOf: "[[schema]]"
 related: []
 ---
 # Thing

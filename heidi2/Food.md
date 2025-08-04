@@ -1,10 +1,15 @@
 ---
+title: Food
 aliases:
   - aliment
 created: 2025-07-27
-modified: 2025-07-29
+modified: 2025-08-03
+tags: []
+draft: true
 governedBy:
   - "[[Food and Drugs Regulation]]"
+mermaid_layers: 1
+permalink: 
 ---
 # Food
 

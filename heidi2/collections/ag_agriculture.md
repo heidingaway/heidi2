@@ -1,218 +1,102 @@
 ---
+title: AG Agriculture
+aliases:
+  - AG Agriculture
+created: 2025-08-03
+modified: 2025-08-04
+tags:
+  - prefix/gct
+draft: true
+mermaid_layers: 1
+narrower:
+  - "[[agri-food_industry]]"
+  - "[[agri-food_products]]"
+  - "[[agricultural_assistance]]"
+  - "[[agricultural_economics]]"
+  - "[[agricultural_fairs]]"
+  - "[[agricultural_policy]]"
+  - "[[agricultural_technology]]"
+  - "[[agricultural_workers]]"
+  - "[[agriculture_statistics]]"
+  - "[[agriculture]]"
+  - "[[animal_husbandry]]"
+  - "[[animal_nutrition]]"
+  - "[[animal_reproduction]]"
+  - "[[apples]]"
+  - "[[barley]]"
+  - "[[beans]]"
+  - "[[beef_cattle]]"
+  - "[[beekeeping]]"
+  - "[[butter]]"
+  - "[[canola_oil]]"
+  - "[[carrots]]"
+  - "[[cattle]]"
+  - "[[cells]]"
+  - "[[cereals]]"
+  - "[[cheese]]"
+  - "[[coffee]]"
+  - "[[corn]]"
+  - "[[cream]]"
+  - "[[crop_insurance]]"
+  - "[[crop_rotation]]"
+  - "[[crops]]"
+  - "[[dairy_cattle]]"
+  - "[[dairy_industry]]"
+  - "[[dairy_products]]"
+  - "[[edible_oils_and_fats]]"
+  - "[[eggs]]"
+  - "[[famine]]"
+  - "[[farm_buildings]]"
+  - "[[farmlands]]"
+  - "[[farms]]"
+  - "[[fertilizers]]"
+  - "[[fish_farming]]"
+  - "[[food_policy]]"
+  - "[[food_security]]"
+  - "[[food_supply]]"
+  - "[[food]]"
+  - "[[forage_crops]]"
+  - "[[fruit_crops]]"
+  - "[[fruits]]"
+  - "[[functional_foods]]"
+  - "[[furs]]"
+  - "[[genetically_modified_foods]]"
+  - "[[grain_elevators]]"
+  - "[[grains]]"
+  - "[[grapes]]"
+  - "[[grasslands]]"
+  - "[[greenhouses]]"
+  - "[[harvest]]"
+  - "[[hatcheries]]"
+  - "[[hogs]]"
+  - "[[honey]]"
+  - "[[hydroponics]]"
+  - "[[irrigation]]"
+  - "[[legumes]]"
+  - "[[lentils]]"
+  - "[[lettuce]]"
+  - "[[livestock]]"
+  - "[[manure]]"
+  - "[[maple_products]]"
+  - "[[meat]]"
+  - "[[milk]]"
+  - "[[oats]]"
+  - "[[organic_foods]]"
+  - "[[peas]]"
+  - "[[pesticides]]"
+  - "[[potatoes]]"
+  - "[[poultry]]"
+  - "[[sheep]]"
+  - "[[slaughtering]]"
+  - "[[tissues]]"
+  - "[[vegetable_crops]]"
+  - "[[vegetables]]"
+  - "[[viticulture]]"
+  - "[[wheat]]"
+  - "[[wine_industry]]"
+  - "[[yogurt]]"
+permalink: 
 uri: http://www.thesaurus.gc.ca/#ag_agriculture
-aliases: AG Agriculture
-members:
-- '[[agri-food_industry]]'
-- '[[agri-food_products]]'
-- '[[agricultural_aid]]'
-- '[[agricultural_aid_programs]]'
-- '[[agricultural_assistance]]'
-- '[[agricultural_buildings]]'
-- '[[agricultural_chemicals]]'
-- '[[agricultural_crops]]'
-- '[[agricultural_drainage]]'
-- '[[agricultural_economics]]'
-- '[[agricultural_engineering]]'
-- '[[agricultural_enterprises]]'
-- '[[agricultural_equipment]]'
-- '[[agricultural_fairs]]'
-- '[[agricultural_implements]]'
-- '[[agricultural_industry]]'
-- '[[agricultural_insurance]]'
-- '[[agricultural_lands]]'
-- '[[agricultural_machinery]]'
-- '[[agricultural_pests]]'
-- '[[agricultural_policy]]'
-- '[[agricultural_production]]'
-- '[[agricultural_products]]'
-- '[[agricultural_sector]]'
-- '[[agricultural_statistics]]'
-- '[[agricultural_technology]]'
-- '[[agricultural_workers]]'
-- '[[agriculture]]'
-- '[[agriculture_statistics]]'
-- '[[agrifood_industry]]'
-- '[[agrifood_products]]'
-- '[[agro-industry]]'
-- '[[animal_breeding]]'
-- '[[animal_cells]]'
-- '[[animal_culture]]'
-- '[[animal_feeding]]'
-- '[[animal_feeds]]'
-- '[[animal_food]]'
-- '[[animal_husbandry]]'
-- '[[animal_nutrition]]'
-- '[[animal_oils_and_fats]]'
-- '[[animal_reproduction]]'
-- '[[animal_slaughtering]]'
-- '[[animal_tissues]]'
-- '[[apiculture]]'
-- '[[apple_products]]'
-- '[[apples]]'
-- '[[barley]]'
-- '[[beans]]'
-- '[[bee_culture]]'
-- '[[bee_keeping]]'
-- '[[beef_cattle]]'
-- '[[beekeeping]]'
-- '[[biocides]]'
-- '[[biopesticides]]'
-- '[[butter]]'
-- '[[canola_oil]]'
-- '[[carrots]]'
-- '[[cattle]]'
-- '[[cells]]'
-- '[[cereal_crops]]'
-- '[[cereal_grains]]'
-- '[[cereal_plants]]'
-- '[[cereals]]'
-- '[[cheese]]'
-- '[[chemical_fertilizers]]'
-- '[[chicken]]'
-- '[[coffee]]'
-- '[[compost]]'
-- '[[corn]]'
-- '[[cows]]'
-- '[[cream]]'
-- '[[crop_insurance]]'
-- '[[crop_lands]]'
-- '[[crop_rotation]]'
-- '[[croplands]]'
-- '[[crops]]'
-- '[[cultivated_crops]]'
-- '[[cultivated_lands]]'
-- '[[dairy_cattle]]'
-- '[[dairy_cows]]'
-- '[[dairy_industry]]'
-- '[[dairy_products]]'
-- '[[dried_legumes]]'
-- '[[edible_oils_and_fats]]'
-- '[[eggs]]'
-- '[[fallow]]'
-- '[[famine]]'
-- '[[farm_aid]]'
-- '[[farm_animals]]'
-- '[[farm_assistance]]'
-- '[[farm_buildings]]'
-- '[[farm_businesses]]'
-- '[[farm_crops]]'
-- '[[farm_drainage]]'
-- '[[farm_enterprises]]'
-- '[[farm_equipment]]'
-- '[[farm_lands]]'
-- '[[farm_machinery]]'
-- '[[farm_products]]'
-- '[[farm_workers]]'
-- '[[farmers]]'
-- '[[farming]]'
-- '[[farming_businesses]]'
-- '[[farming_enterprises]]'
-- '[[farming_lands]]'
-- '[[farming_products]]'
-- '[[farmlands]]'
-- '[[farms]]'
-- '[[fertilizers]]'
-- '[[field_crops]]'
-- '[[fish_aquaculture]]'
-- '[[fish_culture]]'
-- '[[fish_farming]]'
-- '[[fish_husbandry]]'
-- '[[fish_rearing]]'
-- '[[fodder_crops]]'
-- '[[food]]'
-- '[[food_industry]]'
-- '[[food_insecurity]]'
-- '[[food_policy]]'
-- '[[food_production]]'
-- '[[food_products]]'
-- '[[food_reserves]]'
-- '[[food_resources]]'
-- '[[food_security]]'
-- '[[food_supply]]'
-- '[[foods_for_animal]]'
-- '[[forage_crops]]'
-- '[[fruit_crops]]'
-- '[[fruits]]'
-- '[[functional_foods]]'
-- '[[fur_industry]]'
-- '[[furs]]'
-- '[[genetically_engineered_foods]]'
-- '[[genetically_modified_foods]]'
-- '[[gm_foods]]'
-- '[[grain_elevators]]'
-- '[[grains]]'
-- '[[grape_culture]]'
-- '[[grape_growing]]'
-- '[[grapes]]'
-- '[[grasslands]]'
-- '[[grazing_lands]]'
-- '[[greenhouses]]'
-- '[[harvest]]'
-- '[[hatcheries]]'
-- '[[hay]]'
-- '[[health-enhancing_foods]]'
-- '[[herds]]'
-- '[[hogs]]'
-- '[[honey]]'
-- '[[hydroculture]]'
-- '[[hydroponic_cultivation]]'
-- '[[hydroponic_culture]]'
-- '[[hydroponics]]'
-- '[[irrigation]]'
-- '[[legumes]]'
-- '[[lentils]]'
-- '[[lettuce]]'
-- '[[livestock]]'
-- '[[livestock_farming]]'
-- '[[livestock_products]]'
-- '[[manure]]'
-- '[[maple_products]]'
-- '[[maple_syrup]]'
-- '[[meat]]'
-- '[[milk]]'
-- '[[milk_products]]'
-- '[[neutraceuticals]]'
-- '[[nutriceuticals]]'
-- '[[oats]]'
-- '[[oils_and_fats]]'
-- '[[oilseeds]]'
-- '[[organic_fertilizers]]'
-- '[[organic_foods]]'
-- '[[pasture_lands]]'
-- '[[pasturelands]]'
-- '[[pastures]]'
-- '[[peas]]'
-- '[[pest_control]]'
-- '[[pest_control_chemicals]]'
-- '[[pest_control_products]]'
-- '[[pest_management]]'
-- '[[pesticides]]'
-- '[[pigs]]'
-- '[[pisciculture]]'
-- '[[plant_cells]]'
-- '[[plant_tissues]]'
-- '[[potatoes]]'
-- '[[poultry]]'
-- '[[rural_fairs]]'
-- '[[sheep]]'
-- '[[slaughter_of_animals]]'
-- '[[slaughtering]]'
-- '[[soilless_culture]]'
-- '[[swine]]'
-- '[[tissues]]'
-- '[[transgenic_foods]]'
-- '[[turkey]]'
-- '[[vegetable_crops]]'
-- '[[vegetable_oils]]'
-- '[[vegetables]]'
-- '[[viniculture]]'
-- '[[viticulture]]'
-- '[[water_culture]]'
-- '[[wheat]]'
-- '[[wine_industry]]'
-- '[[wine_sector]]'
-- '[[yogurt]]'
-- '[[zootechnics]]'
 ---
 
 # AG Agriculture

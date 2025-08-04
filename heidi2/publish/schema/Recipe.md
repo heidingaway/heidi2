@@ -2,11 +2,10 @@
 title: Recipe
 created: 2025-07-27
 modified: 2025-08-03
-tags: []
+tags: prefix/schema
 draft: true
-context: schema
 subClassOf:
-- '[[HowTo]]'
+  - "[[HowTo]]"
 related: []
 ---
 # Recipe

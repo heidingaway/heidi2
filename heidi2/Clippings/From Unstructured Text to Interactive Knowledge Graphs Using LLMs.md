@@ -1,7 +1,7 @@
 ---
 title: From Unstructured Text to Interactive Knowledge Graphs Using LLMs
 created: 2025-07-27
-modified: 2025-07-27
+modified: 2025-08-03
 tags:
   - clippings/medium
 author:
@@ -9,9 +9,12 @@ author:
 class:
   - "[[BlogPosting]]"
 description: Transform text into interactive knowledge graphs with an LLM-driven pipeline.  This article shows how to chunk documents, extract structured facts, unify entities, infer hidden relationships, and visualize the result in an interactive browser-based graph, turning raw text into rich, connected insights.
+draft: true
+mermaid_layers: 1
+permalink: 
 published: 2025-03-30
 source: https://robert-mcdermott.medium.com/from-unstructured-text-to-interactive-knowledge-graphs-using-llms-dd02a1f71cd6
-subject:
+topic:
   - "[[Large Language Model]]"
   - "[[Ontology and Knowledge Graph]]"
 ---

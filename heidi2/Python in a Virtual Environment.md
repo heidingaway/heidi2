@@ -1,9 +1,13 @@
 ---
+title: Python in a Virtual Environment
 created: 2025-07-26
-modified: 2025-07-29
-context:
+modified: 2025-08-03
+tags:
   - "[[Arch Linux]]"
-subject:
+draft: true
+mermaid_layers: 1
+permalink:
+topic:
   - "[[Python]]"
 ---
 # Python in a Virtual Environment

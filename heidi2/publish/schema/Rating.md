@@ -2,13 +2,12 @@
 title: Rating
 created: 2025-08-02
 modified: 2025-08-03
-tags: []
-context: schema
+tags: prefix/schema
 draft: true
 subClassOf:
-- '[[Intangible]]'
+  - "[[Intangible]]"
 related:
-- '[[Intangible]]'
+  - "[[Intangible]]"
 ---
 # Rating
 

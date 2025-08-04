@@ -1,13 +1,15 @@
 ---
 title: Administrative Area
-aliases: []
+aliases:
+  - Administrative Area
 created: 2025-07-23
-modified: 2025-08-02
-tags: []
-context: schema
+modified: 2025-08-04
+tags:
+  - prefix/schema
 date: 
 description: 
 draft: true
+mermaid_layers: 1
 permalink: 
 subClassOf:
   - "[[Place]]"

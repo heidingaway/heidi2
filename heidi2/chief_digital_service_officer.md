@@ -6,7 +6,7 @@ created: 2025-07-29
 modified: 2025-08-02
 tags: []
 class:
-  - "[[organizationrole]]"
+  - "[[OrganizationRole]]"
 date:
 description:
 draft: true

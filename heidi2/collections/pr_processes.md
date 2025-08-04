@@ -1,267 +1,183 @@
 ---
 uri: http://www.thesaurus.gc.ca/#pr_processes
+tags: prefix/gct
 aliases: PR Processes
-members:
-- '[[abilities]]'
-- '[[accessibility]]'
-- '[[accountability]]'
-- '[[accreditation]]'
-- '[[adaptation]]'
-- '[[adjustment]]'
-- '[[administration]]'
-- '[[advisory_committees]]'
-- '[[agreements]]'
-- '[[aid_programs]]'
-- '[[alliances]]'
-- '[[amalgamation]]'
-- '[[analysis]]'
-- '[[appeals]]'
-- '[[applied_research]]'
-- '[[appointments]]'
-- '[[appraisal]]'
-- '[[approval_processes]]'
-- '[[arbitration]]'
-- '[[assessment]]'
-- '[[assistance_programs]]'
-- '[[audit]]'
-- '[[authentication]]'
-- '[[authorization]]'
-- '[[awareness]]'
-- '[[bargaining]]'
-- '[[basic_research]]'
-- '[[bench_marks]]'
-- '[[benchmarking]]'
-- '[[benchmarks]]'
-- '[[best_practices]]'
-- '[[calendar_year]]'
-- '[[case_studies]]'
-- '[[centralization]]'
-- '[[certification]]'
-- '[[change]]'
-- '[[claims]]'
-- '[[claims_processing]]'
-- '[[classification]]'
-- '[[cleaning]]'
-- '[[coding]]'
-- '[[collaborative_research]]'
-- '[[collections]]'
-- '[[colloquiums]]'
-- '[[committees]]'
-- '[[comparative_analysis]]'
-- '[[comparison]]'
-- '[[competencies]]'
-- '[[complaints]]'
-- '[[compliance]]'
-- '[[comptrollership]]'
-- '[[conciliation]]'
-- '[[conferences]]'
-- '[[conflict_resolution]]'
-- '[[conflicts]]'
-- '[[congresses]]'
-- '[[conservation]]'
-- '[[consultations]]'
-- '[[contravention]]'
-- '[[control]]'
-- '[[conventions_agreements]]'
-- '[[conventions_conferences]]'
-- '[[cooperation]]'
-- '[[cooperation_agreements]]'
-- '[[cooperative_research]]'
-- '[[coordination]]'
-- '[[crisis]]'
-- '[[decentralization]]'
-- '[[decision_making]]'
-- '[[decisions]]'
-- '[[delegation_of_authority]]'
-- '[[design]]'
-- '[[detection]]'
-- '[[development]]'
-- '[[devolution]]'
-- '[[diagnosis]]'
-- '[[digitization]]'
-- '[[dismissal]]'
-- '[[dispute_resolution]]'
-- '[[dispute_settlements]]'
-- '[[dissolution]]'
-- '[[distribution]]'
-- '[[diversification]]'
-- '[[eligibility]]'
-- '[[enforcement]]'
-- '[[enrolment_applications]]'
-- '[[evaluations]]'
-- '[[exchange_programs]]'
-- '[[exclusion]]'
-- '[[exemption]]'
-- '[[expectations]]'
-- '[[experiments]]'
-- '[[explorations]]'
-- '[[expropriation]]'
-- '[[feasibility_studies]]'
-- '[[forecasting]]'
-- '[[forecasts]]'
-- '[[fundamental_research]]'
-- '[[gba_plus_gender-based_analysis_plus]]'
-- '[[gender-based_analysis_plus]]'
-- '[[globalization]]'
-- '[[grading]]'
-- '[[grievances]]'
-- '[[handling]]'
-- '[[hearings]]'
-- '[[identification]]'
-- '[[identification_cards]]'
-- '[[imaging]]'
-- '[[impact_studies]]'
-- '[[implementation]]'
-- '[[incentives]]'
-- '[[indicators]]'
-- '[[innovation]]'
-- '[[inquiry]]'
-- '[[inspection]]'
-- '[[instructions]]'
-- '[[integrated_management]]'
-- '[[integration]]'
-- '[[internal_audits]]'
-- '[[international_agreements]]'
-- '[[international_programs]]'
-- '[[internationalization]]'
-- '[[investigations]]'
-- '[[joint_research]]'
-- '[[joint_ventures]]'
-- '[[leadership]]'
-- '[[licences]]'
-- '[[licencing]]'
-- '[[licenses]]'
-- '[[licensing]]'
-- '[[lobbying]]'
-- '[[maintenance]]'
-- '[[maintenance_and_repair]]'
-- '[[maladjustment]]'
-- '[[management]]'
-- '[[management_practices]]'
-- '[[management_techniques]]'
-- '[[mandate]]'
-- '[[media_relations]]'
-- '[[mediation]]'
-- '[[meetings]]'
-- '[[methodology]]'
-- '[[methods]]'
-- '[[modeling]]'
-- '[[modelling]]'
-- '[[models]]'
-- '[[modernization]]'
-- '[[modification]]'
-- '[[monitoring]]'
-- '[[moratorium]]'
-- '[[multilateral_agreements]]'
-- '[[multilateral_programs]]'
-- '[[needs]]'
-- '[[negotiations]]'
-- '[[networking]]'
-- '[[networks]]'
-- '[[nominations]]'
-- '[[objectives]]'
-- '[[operations]]'
-- '[[parameters]]'
-- '[[participation]]'
-- '[[partnership_research]]'
-- '[[performance_assessment]]'
-- '[[performance_indicators]]'
-- '[[performance_testing]]'
-- '[[permits]]'
-- '[[planning]]'
-- '[[predictions]]'
-- '[[preservation]]'
-- '[[prevention]]'
-- '[[preventive_action]]'
-- '[[privatization]]'
-- '[[procedures]]'
-- '[[processing]]'
-- '[[product_recalls]]'
-- '[[profitability]]'
-- '[[program_assessment]]'
-- '[[program_delivery]]'
-- '[[program_development]]'
-- '[[program_review]]'
-- '[[programming]]'
-- '[[programs]]'
-- '[[prohibition]]'
-- '[[projections]]'
-- '[[protocol]]'
-- '[[public_access]]'
-- '[[public_hearings]]'
-- '[[public_opinion_polls]]'
-- '[[qualifications]]'
-- '[[quality_of_service]]'
-- '[[quality_standards]]'
-- '[[r&d]]'
-- '[[reciprocal_agreements]]'
-- '[[recourse]]'
-- '[[recycling]]'
-- '[[redeployment]]'
-- '[[reform]]'
-- '[[regional_cooperation]]'
-- '[[regionalisation]]'
-- '[[regions]]'
-- '[[registration]]'
-- '[[renewal]]'
-- '[[repair]]'
-- '[[requirements]]'
-- '[[research]]'
-- '[[research_activities]]'
-- '[[research_and_development]]'
-- '[[research_chairs]]'
-- '[[research_projects]]'
-- '[[resource_allocation]]'
-- '[[resource_recovery]]'
-- '[[restoration]]'
-- '[[restructuring]]'
-- '[[retention_of_staff]]'
-- '[[reuse]]'
-- '[[review]]'
-- '[[revision]]'
-- '[[risk_analysis]]'
-- '[[risk_assessment]]'
-- '[[risk_communication]]'
-- '[[risk_management]]'
-- '[[roles]]'
-- '[[safe_handling]]'
-- '[[salvage]]'
-- '[[samples]]'
-- '[[scanning]]'
-- '[[secondary_recovery]]'
-- '[[sector_analysis]]'
-- '[[selection]]'
-- '[[seminars]]'
-- '[[skills]]'
-- '[[skills_transfer]]'
-- '[[specifications]]'
-- '[[standardization]]'
-- '[[standards]]'
-- '[[statistical_analysis]]'
-- '[[statistical_methods]]'
-- '[[statistical_surveys]]'
-- '[[stewardship]]'
-- '[[strategies]]'
-- '[[supervision]]'
-- '[[suppliers]]'
-- '[[support_programs]]'
-- '[[supporting_programs]]'
-- '[[surveys]]'
-- '[[suspension]]'
-- '[[symbols]]'
-- '[[symposia]]'
-- '[[symposiums]]'
-- '[[systems]]'
-- '[[testing]]'
-- '[[tests]]'
-- '[[transfers]]'
-- '[[transformation]]'
-- '[[transition]]'
-- '[[treaties]]'
-- '[[trends]]'
-- '[[uses]]'
-- '[[utilization]]'
-- '[[waste_salvage]]'
+narrower:
+  - "[[accessibility]]"
+  - "[[accountability]]"
+  - "[[adjustment]]"
+  - "[[advisory_committees]]"
+  - "[[agreements]]"
+  - "[[aid_programs]]"
+  - "[[analysis]]"
+  - "[[appeals]]"
+  - "[[applied_research]]"
+  - "[[appointments]]"
+  - "[[approval_processes]]"
+  - "[[arbitration]]"
+  - "[[assessment]]"
+  - "[[audit]]"
+  - "[[authentication]]"
+  - "[[authorization]]"
+  - "[[awareness]]"
+  - "[[benchmarks]]"
+  - "[[best_practices]]"
+  - "[[calendar_year]]"
+  - "[[case_studies]]"
+  - "[[centralization]]"
+  - "[[certification]]"
+  - "[[claims]]"
+  - "[[claims_processing]]"
+  - "[[classification]]"
+  - "[[coding]]"
+  - "[[collaborative_research]]"
+  - "[[collections]]"
+  - "[[committees]]"
+  - "[[comparison]]"
+  - "[[complaints]]"
+  - "[[compliance]]"
+  - "[[comptrollership]]"
+  - "[[conciliation]]"
+  - "[[conferences]]"
+  - "[[conflict_resolution]]"
+  - "[[conflicts]]"
+  - "[[conservation]]"
+  - "[[consultations]]"
+  - "[[contravention]]"
+  - "[[control]]"
+  - "[[cooperation]]"
+  - "[[cooperation_agreements]]"
+  - "[[coordination]]"
+  - "[[crisis]]"
+  - "[[decentralization]]"
+  - "[[decision_making]]"
+  - "[[decisions]]"
+  - "[[delegation_of_authority]]"
+  - "[[design]]"
+  - "[[detection]]"
+  - "[[development]]"
+  - "[[devolution]]"
+  - "[[diagnosis]]"
+  - "[[digitization]]"
+  - "[[dismissal]]"
+  - "[[dissolution]]"
+  - "[[distribution]]"
+  - "[[diversification]]"
+  - "[[eligibility]]"
+  - "[[enforcement]]"
+  - "[[enrolment_applications]]"
+  - "[[exchange_programs]]"
+  - "[[exclusion]]"
+  - "[[exemption]]"
+  - "[[expectations]]"
+  - "[[experiments]]"
+  - "[[explorations]]"
+  - "[[expropriation]]"
+  - "[[feasibility_studies]]"
+  - "[[forecasting]]"
+  - "[[gender-based_analysis_plus]]"
+  - "[[globalization]]"
+  - "[[handling]]"
+  - "[[hearings]]"
+  - "[[identification]]"
+  - "[[impact_studies]]"
+  - "[[implementation]]"
+  - "[[incentives]]"
+  - "[[indicators]]"
+  - "[[innovation]]"
+  - "[[inquiry]]"
+  - "[[inspection]]"
+  - "[[integrated_management]]"
+  - "[[integration]]"
+  - "[[internal_audits]]"
+  - "[[international_agreements]]"
+  - "[[international_programs]]"
+  - "[[investigations]]"
+  - "[[leadership]]"
+  - "[[licensing]]"
+  - "[[lobbying]]"
+  - "[[maintenance]]"
+  - "[[management]]"
+  - "[[mandate]]"
+  - "[[media_relations]]"
+  - "[[mediation]]"
+  - "[[meetings]]"
+  - "[[methodology]]"
+  - "[[modelling]]"
+  - "[[models]]"
+  - "[[modernization]]"
+  - "[[moratorium]]"
+  - "[[multilateral_agreements]]"
+  - "[[multilateral_programs]]"
+  - "[[needs]]"
+  - "[[negotiations]]"
+  - "[[networks]]"
+  - "[[objectives]]"
+  - "[[operations]]"
+  - "[[participation]]"
+  - "[[performance_assessment]]"
+  - "[[performance_indicators]]"
+  - "[[permits]]"
+  - "[[planning]]"
+  - "[[prevention]]"
+  - "[[privatization]]"
+  - "[[processing]]"
+  - "[[product_recalls]]"
+  - "[[profitability]]"
+  - "[[program_assessment]]"
+  - "[[program_delivery]]"
+  - "[[program_development]]"
+  - "[[program_review]]"
+  - "[[programming]]"
+  - "[[programs]]"
+  - "[[prohibition]]"
+  - "[[protocol]]"
+  - "[[public_access]]"
+  - "[[public_hearings]]"
+  - "[[public_opinion_polls]]"
+  - "[[qualifications]]"
+  - "[[quality_of_service]]"
+  - "[[quality_standards]]"
+  - "[[reciprocal_agreements]]"
+  - "[[recourse]]"
+  - "[[recycling]]"
+  - "[[reform]]"
+  - "[[regional_cooperation]]"
+  - "[[regions]]"
+  - "[[registration]]"
+  - "[[research]]"
+  - "[[research_and_development]]"
+  - "[[research_chairs]]"
+  - "[[resource_allocation]]"
+  - "[[restoration]]"
+  - "[[restructuring]]"
+  - "[[retention_of_staff]]"
+  - "[[review]]"
+  - "[[revision]]"
+  - "[[risk_management]]"
+  - "[[roles]]"
+  - "[[samples]]"
+  - "[[sector_analysis]]"
+  - "[[selection]]"
+  - "[[skills]]"
+  - "[[skills_transfer]]"
+  - "[[specifications]]"
+  - "[[standardization]]"
+  - "[[standards]]"
+  - "[[statistical_analysis]]"
+  - "[[stewardship]]"
+  - "[[strategies]]"
+  - "[[supervision]]"
+  - "[[suppliers]]"
+  - "[[surveys]]"
+  - "[[suspension]]"
+  - "[[symbols]]"
+  - "[[systems]]"
+  - "[[testing]]"
+  - "[[transfers]]"
+  - "[[transformation]]"
+  - "[[trends]]"
+  - "[[uses]]"
 ---
 
 # PR Processes

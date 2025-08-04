@@ -2,13 +2,14 @@
 title: Intangible
 created: 2025-07-23
 modified: 2025-08-03
-tags: []
-context: schema
+tags: prefix/schema
 draft: true
-subClassOf:
-- '[[Thing]]'
+mermaid_layers: 1
+permalink:
 related:
-- '[[Thing]]'
+  - "[[Thing]]"
+subClassOf:
+  - "[[Thing]]"
 ---
 # Intangible
 

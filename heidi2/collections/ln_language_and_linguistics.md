@@ -1,100 +1,53 @@
 ---
 uri: http://www.thesaurus.gc.ca/#ln_language_and_linguistics
+tags: prefix/gct
 aliases: LN Language and Linguistics
-members:
-- '[[abbreviations]]'
-- '[[aboriginal_languages]]'
-- '[[administrative_writing]]'
-- '[[amerindian_languages]]'
-- '[[ancestral_languages]]'
-- '[[bilingualism]]'
-- '[[clear_language]]'
-- '[[dictionaries]]'
-- '[[english]]'
-- '[[english_language]]'
-- '[[english_second_language]]'
-- '[[esl]]'
-- '[[foreign_languages]]'
-- '[[francophone_communities]]'
-- '[[francophonie]]'
-- '[[french]]'
-- '[[french_in_the_workplace]]'
-- '[[french_language]]'
-- '[[french_second_language]]'
-- '[[french_speaking_communities]]'
-- '[[fsl]]'
-- '[[functional_literacy]]'
-- '[[geographical_names]]'
-- '[[glossaries]]'
-- '[[heritage_languages]]'
-- '[[idioms]]'
-- '[[illiteracy]]'
-- '[[indigenous_languages]]'
-- '[[interpretation]]'
-- '[[language_classes]]'
-- '[[language_courses]]'
-- '[[language_duality]]'
-- '[[language_education]]'
-- '[[language_groups]]'
-- '[[language_instruction]]'
-- '[[language_interpretation]]'
-- '[[language_minorities]]'
-- '[[language_policy]]'
-- '[[language_rights]]'
-- '[[language_teaching]]'
-- '[[language_training]]'
-- '[[languages]]'
-- '[[legal_writing]]'
-- '[[legislative_writing]]'
-- '[[lexicons]]'
-- '[[linguistic_communities]]'
-- '[[linguistic_diversity]]'
-- '[[linguistic_duality]]'
-- '[[linguistic_groups]]'
-- '[[linguistic_minorities]]'
-- '[[linguistic_minority_communities]]'
-- '[[linguistic_minority_groups]]'
-- '[[linguistics]]'
-- '[[literacy]]'
-- '[[literacy_education]]'
-- '[[literacy_training]]'
-- '[[minority_language_communities]]'
-- '[[minority_language_education]]'
-- '[[minority_language_groups]]'
-- '[[minority_language_rights]]'
-- '[[mother_tongue]]'
-- '[[multilingualism]]'
-- '[[native_languages]]'
-- '[[official_languages]]'
-- '[[official_languages_promotion]]'
-- '[[oral_communication]]'
-- '[[phonetics]]'
-- '[[place_names]]'
-- '[[plain_language]]'
-- '[[plurilingualism]]'
-- '[[promotion_of_linguistic_duality]]'
-- '[[promotion_of_official_languages]]'
-- '[[pronunciation]]'
-- '[[public_speaking]]'
-- '[[reading]]'
-- '[[reading_skills]]'
-- '[[second_language_assessment]]'
-- '[[second_language_education]]'
-- '[[second_language_teaching]]'
-- '[[second_languages]]'
-- '[[simultaneous_interpretation]]'
-- '[[speaking_skills]]'
-- '[[style_guides]]'
-- '[[style_manuals]]'
-- '[[technical_writing]]'
-- '[[terminology]]'
-- '[[thesauri]]'
-- '[[toponymy]]'
-- '[[translation]]'
-- '[[vocabulary]]'
-- '[[writing]]'
-- '[[writing_skills]]'
-- '[[written_communication]]'
+narrower:
+  - "[[abbreviations]]"
+  - "[[administrative_writing]]"
+  - "[[bilingualism]]"
+  - "[[dictionaries]]"
+  - "[[english_language]]"
+  - "[[english_second_language]]"
+  - "[[foreign_languages]]"
+  - "[[francophonie]]"
+  - "[[french_in_the_workplace]]"
+  - "[[french_language]]"
+  - "[[french_second_language]]"
+  - "[[heritage_languages]]"
+  - "[[idioms]]"
+  - "[[indigenous_languages]]"
+  - "[[interpretation]]"
+  - "[[language_education]]"
+  - "[[language_groups]]"
+  - "[[language_minorities]]"
+  - "[[language_policy]]"
+  - "[[language_rights]]"
+  - "[[language_training]]"
+  - "[[languages]]"
+  - "[[legislative_writing]]"
+  - "[[linguistic_diversity]]"
+  - "[[linguistic_duality]]"
+  - "[[literacy]]"
+  - "[[minority_language_education]]"
+  - "[[mother_tongue]]"
+  - "[[multilingualism]]"
+  - "[[official_languages]]"
+  - "[[official_languages_promotion]]"
+  - "[[oral_communication]]"
+  - "[[plain_language]]"
+  - "[[pronunciation]]"
+  - "[[reading]]"
+  - "[[second_language_assessment]]"
+  - "[[second_language_education]]"
+  - "[[second_languages]]"
+  - "[[style_manuals]]"
+  - "[[technical_writing]]"
+  - "[[terminology]]"
+  - "[[thesauri]]"
+  - "[[toponymy]]"
+  - "[[translation]]"
+  - "[[writing]]"
 ---
 
 # LN Language and Linguistics

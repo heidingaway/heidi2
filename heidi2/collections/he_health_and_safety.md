@@ -1,536 +1,199 @@
 ---
 uri: http://www.thesaurus.gc.ca/#he_health_and_safety
+tags: prefix/gct
 aliases: HE Health and Safety
-members:
-- '[[abortion]]'
-- '[[accident_prevention]]'
-- '[[accidents]]'
-- '[[acquired_immune_deficiency_syndrome]]'
-- '[[acquired_immunodeficiency_syndrome]]'
-- '[[adaptive_aids_for_persons_with_disabilities]]'
-- '[[addictive_drugs]]'
-- '[[adverse_drug_reactions]]'
-- '[[adverse_effects]]'
-- '[[aerobic_fitness]]'
-- '[[aids_disease]]'
-- '[[air_bags]]'
-- '[[air_disasters]]'
-- '[[air_safety]]'
-- '[[aircraft_accidents]]'
-- '[[aircraft_anti-icing]]'
-- '[[aircraft_de-icing]]'
-- '[[airplane_accidents]]'
-- '[[airplane_anti-icing]]'
-- '[[airplane_crashes]]'
-- '[[airplane_de-icing]]'
-- '[[airport_safety]]'
-- '[[airworthiness]]'
-- '[[alcohol_abuse]]'
-- '[[alcohol_addiction]]'
-- '[[alcohol_education]]'
-- '[[alcoholism]]'
-- '[[allergies]]'
-- '[[alternative_medicine]]'
-- '[[alzheimer_s_disease]]'
-- '[[ambulance_services]]'
-- '[[animal-to-human_transplantation]]'
-- '[[animal_diseases]]'
-- '[[animal_drugs]]'
-- '[[animal_feeding]]'
-- '[[animal_feeds]]'
-- '[[animal_food]]'
-- '[[animal_health]]'
-- '[[animal_nutrition]]'
-- '[[animal_quarantine]]'
-- '[[animal_research]]'
-- '[[anti-icing_of_aircraft]]'
-- '[[arthritis]]'
-- '[[artificial_insemination]]'
-- '[[assisted_conception]]'
-- '[[assisted_human_reproduction]]'
-- '[[assisted_reproduction]]'
-- '[[assisted_reproduction_techniques]]'
-- '[[assisted_reproductive_techniques]]'
-- '[[assisted_reproductive_technology]]'
-- '[[assistive_devices]]'
-- '[[assistive_technologies]]'
-- '[[automobile_accidents]]'
-- '[[automobile_safety_equipment]]'
-- '[[aviation_accidents]]'
-- '[[aviation_safety]]'
-- '[[bacterial_diseases]]'
-- '[[beauty_products]]'
-- '[[bicycle_helmets]]'
-- '[[bicycle_safety_equipment]]'
-- '[[bioassay]]'
-- '[[biomedical_experiments]]'
-- '[[blind_persons]]'
-- '[[blindness]]'
-- '[[blood_banks]]'
-- '[[blood_supply]]'
-- '[[breast_cancer]]'
-- '[[breastfeeding]]'
-- '[[cabin_safety]]'
-- '[[cancer]]'
-- '[[car_accidents]]'
-- '[[car_restraints]]'
-- '[[car_seats]]'
-- '[[carcinoma]]'
-- '[[cardiorespiratory_diseases]]'
-- '[[cardiovascular_diseases]]'
-- '[[care_givers]]'
-- '[[caregivers]]'
-- '[[catastrophes]]'
-- '[[cell_grafting]]'
-- '[[cell_transplantation]]'
-- '[[cells]]'
-- '[[child_development]]'
-- '[[child_safety]]'
-- '[[childhood_diseases]]'
-- '[[children_s_health]]'
-- '[[chronic_diseases]]'
-- '[[chronic_health_problems]]'
-- '[[chronic_illness]]'
-- '[[cigarette_smoking]]'
-- '[[civil_preparedness]]'
-- '[[clinics]]'
-- '[[codes_of_practice]]'
-- '[[cognitive_disabilities]]'
-- '[[communicable_diseases]]'
-- '[[contagious_diseases]]'
-- '[[coronavirus_disease-19]]'
-- '[[coronavirus_disease_2019]]'
-- '[[coronavirus_disease_covid-19]]'
-- '[[coronavirus_diseases]]'
-- '[[coronavirus_infections]]'
-- '[[coronaviruses]]'
-- '[[cosmetic_products]]'
-- '[[cosmetics]]'
-- '[[covid-19_disease]]'
-- '[[covid-19_virus_disease]]'
-- '[[de-icing_of_aircraft]]'
-- '[[deaf_persons]]'
-- '[[deafness]]'
-- '[[degenerative_diseases]]'
-- '[[dental_care_plan]]'
-- '[[dental_health]]'
-- '[[dental_hygiene]]'
-- '[[dental_insurance]]'
-- '[[derailments]]'
-- '[[diabetes]]'
-- '[[diet]]'
-- '[[disabilities]]'
-- '[[disabled_people]]'
-- '[[disabled_persons]]'
-- '[[disaster_planning]]'
-- '[[disaster_relief]]'
-- '[[disasters]]'
-- '[[disease_prevention]]'
-- '[[diseases]]'
-- '[[donor_semen]]'
-- '[[drug_abuse]]'
-- '[[drug_addiction]]'
-- '[[drug_control]]'
-- '[[drug_dependency]]'
-- '[[drug_education]]'
-- '[[drug_enforcement]]'
-- '[[drug_industry]]'
-- '[[drug_insurance]]'
-- '[[drug_insurance_plan]]'
-- '[[drug_labeling]]'
-- '[[drug_labelling]]'
-- '[[drug_laws]]'
-- '[[drug_plants]]'
-- '[[drug_prevention]]'
-- '[[drug_side_effects]]'
-- '[[drug_use]]'
-- '[[drugs]]'
-- '[[duty_to_accommodate]]'
-- '[[e-health]]'
-- '[[eating_habits]]'
-- '[[emergency_planning]]'
-- '[[emergency_preparedness]]'
-- '[[emergency_procedures]]'
-- '[[emergency_relief]]'
-- '[[emergency_services]]'
-- '[[employment_injuries]]'
-- '[[employment_rehabilitation]]'
-- '[[employment_safety]]'
-- '[[epidemics]]'
-- '[[epidemiology]]'
-- '[[evacuations]]'
-- '[[family_care_home]]'
-- '[[family_caregivers]]'
-- '[[famine]]'
-- '[[fire_prevention]]'
-- '[[fire_safety]]'
-- '[[fitness]]'
-- '[[flight_safety]]'
-- '[[flotation_devices]]'
-- '[[flu]]'
-- '[[fluorides]]'
-- '[[flying_accidents]]'
-- '[[food_contamination]]'
-- '[[food_habits]]'
-- '[[food_hygiene]]'
-- '[[food_safety]]'
-- '[[foods_for_animal]]'
-- '[[forensic_medicine]]'
-- '[[foster_care_placement]]'
-- '[[foster_children]]'
-- '[[foster_families]]'
-- '[[foster_home]]'
-- '[[functional_foods]]'
-- '[[genetic_screening]]'
-- '[[geriatric_medicine]]'
-- '[[geriatrics]]'
-- '[[grafting_medicine]]'
-- '[[handicapped_people]]'
-- '[[handicapped_persons]]'
-- '[[handicaps]]'
-- '[[health]]'
-- '[[health-enhancing_foods]]'
-- '[[health_care]]'
-- '[[health_care_facilities]]'
-- '[[health_care_industry]]'
-- '[[health_care_institutions]]'
-- '[[health_care_insurance]]'
-- '[[health_care_personnel]]'
-- '[[health_care_plan]]'
-- '[[health_care_products]]'
-- '[[health_care_professionals]]'
-- '[[health_care_quality]]'
-- '[[health_care_system]]'
-- '[[health_care_technology]]'
-- '[[health_education]]'
-- '[[health_hazards]]'
-- '[[health_impact]]'
-- '[[health_indicators]]'
-- '[[health_industry]]'
-- '[[health_information]]'
-- '[[health_insurance]]'
-- '[[health_insurance_plan]]'
-- '[[health_network]]'
-- '[[health_of_animals]]'
-- '[[health_personnel]]'
-- '[[health_policy]]'
-- '[[health_products]]'
-- '[[health_professionals]]'
-- '[[health_promotion]]'
-- '[[health_protection]]'
-- '[[health_research]]'
-- '[[health_risks]]'
-- '[[health_sciences]]'
-- '[[health_services]]'
-- '[[health_services_insurance]]'
-- '[[health_status]]'
-- '[[health_status_indicators]]'
-- '[[health_system]]'
-- '[[health_technology]]'
-- '[[hearing_disabilities]]'
-- '[[hearing_impaired]]'
-- '[[hearing_impairments]]'
-- '[[hearing_loss]]'
-- '[[heart_diseases]]'
-- '[[hepatitis]]'
-- '[[herbal_remedies]]'
-- '[[hiv]]'
-- '[[home_care]]'
-- '[[homeopathy]]'
-- '[[hospitals]]'
-- '[[human_assisted_reproduction]]'
-- '[[human_cells]]'
-- '[[human_health]]'
-- '[[human_immunodeficiency_virus]]'
-- '[[human_nutrition]]'
-- '[[human_reproduction_techniques]]'
-- '[[human_reproductive_technology]]'
-- '[[human_safety]]'
-- '[[human_security]]'
-- '[[human_tissues]]'
-- '[[hunger]]'
-- '[[hygiene]]'
-- '[[illegal_drugs]]'
-- '[[illicit_drugs]]'
-- '[[illness]]'
-- '[[immunization]]'
-- '[[impairments]]'
-- '[[industrial_accidents]]'
-- '[[industrial_diseases]]'
-- '[[industrial_health]]'
-- '[[industrial_hygiene]]'
-- '[[industrial_illness]]'
-- '[[industrial_injuries]]'
-- '[[industrial_safety]]'
-- '[[infant_nutrition]]'
-- '[[infected_blood]]'
-- '[[infectious_diseases]]'
-- '[[influenza]]'
-- '[[informal_caregivers]]'
-- '[[injection_drug_use]]'
-- '[[injuries]]'
-- '[[integrated_health_services]]'
-- '[[intellectual_disabilities]]'
-- '[[intellectual_handicaps]]'
-- '[[intoxication]]'
-- '[[learning_disabilities]]'
-- '[[learning_disorders]]'
-- '[[life_jackets]]'
-- '[[long_term_care_facilities]]'
-- '[[lung_diseases]]'
-- '[[malignant_tumors]]'
-- '[[malignant_tumours]]'
-- '[[malnutrition]]'
-- '[[man-made_disasters]]'
-- '[[manmade_disasters]]'
-- '[[marihuana]]'
-- '[[marijuana]]'
-- '[[marine_accidents]]'
-- '[[marine_navigation_safety]]'
-- '[[marine_safety]]'
-- '[[marine_safety_equipment]]'
-- '[[maritime_disasters]]'
-- '[[mass_screening]]'
-- '[[medical_apparatus]]'
-- '[[medical_care]]'
-- '[[medical_care_insurance]]'
-- '[[medical_centers]]'
-- '[[medical_centres]]'
-- '[[medical_device_industry]]'
-- '[[medical_devices]]'
-- '[[medical_equipment]]'
-- '[[medical_equipment_industry]]'
-- '[[medical_facilities]]'
-- '[[medical_insurance]]'
-- '[[medical_law]]'
-- '[[medical_personnel]]'
-- '[[medical_products]]'
-- '[[medical_products_industry]]'
-- '[[medical_professionals]]'
-- '[[medical_records]]'
-- '[[medical_research]]'
-- '[[medical_screening]]'
-- '[[medical_services]]'
-- '[[medical_supplies]]'
-- '[[medical_techniques]]'
-- '[[medical_technology]]'
-- '[[medically_assisted_procreation]]'
-- '[[medically_assisted_reproduction]]'
-- '[[medicaments]]'
-- '[[medicare]]'
-- '[[medications]]'
-- '[[medicinal_drugs]]'
-- '[[medicinal_plants]]'
-- '[[medicine]]'
-- '[[mental_disabilities]]'
-- '[[mental_handicaps]]'
-- '[[mental_health]]'
-- '[[mentally_handicapped]]'
-- '[[mers_disease]]'
-- '[[methadone]]'
-- '[[microbial_diseases]]'
-- '[[microorganisms]]'
-- '[[microscopic_organisms]]'
-- '[[middle_east_respiratory_syndrome]]'
-- '[[mining_accidents]]'
-- '[[mobility_aids]]'
-- '[[mobility_impaired]]'
-- '[[molds_fungi]]'
-- '[[monkey_pox]]'
-- '[[monkeypox]]'
-- '[[moulds_fungi]]'
-- '[[narcotic_addiction]]'
-- '[[narcotic_control]]'
-- '[[narcotic_use]]'
-- '[[narcotics]]'
-- '[[natural_caregivers]]'
-- '[[neutraceuticals]]'
-- '[[nicotine_addiction]]'
-- '[[non_prescription_drugs]]'
-- '[[non_prescription_medications]]'
-- '[[non_prescription_medicines]]'
-- '[[nonprescription_drugs]]'
-- '[[novel_coronavirus_disease_2019]]'
-- '[[nuclear_medicine]]'
-- '[[nursing]]'
-- '[[nursing_homes]]'
-- '[[nutraceuticals]]'
-- '[[nutriceuticals]]'
-- '[[nutrition]]'
-- '[[obesity]]'
-- '[[occupational_accidents]]'
-- '[[occupational_diseases]]'
-- '[[occupational_health]]'
-- '[[occupational_hygiene]]'
-- '[[occupational_illness]]'
-- '[[occupational_injuries]]'
-- '[[occupational_rehabilitation]]'
-- '[[occupational_safety]]'
-- '[[oral_health]]'
-- '[[oral_hygiene]]'
-- '[[organ_grafting]]'
-- '[[organ_transplantation]]'
-- '[[organ_transplants]]'
-- '[[outreach]]'
-- '[[outreach_services]]'
-- '[[over-the-counter_drugs]]'
-- '[[over-the-counter_medications]]'
-- '[[overweight]]'
-- '[[pain]]'
-- '[[parasitic_diseases]]'
-- '[[patented_medicines]]'
-- '[[pathology]]'
-- '[[people_with_disabilities]]'
-- '[[perinatal_care]]'
-- '[[personal_care_products]]'
-- '[[personal_flotation_devices]]'
-- '[[persons_with_disabilities]]'
-- '[[pharmacare]]'
-- '[[pharmacare_plan]]'
-- '[[pharmaceutical_industry]]'
-- '[[pharmaceutical_insurance]]'
-- '[[pharmaceuticals]]'
-- '[[pharmacology]]'
-- '[[physical_activity]]'
-- '[[physical_condition]]'
-- '[[physical_disabilities]]'
-- '[[physical_exercise]]'
-- '[[physical_fitness]]'
-- '[[physical_handicaps]]'
-- '[[physically_challenged]]'
-- '[[physically_handicapped]]'
-- '[[plane_crashes]]'
-- '[[plane_de-icing]]'
-- '[[poisoning]]'
-- '[[postnatal_care]]'
-- '[[poxvirus_diseases]]'
-- '[[pregnancy]]'
-- '[[pregnancy_termination]]'
-- '[[prenatal_care]]'
-- '[[prescription_drugs]]'
-- '[[prescription_medications]]'
-- '[[prescription_medicines]]'
-- '[[preventive_care]]'
-- '[[preventive_medicine]]'
-- '[[protective_measures]]'
-- '[[psychiatric_care]]'
-- '[[public_health]]'
-- '[[public_health_surveillance]]'
-- '[[public_safety]]'
-- '[[pulmonary_diseases]]'
-- '[[quality_of_health_care]]'
-- '[[quarantine]]'
-- '[[railway_accidents]]'
-- '[[railway_safety]]'
-- '[[rehabilitation]]'
-- '[[reproductive_technology]]'
-- '[[rescue]]'
-- '[[rescue_equipment]]'
-- '[[rescue_operations]]'
-- '[[respiratory_diseases]]'
-- '[[respiratory_disorders]]'
-- '[[respiratory_illness]]'
-- '[[risk_premiums]]'
-- '[[road_accidents]]'
-- '[[road_safety]]'
-- '[[safe_boating]]'
-- '[[safe_handling]]'
-- '[[safety]]'
-- '[[safety_courses]]'
-- '[[safety_devices]]'
-- '[[safety_education]]'
-- '[[safety_equipment]]'
-- '[[safety_guidelines]]'
-- '[[safety_instruction]]'
-- '[[safety_kits]]'
-- '[[safety_measures]]'
-- '[[safety_precautions]]'
-- '[[safety_procedures]]'
-- '[[safety_regulations]]'
-- '[[safety_standards]]'
-- '[[safety_training]]'
-- '[[sars-cov-2_disease]]'
-- '[[screening_medicine]]'
-- '[[search_and_rescue]]'
-- '[[seat_belts]]'
-- '[[security]]'
-- '[[semen]]'
-- '[[severe_acute_respiratory_syndrome]]'
-- '[[sexually_transmitted_diseases]]'
-- '[[sexually_transmitted_infections]]'
-- '[[ship_sinking]]'
-- '[[shipwrecks]]'
-- '[[sickness_insurance]]'
-- '[[side_effects]]'
-- '[[sight_impaired]]'
-- '[[smoking]]'
-- '[[smoking_addiction]]'
-- '[[smoking_prevention]]'
-- '[[soft_medicine]]'
-- '[[substance_abuse]]'
-- '[[surgeons]]'
-- '[[surgery]]'
-- '[[surgical_operations]]'
-- '[[surgical_procedures]]'
-- '[[survival]]'
-- '[[survival_training]]'
-- '[[systematic_screening]]'
-- '[[technological_disasters]]'
-- '[[telecare]]'
-- '[[telehealth]]'
-- '[[telemedicine]]'
-- '[[therapeutic_abortion]]'
-- '[[therapeutic_cloning]]'
-- '[[therapy]]'
-- '[[tissue_grafting]]'
-- '[[tissue_transplantation]]'
-- '[[tissues]]'
-- '[[tobacco_abuse]]'
-- '[[tobacco_addiction]]'
-- '[[tobacco_consumption]]'
-- '[[tobacco_smoking]]'
-- '[[tobacco_use]]'
-- '[[toiletries]]'
-- '[[toxicology]]'
-- '[[traffic_accidents]]'
-- '[[traffic_safety]]'
-- '[[train_wrecks]]'
-- '[[transplantation_medicine]]'
-- '[[transplants]]'
-- '[[transportation_safety]]'
-- '[[vaccination]]'
-- '[[vaccines]]'
-- '[[vascular_diseases]]'
-- '[[venereal_diseases]]'
-- '[[vessel_safety]]'
-- '[[veterinary_drugs]]'
-- '[[veterinary_medications]]'
-- '[[veterinary_medicine]]'
-- '[[veterinary_pharmaceuticals]]'
-- '[[veterinary_research]]'
-- '[[viral_diseases]]'
-- '[[virus_diseases]]'
-- '[[viruses]]'
-- '[[visual_disabilities]]'
-- '[[visual_impairments]]'
-- '[[visually_impaired]]'
-- '[[vitamins]]'
-- '[[wheel_chairs]]'
-- '[[wheelchairs]]'
-- '[[wing_anti-icing]]'
-- '[[wing_de-icing]]'
-- '[[women_s_health]]'
-- '[[work_accidents]]'
-- '[[work_injuries]]'
-- '[[work_safety]]'
-- '[[worker_health]]'
-- '[[worker_safety]]'
-- '[[workplace_accidents]]'
-- '[[workplace_health]]'
-- '[[workplace_injuries]]'
-- '[[workplace_safety]]'
-- '[[xenotransplantation]]'
-- '[[yeasts]]'
+narrower:
+  - "[[abortion]]"
+  - "[[accident_prevention]]"
+  - "[[accidents]]"
+  - "[[aids_disease]]"
+  - "[[air_safety]]"
+  - "[[aircraft_accidents]]"
+  - "[[aircraft_anti-icing]]"
+  - "[[aircraft_de-icing]]"
+  - "[[alcohol_education]]"
+  - "[[alcoholism]]"
+  - "[[allergies]]"
+  - "[[alternative_medicine]]"
+  - "[[alzheimer_s_disease]]"
+  - "[[animal_diseases]]"
+  - "[[animal_health]]"
+  - "[[animal_nutrition]]"
+  - "[[animal_research]]"
+  - "[[arthritis]]"
+  - "[[artificial_insemination]]"
+  - "[[assistive_technologies]]"
+  - "[[automobile_safety_equipment]]"
+  - "[[bicycle_safety_equipment]]"
+  - "[[bioassay]]"
+  - "[[biomedical_experiments]]"
+  - "[[blindness]]"
+  - "[[blood_supply]]"
+  - "[[breast_cancer]]"
+  - "[[cancer]]"
+  - "[[cardiovascular_diseases]]"
+  - "[[caregivers]]"
+  - "[[cells]]"
+  - "[[child_development]]"
+  - "[[child_safety]]"
+  - "[[childhood_diseases]]"
+  - "[[children_s_health]]"
+  - "[[chronic_diseases]]"
+  - "[[codes_of_practice]]"
+  - "[[coronavirus_diseases]]"
+  - "[[coronaviruses]]"
+  - "[[deafness]]"
+  - "[[degenerative_diseases]]"
+  - "[[dental_insurance]]"
+  - "[[diabetes]]"
+  - "[[disabilities]]"
+  - "[[disaster_relief]]"
+  - "[[disasters]]"
+  - "[[diseases]]"
+  - "[[drug_addiction]]"
+  - "[[drug_education]]"
+  - "[[drug_insurance]]"
+  - "[[drug_labelling]]"
+  - "[[drug_laws]]"
+  - "[[drug_use]]"
+  - "[[drugs]]"
+  - "[[duty_to_accommodate]]"
+  - "[[emergency_preparedness]]"
+  - "[[emergency_relief]]"
+  - "[[emergency_services]]"
+  - "[[epidemics]]"
+  - "[[epidemiology]]"
+  - "[[evacuations]]"
+  - "[[famine]]"
+  - "[[fire_prevention]]"
+  - "[[fitness]]"
+  - "[[fluorides]]"
+  - "[[food_safety]]"
+  - "[[foster_care_placement]]"
+  - "[[foster_children]]"
+  - "[[foster_families]]"
+  - "[[functional_foods]]"
+  - "[[geriatrics]]"
+  - "[[health]]"
+  - "[[health_care]]"
+  - "[[health_care_facilities]]"
+  - "[[health_care_industry]]"
+  - "[[health_care_products]]"
+  - "[[health_care_quality]]"
+  - "[[health_care_system]]"
+  - "[[health_hazards]]"
+  - "[[health_impact]]"
+  - "[[health_indicators]]"
+  - "[[health_insurance]]"
+  - "[[health_policy]]"
+  - "[[health_professionals]]"
+  - "[[health_promotion]]"
+  - "[[health_protection]]"
+  - "[[health_sciences]]"
+  - "[[hearing_disabilities]]"
+  - "[[hepatitis]]"
+  - "[[homeopathy]]"
+  - "[[human_security]]"
+  - "[[hunger]]"
+  - "[[hygiene]]"
+  - "[[immunization]]"
+  - "[[infant_nutrition]]"
+  - "[[infected_blood]]"
+  - "[[infectious_diseases]]"
+  - "[[influenza]]"
+  - "[[injuries]]"
+  - "[[intellectual_disabilities]]"
+  - "[[learning_disabilities]]"
+  - "[[marijuana]]"
+  - "[[marine_accidents]]"
+  - "[[marine_safety]]"
+  - "[[marine_safety_equipment]]"
+  - "[[medical_law]]"
+  - "[[medical_products]]"
+  - "[[medical_products_industry]]"
+  - "[[medical_records]]"
+  - "[[medical_research]]"
+  - "[[medical_technology]]"
+  - "[[medicinal_plants]]"
+  - "[[medicine]]"
+  - "[[mental_health]]"
+  - "[[methadone]]"
+  - "[[microorganisms]]"
+  - "[[mining_accidents]]"
+  - "[[monkeypox]]"
+  - "[[narcotic_control]]"
+  - "[[narcotics]]"
+  - "[[nonprescription_drugs]]"
+  - "[[nuclear_medicine]]"
+  - "[[nutrition]]"
+  - "[[obesity]]"
+  - "[[occupational_accidents]]"
+  - "[[occupational_diseases]]"
+  - "[[occupational_health]]"
+  - "[[occupational_safety]]"
+  - "[[oral_health]]"
+  - "[[organ_transplantation]]"
+  - "[[outreach_services]]"
+  - "[[pain]]"
+  - "[[patented_medicines]]"
+  - "[[perinatal_care]]"
+  - "[[personal_care_products]]"
+  - "[[persons_with_disabilities]]"
+  - "[[pharmaceutical_industry]]"
+  - "[[pharmacology]]"
+  - "[[physical_disabilities]]"
+  - "[[poisoning]]"
+  - "[[poxvirus_diseases]]"
+  - "[[pregnancy]]"
+  - "[[prescription_drugs]]"
+  - "[[preventive_medicine]]"
+  - "[[public_health]]"
+  - "[[public_health_surveillance]]"
+  - "[[public_safety]]"
+  - "[[quarantine]]"
+  - "[[railway_accidents]]"
+  - "[[railway_safety]]"
+  - "[[rehabilitation]]"
+  - "[[reproductive_technology]]"
+  - "[[rescue]]"
+  - "[[rescue_equipment]]"
+  - "[[respiratory_diseases]]"
+  - "[[risk_premiums]]"
+  - "[[road_accidents]]"
+  - "[[road_safety]]"
+  - "[[safety]]"
+  - "[[safety_education]]"
+  - "[[safety_equipment]]"
+  - "[[safety_measures]]"
+  - "[[safety_regulations]]"
+  - "[[safety_standards]]"
+  - "[[screening_medicine]]"
+  - "[[security]]"
+  - "[[semen]]"
+  - "[[sexually_transmitted_diseases]]"
+  - "[[side_effects]]"
+  - "[[smoking]]"
+  - "[[smoking_prevention]]"
+  - "[[surgeons]]"
+  - "[[surgery]]"
+  - "[[survival]]"
+  - "[[telehealth]]"
+  - "[[telemedicine]]"
+  - "[[therapy]]"
+  - "[[tissues]]"
+  - "[[toxicology]]"
+  - "[[transplantation_medicine]]"
+  - "[[transportation_safety]]"
+  - "[[vaccination]]"
+  - "[[vaccines]]"
+  - "[[veterinary_drugs]]"
+  - "[[veterinary_medicine]]"
+  - "[[viruses]]"
+  - "[[visual_disabilities]]"
+  - "[[vitamins]]"
+  - "[[wheelchairs]]"
+  - "[[women_s_health]]"
+  - "[[xenotransplantation]]"
 ---
 
 # HE Health and Safety

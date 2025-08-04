@@ -1,237 +1,94 @@
 ---
 uri: http://www.thesaurus.gc.ca/#lb_labour
+tags: prefix/gct
 aliases: LB Labour
-members:
-- '[[active_population]]'
-- '[[application_for_employment]]'
-- '[[apprenticeships]]'
-- '[[assignments]]'
-- '[[career_counseling]]'
-- '[[career_counselling]]'
-- '[[career_development]]'
-- '[[career_guidance]]'
-- '[[career_information]]'
-- '[[careers]]'
-- '[[childcare]]'
-- '[[collective_agreements]]'
-- '[[collective_bargaining]]'
-- '[[collective_bargaining_agreements]]'
-- '[[collective_negotiations]]'
-- '[[discharge]]'
-- '[[distribution_of_work]]'
-- '[[earnings]]'
-- '[[employee-employer_relations]]'
-- '[[employee_relations]]'
-- '[[employees]]'
-- '[[employer-employee_relations]]'
-- '[[employers]]'
-- '[[employment]]'
-- '[[employment_abroad]]'
-- '[[employment_centers]]'
-- '[[employment_centres]]'
-- '[[employment_conditions]]'
-- '[[employment_earnings]]'
-- '[[employment_equity]]'
-- '[[employment_income]]'
-- '[[employment_injuries]]'
-- '[[employment_insurance]]'
-- '[[employment_law]]'
-- '[[employment_market]]'
-- '[[employment_opportunities]]'
-- '[[employment_outlook]]'
-- '[[employment_possibilities]]'
-- '[[employment_programs]]'
-- '[[employment_prospects]]'
-- '[[employment_rehabilitation]]'
-- '[[employment_relationships]]'
-- '[[employment_safety]]'
-- '[[equality_in_employment]]'
-- '[[ergonomics]]'
-- '[[french_in_the_workplace]]'
-- '[[full-time_employment]]'
-- '[[functions]]'
-- '[[hiring]]'
-- '[[holidays]]'
-- '[[hours_of_work]]'
-- '[[industrial_accidents]]'
-- '[[industrial_diseases]]'
-- '[[industrial_health]]'
-- '[[industrial_hygiene]]'
-- '[[industrial_illness]]'
-- '[[industrial_injuries]]'
-- '[[industrial_relations]]'
-- '[[industrial_safety]]'
-- '[[job_applications]]'
-- '[[job_classification]]'
-- '[[job_creation]]'
-- '[[job_description]]'
-- '[[job_market]]'
-- '[[job_mobility]]'
-- '[[job_openings]]'
-- '[[job_opportunities]]'
-- '[[job_promotion]]'
-- '[[job_prospects]]'
-- '[[job_search]]'
-- '[[jobs]]'
-- '[[labor]]'
-- '[[labor-management_relations]]'
-- '[[labor_code]]'
-- '[[labor_conditions]]'
-- '[[labor_conflicts]]'
-- '[[labor_disputes]]'
-- '[[labor_force]]'
-- '[[labor_income]]'
-- '[[labor_law]]'
-- '[[labor_market]]'
-- '[[labor_mobility]]'
-- '[[labor_negotiations]]'
-- '[[labor_organizations]]'
-- '[[labor_relations]]'
-- '[[labor_standards]]'
-- '[[labor_union_training]]'
-- '[[labor_unions]]'
-- '[[labour]]'
-- '[[labour-management_relations]]'
-- '[[labour_code]]'
-- '[[labour_conditions]]'
-- '[[labour_conflicts]]'
-- '[[labour_disputes]]'
-- '[[labour_force]]'
-- '[[labour_force_mobility]]'
-- '[[labour_income]]'
-- '[[labour_law]]'
-- '[[labour_market]]'
-- '[[labour_mobility]]'
-- '[[labour_negotiations]]'
-- '[[labour_organizations]]'
-- '[[labour_relations]]'
-- '[[labour_standards]]'
-- '[[labour_union_training]]'
-- '[[labour_unions]]'
-- '[[layoffs]]'
-- '[[leave_of_absence]]'
-- '[[lock-outs]]'
-- '[[lockers]]'
-- '[[lockouts]]'
-- '[[manpower]]'
-- '[[manpower_centers]]'
-- '[[manpower_centres]]'
-- '[[manpower_mobility]]'
-- '[[merit]]'
-- '[[migrant_workers]]'
-- '[[migratory_workers]]'
-- '[[minimum_wage]]'
-- '[[mining_accidents]]'
-- '[[new_jobs]]'
-- '[[occupational_accidents]]'
-- '[[occupational_development]]'
-- '[[occupational_diseases]]'
-- '[[occupational_guidance]]'
-- '[[occupational_health]]'
-- '[[occupational_hygiene]]'
-- '[[occupational_illness]]'
-- '[[occupational_information]]'
-- '[[occupational_injuries]]'
-- '[[occupational_mobility]]'
-- '[[occupational_rehabilitation]]'
-- '[[occupational_safety]]'
-- '[[occupational_training]]'
-- '[[occupations]]'
-- '[[office_appliances]]'
-- '[[office_automation]]'
-- '[[office_equipment]]'
-- '[[office_furnitures]]'
-- '[[office_supplies]]'
-- '[[offices]]'
-- '[[part-time_employment]]'
-- '[[pay]]'
-- '[[pay_equity]]'
-- '[[place_of_work]]'
-- '[[position_description]]'
-- '[[professional_associations]]'
-- '[[professional_development]]'
-- '[[professions]]'
-- '[[record_of_employment]]'
-- '[[recruiting]]'
-- '[[remuneration]]'
-- '[[resignation]]'
-- '[[retirement]]'
-- '[[risk_premiums]]'
-- '[[salaries]]'
-- '[[seasonal_employment]]'
-- '[[seasonal_work]]'
-- '[[selection]]'
-- '[[self_employment]]'
-- '[[severance_pay]]'
-- '[[skilled_workers]]'
-- '[[staff_relations]]'
-- '[[staffing]]'
-- '[[stationery]]'
-- '[[strikes]]'
-- '[[student_labor]]'
-- '[[student_labour]]'
-- '[[summer_employment]]'
-- '[[tasks]]'
-- '[[telework]]'
-- '[[temporary_employment]]'
-- '[[termination_of_employment]]'
-- '[[trade_unions]]'
-- '[[unemployment]]'
-- '[[unemployment_benefits]]'
-- '[[unemployment_insurance]]'
-- '[[unions]]'
-- '[[unpaid_employment]]'
-- '[[unpaid_work]]'
-- '[[vacations]]'
-- '[[vendors]]'
-- '[[violence_in_the_workplace]]'
-- '[[vocational_counseling]]'
-- '[[vocational_counselling]]'
-- '[[vocational_education]]'
-- '[[vocational_guidance]]'
-- '[[vocational_information]]'
-- '[[vocational_rehabilitation]]'
-- '[[vocational_training]]'
-- '[[voluntary_sector]]'
-- '[[volunteer_work]]'
-- '[[volunteerism]]'
-- '[[volunteers]]'
-- '[[wages]]'
-- '[[women_workers]]'
-- '[[work_abroad]]'
-- '[[work_accidents]]'
-- '[[work_arrangements]]'
-- '[[work_conditions]]'
-- '[[work_environment]]'
-- '[[work_force]]'
-- '[[work_force_mobility]]'
-- '[[work_injuries]]'
-- '[[work_opportunities]]'
-- '[[work_organization]]'
-- '[[work_permits]]'
-- '[[work_relations]]'
-- '[[work_safety]]'
-- '[[work_schedule]]'
-- '[[work_to_rules]]'
-- '[[worker_health]]'
-- '[[worker_mobility]]'
-- '[[worker_safety]]'
-- '[[workers]]'
-- '[[workforce]]'
-- '[[workforce_mobility]]'
-- '[[working_conditions]]'
-- '[[working_hours]]'
-- '[[working_population]]'
-- '[[working_relationships]]'
-- '[[workload]]'
-- '[[workplace]]'
-- '[[workplace_accidents]]'
-- '[[workplace_automation]]'
-- '[[workplace_health]]'
-- '[[workplace_injuries]]'
-- '[[workplace_pollution]]'
-- '[[workplace_safety]]'
-- '[[workplace_violence]]'
+narrower:
+  - "[[assignments]]"
+  - "[[collective_agreements]]"
+  - "[[collective_bargaining]]"
+  - "[[discharge]]"
+  - "[[employers]]"
+  - "[[employment]]"
+  - "[[employment_abroad]]"
+  - "[[employment_centres]]"
+  - "[[employment_equity]]"
+  - "[[employment_insurance]]"
+  - "[[employment_opportunities]]"
+  - "[[employment_programs]]"
+  - "[[ergonomics]]"
+  - "[[french_in_the_workplace]]"
+  - "[[full-time_employment]]"
+  - "[[function]]"
+  - "[[holidays]]"
+  - "[[job_applications]]"
+  - "[[job_classification]]"
+  - "[[job_creation]]"
+  - "[[job_description]]"
+  - "[[job_promotion]]"
+  - "[[job_search]]"
+  - "[[labour]]"
+  - "[[labour_code]]"
+  - "[[labour_disputes]]"
+  - "[[labour_force]]"
+  - "[[labour_law]]"
+  - "[[labour_market]]"
+  - "[[labour_mobility]]"
+  - "[[labour_relations]]"
+  - "[[labour_standards]]"
+  - "[[labour_union_training]]"
+  - "[[labour_unions]]"
+  - "[[leave_of_absence]]"
+  - "[[lockers]]"
+  - "[[merit]]"
+  - "[[migrant_workers]]"
+  - "[[minimum_wage]]"
+  - "[[mining_accidents]]"
+  - "[[occupational_accidents]]"
+  - "[[occupational_diseases]]"
+  - "[[occupational_health]]"
+  - "[[occupational_safety]]"
+  - "[[occupations]]"
+  - "[[office_appliances]]"
+  - "[[office_automation]]"
+  - "[[office_equipment]]"
+  - "[[office_supplies]]"
+  - "[[part-time_employment]]"
+  - "[[pay_equity]]"
+  - "[[professional_associations]]"
+  - "[[professional_development]]"
+  - "[[record_of_employment]]"
+  - "[[recruiting]]"
+  - "[[resignation]]"
+  - "[[retirement]]"
+  - "[[risk_premiums]]"
+  - "[[salaries]]"
+  - "[[seasonal_employment]]"
+  - "[[selection]]"
+  - "[[self_employment]]"
+  - "[[severance_pay]]"
+  - "[[staffing]]"
+  - "[[stationery]]"
+  - "[[student_labour]]"
+  - "[[telework]]"
+  - "[[temporary_employment]]"
+  - "[[termination_of_employment]]"
+  - "[[unemployment]]"
+  - "[[unpaid_work]]"
+  - "[[vacations]]"
+  - "[[vendors]]"
+  - "[[vocational_guidance]]"
+  - "[[vocational_rehabilitation]]"
+  - "[[vocational_training]]"
+  - "[[volunteer_work]]"
+  - "[[women_workers]]"
+  - "[[work_organization]]"
+  - "[[work_permits]]"
+  - "[[workers]]"
+  - "[[working_conditions]]"
+  - "[[workplace]]"
+  - "[[workplace_automation]]"
+  - "[[workplace_pollution]]"
+  - "[[workplace_violence]]"
 ---
 
 # LB Labour

@@ -1,183 +1,108 @@
 ---
 uri: http://www.thesaurus.gc.ca/#fm_form_descriptors
+tags: prefix/gct
 aliases: FM Form descriptors
-members:
-- '[[addresses]]'
-- '[[administrative_data]]'
-- '[[advertisements]]'
-- '[[advertising_materials]]'
-- '[[aeronautical_maps]]'
-- '[[agenda]]'
-- '[[almanacs]]'
-- '[[amendments]]'
-- '[[annual_reports]]'
-- '[[architectural_drawings]]'
-- '[[atlases]]'
-- '[[audio_digital_disc]]'
-- '[[audio_digital_disk]]'
-- '[[audiocassettes]]'
-- '[[audiovisual_documents]]'
-- '[[audiovisual_materials]]'
-- '[[bibliographies]]'
-- '[[bills_of_sale]]'
-- '[[biographies]]'
-- '[[booklets]]'
-- '[[books]]'
-- '[[braille]]'
-- '[[briefing_papers]]'
-- '[[brochures]]'
-- '[[bulletins]]'
-- '[[caricatures]]'
-- '[[catalogs]]'
-- '[[catalogues]]'
-- '[[cd-roms]]'
-- '[[census_data]]'
-- '[[children_s_books]]'
-- '[[communiques]]'
-- '[[compact_digital_audio_discs]]'
-- '[[compact_discs]]'
-- '[[compact_discs_digital_audio]]'
-- '[[compact_disks]]'
-- '[[conference_proceedings]]'
-- '[[correspondence]]'
-- '[[data_dictionaries]]'
-- '[[data_registries]]'
-- '[[databanks]]'
-- '[[databases]]'
-- '[[demographic_data]]'
-- '[[demographic_maps]]'
-- '[[dictionaries]]'
-- '[[digital_collections]]'
-- '[[digital_recordings]]'
-- '[[directories]]'
-- '[[discs]]'
-- '[[drawings]]'
-- '[[e-mail]]'
-- '[[electronic_data]]'
-- '[[electronic_documents]]'
-- '[[electronic_mail]]'
-- '[[electronic_publications]]'
-- '[[encyclopaedias]]'
-- '[[encyclopedias]]'
-- '[[faq]]'
-- '[[federal_government_publications]]'
-- '[[federal_publications]]'
-- '[[films]]'
-- '[[financial_statements]]'
-- '[[flowcharts]]'
-- '[[forms]]'
-- '[[frequently_asked_questions]]'
-- '[[gazetteers]]'
-- '[[geographic_data]]'
-- '[[geographic_information]]'
-- '[[geographical_data]]'
-- '[[geographical_information]]'
-- '[[geographical_maps]]'
-- '[[geological_maps]]'
-- '[[geospatial_data]]'
-- '[[geospatial_information]]'
-- '[[gift_books]]'
-- '[[glossaries]]'
-- '[[government_publications]]'
-- '[[guides]]'
-- '[[handbooks]]'
-- '[[indexes]]'
-- '[[information_bulletin]]'
-- '[[instructional_materials]]'
-- '[[interviews]]'
-- '[[inventories]]'
-- '[[laboratory_manuals]]'
-- '[[learning_kits]]'
-- '[[learning_materials]]'
-- '[[legal_documents]]'
-- '[[legal_records]]'
-- '[[legislative_amendments]]'
-- '[[lexicons]]'
-- '[[lithographs]]'
-- '[[machine_readable_data]]'
-- '[[magazines]]'
-- '[[manuals]]'
-- '[[manuscripts]]'
-- '[[mapping_data]]'
-- '[[maps]]'
-- '[[medical_records]]'
-- '[[meteorological_data]]'
-- '[[microfiches]]'
-- '[[microfilms]]'
-- '[[microforms]]'
-- '[[micrographics]]'
-- '[[minutes]]'
-- '[[mission_statements]]'
-- '[[monographic_series]]'
-- '[[motion_pictures]]'
-- '[[movies]]'
-- '[[moving_pictures]]'
-- '[[multimedia]]'
-- '[[multimedia_documents]]'
-- '[[multimedia_materials]]'
-- '[[multimedia_products]]'
-- '[[multimedia_technologies]]'
-- '[[music_scores]]'
-- '[[national_bibliographies]]'
-- '[[nautical_charts]]'
-- '[[navigation_charts]]'
-- '[[newsletters]]'
-- '[[newspapers]]'
-- '[[nomenclature]]'
-- '[[office_consolidations]]'
-- '[[official_publications]]'
-- '[[offprints]]'
-- '[[organizational_charts]]'
-- '[[pamphlets]]'
-- '[[periodicals]]'
-- '[[personal_information_banks]]'
-- '[[photographic_images]]'
-- '[[photographs]]'
-- '[[photos]]'
-- '[[position_papers]]'
-- '[[posters]]'
-- '[[press]]'
-- '[[press_releases]]'
-- '[[prints]]'
-- '[[product_codes]]'
-- '[[progress_reports]]'
-- '[[public_notices]]'
-- '[[questionnaires]]'
-- '[[records]]'
-- '[[registers]]'
-- '[[repertories]]'
-- '[[reports]]'
-- '[[road_maps]]'
-- '[[serials]]'
-- '[[slides]]'
-- '[[socioeconomic_data]]'
-- '[[sound_recordings]]'
-- '[[spatial_data]]'
-- '[[speeches]]'
-- '[[statements]]'
-- '[[statistical_data]]'
-- '[[statistical_profile]]'
-- '[[statistics]]'
-- '[[style_guides]]'
-- '[[style_manuals]]'
-- '[[submissions]]'
-- '[[supplements]]'
-- '[[tables]]'
-- '[[technical_reports]]'
-- '[[telephone_directories]]'
-- '[[testimony]]'
-- '[[thesauri]]'
-- '[[topographical_maps]]'
-- '[[user_guides]]'
-- '[[video_discs]]'
-- '[[video_disks]]'
-- '[[video_recordings]]'
-- '[[videocassettes]]'
-- '[[videodiscs]]'
-- '[[videodisks]]'
-- '[[videorecordings]]'
-- '[[videos]]'
-- '[[yearbooks]]'
+narrower:
+  - "[[administrative_data]]"
+  - "[[aeronautical_maps]]"
+  - "[[agenda]]"
+  - "[[almanacs]]"
+  - "[[amendments]]"
+  - "[[annual_reports]]"
+  - "[[architectural_drawings]]"
+  - "[[atlases]]"
+  - "[[bibliographies]]"
+  - "[[bills_of_sale]]"
+  - "[[biographies]]"
+  - "[[booklets]]"
+  - "[[books]]"
+  - "[[braille]]"
+  - "[[briefing_papers]]"
+  - "[[catalogues]]"
+  - "[[cd-roms]]"
+  - "[[census_data]]"
+  - "[[children_s_books]]"
+  - "[[compact_discs]]"
+  - "[[correspondence]]"
+  - "[[data_dictionaries]]"
+  - "[[databases]]"
+  - "[[demographic_data]]"
+  - "[[demographic_maps]]"
+  - "[[dictionaries]]"
+  - "[[digital_collections]]"
+  - "[[digital_recordings]]"
+  - "[[directories]]"
+  - "[[drawings]]"
+  - "[[electronic_documents]]"
+  - "[[electronic_mail]]"
+  - "[[encyclopaedias]]"
+  - "[[financial_statements]]"
+  - "[[flowcharts]]"
+  - "[[forms]]"
+  - "[[frequently_asked_questions]]"
+  - "[[gazetteers]]"
+  - "[[geographic_data]]"
+  - "[[geographical_maps]]"
+  - "[[geological_maps]]"
+  - "[[gift_books]]"
+  - "[[government_publications]]"
+  - "[[handbooks]]"
+  - "[[indexes]]"
+  - "[[information_bulletin]]"
+  - "[[instructional_materials]]"
+  - "[[interviews]]"
+  - "[[inventories]]"
+  - "[[legal_documents]]"
+  - "[[machine_readable_data]]"
+  - "[[manuscripts]]"
+  - "[[maps]]"
+  - "[[medical_records]]"
+  - "[[meteorological_data]]"
+  - "[[micrographics]]"
+  - "[[minutes]]"
+  - "[[mission_statements]]"
+  - "[[monographic_series]]"
+  - "[[multimedia]]"
+  - "[[music_scores]]"
+  - "[[national_bibliographies]]"
+  - "[[nautical_charts]]"
+  - "[[newsletters]]"
+  - "[[newspapers]]"
+  - "[[nomenclature]]"
+  - "[[office_consolidations]]"
+  - "[[offprints]]"
+  - "[[periodicals]]"
+  - "[[personal_information_banks]]"
+  - "[[photographs]]"
+  - "[[position_papers]]"
+  - "[[posters]]"
+  - "[[press_releases]]"
+  - "[[prints]]"
+  - "[[product_codes]]"
+  - "[[progress_reports]]"
+  - "[[public_notices]]"
+  - "[[questionnaires]]"
+  - "[[records]]"
+  - "[[registers]]"
+  - "[[reports]]"
+  - "[[road_maps]]"
+  - "[[slides]]"
+  - "[[socioeconomic_data]]"
+  - "[[sound_recordings]]"
+  - "[[statements]]"
+  - "[[statistical_profile]]"
+  - "[[statistics]]"
+  - "[[style_manuals]]"
+  - "[[submissions]]"
+  - "[[supplements]]"
+  - "[[tables]]"
+  - "[[technical_reports]]"
+  - "[[telephone_directories]]"
+  - "[[testimony]]"
+  - "[[thesauri]]"
+  - "[[topographical_maps]]"
+  - "[[videorecordings]]"
+  - "[[yearbooks]]"
 ---
 
 # FM Form descriptors

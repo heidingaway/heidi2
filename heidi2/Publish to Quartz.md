@@ -1,19 +1,19 @@
 ---
 title: Publish to Quartz
-aliases: []
 created: 2025-07-31
-modified: 2025-07-31
+modified: 2025-08-03
 tags: []
 date: 
 description: 
 draft: true
+mermaid_layers: 1
 permalink: 
-subject:
+topic:
   - "[[ObsidianMD]]"
 ---
 # Publish to Quartz
 to upload run: `npx quartz sync` in terminal
-## Frontmatter that are Natively Supported
+## Frontmatter that Are Natively Supported
 Some common frontmatter fields that are natively supported by Quartz:
 
 - `title`: Title of the page. If it isn’t provided, Quartz will use the name of the file as the title.

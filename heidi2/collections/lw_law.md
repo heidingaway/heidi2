@@ -1,164 +1,100 @@
 ---
 uri: http://www.thesaurus.gc.ca/#lw_law
+tags: prefix/gct
 aliases: LW Law
-members:
-- '[[aboriginal_law]]'
-- '[[acquittal]]'
-- '[[acts]]'
-- '[[adjudication]]'
-- '[[administration_of_justice]]'
-- '[[administrative_law]]'
-- '[[amendments]]'
-- '[[appeals]]'
-- '[[arrests]]'
-- '[[bills]]'
-- '[[business_law]]'
-- '[[by-laws]]'
-- '[[charter_of_rights_and_freedoms]]'
-- '[[charters]]'
-- '[[civil_law]]'
-- '[[commercial_law]]'
-- '[[community_justice]]'
-- '[[confidentiality]]'
-- '[[conflicts_of_interest]]'
-- '[[conjugal_status]]'
-- '[[constitution]]'
-- '[[constitution_act]]'
-- '[[constitutional_accord]]'
-- '[[constitutional_law]]'
-- '[[constitutional_negotiations]]'
-- '[[constitutional_reform]]'
-- '[[contracts]]'
-- '[[conviction]]'
-- '[[convicts]]'
-- '[[copyright]]'
-- '[[copyright_clearance]]'
-- '[[correctional_institutions]]'
-- '[[correctional_services]]'
-- '[[correctional_system]]'
-- '[[court_appearances]]'
-- '[[court_decisions]]'
-- '[[courts]]'
-- '[[criminal_code]]'
-- '[[criminal_justice]]'
-- '[[criminal_law]]'
-- '[[criminal_procedure]]'
-- '[[criminal_records]]'
-- '[[criminals_from_justice]]'
-- '[[detention]]'
-- '[[drug_laws]]'
-- '[[duty_to_accommodate]]'
-- '[[electoral_law]]'
-- '[[employment_act]]'
-- '[[employment_law]]'
-- '[[environmental_law]]'
-- '[[environmental_legislation]]'
-- '[[equality]]'
-- '[[estates]]'
-- '[[evidence]]'
-- '[[extradition]]'
-- '[[family_law]]'
-- '[[fiduciary_duty]]'
-- '[[fiduciary_obligations]]'
-- '[[fines]]'
-- '[[fire_arms]]'
-- '[[firearms]]'
-- '[[fiscal_law]]'
-- '[[forensic_medicine]]'
-- '[[forensics]]'
-- '[[forensics_technology]]'
-- '[[fugitives_from_justice]]'
-- '[[gangs]]'
-- '[[handguns]]'
-- '[[hearings]]'
-- '[[homicide]]'
-- '[[imprisonment]]'
-- '[[incorporation]]'
-- '[[indigenous_law]]'
-- '[[inequality]]'
-- '[[inheritance]]'
-- '[[injunctions]]'
-- '[[inmates]]'
-- '[[intellectual_property]]'
-- '[[international_courts]]'
-- '[[international_law]]'
-- '[[jails]]'
-- '[[judges]]'
-- '[[judicial_appointments]]'
-- '[[judicial_system]]'
-- '[[jurisprudence]]'
-- '[[justice]]'
-- '[[justice_system]]'
-- '[[juvenile_court]]'
-- '[[juvenile_offenders]]'
-- '[[labor_law]]'
-- '[[labour_law]]'
-- '[[law]]'
-- '[[laws]]'
-- '[[lease]]'
-- '[[legal_aid]]'
-- '[[legal_assistance]]'
-- '[[legal_decisions]]'
-- '[[legal_documents]]'
-- '[[legal_issues]]'
-- '[[legal_medicine]]'
-- '[[legal_obligations]]'
-- '[[legal_records]]'
-- '[[legal_rights]]'
-- '[[legal_services]]'
-- '[[legal_system]]'
-- '[[legal_writing]]'
-- '[[legislation]]'
-- '[[legislative_amendments]]'
-- '[[legislative_process]]'
-- '[[legislative_writing]]'
-- '[[litigation]]'
-- '[[marihuana]]'
-- '[[marijuana]]'
-- '[[marital_situation]]'
-- '[[marital_status]]'
-- '[[maritime_law]]'
-- '[[medical_law]]'
-- '[[methadone]]'
-- '[[military_law]]'
-- '[[most_wanted]]'
-- '[[offences]]'
-- '[[offenses]]'
-- '[[offensive_weapons]]'
-- '[[ombud]]'
-- '[[ombudsman]]'
-- '[[ombudsperson]]'
-- '[[organized_crime]]'
-- '[[parole]]'
-- '[[penal_institutions]]'
-- '[[penitentiaries]]'
-- '[[pistols]]'
-- '[[police_services]]'
-- '[[precedents]]'
-- '[[prisoners]]'
-- '[[prisons]]'
-- '[[pro_bono_legal_services]]'
-- '[[probate]]'
-- '[[prosecution]]'
-- '[[regulation]]'
-- '[[regulations]]'
-- '[[regulatory_agencies]]'
-- '[[replica_firearms]]'
-- '[[revolvers]]'
-- '[[search_warrants]]'
-- '[[sentences]]'
-- '[[sentencing]]'
-- '[[statutes]]'
-- '[[street_gangs]]'
-- '[[tax_law]]'
-- '[[testimony]]'
-- '[[trade_law]]'
-- '[[tribunals]]'
-- '[[trustees]]'
-- '[[verdicts]]'
-- '[[warranties]]'
-- '[[warrants]]'
-- '[[young_offenders]]'
+narrower:
+  - "[[acquittal]]"
+  - "[[administrative_law]]"
+  - "[[amendments]]"
+  - "[[appeals]]"
+  - "[[arrests]]"
+  - "[[by-laws]]"
+  - "[[charter_of_rights_and_freedoms]]"
+  - "[[charters]]"
+  - "[[civil_law]]"
+  - "[[commercial_law]]"
+  - "[[community_justice]]"
+  - "[[confidentiality]]"
+  - "[[conflicts_of_interest]]"
+  - "[[constitution]]"
+  - "[[constitutional_law]]"
+  - "[[contracts]]"
+  - "[[conviction]]"
+  - "[[copyright]]"
+  - "[[copyright_clearance]]"
+  - "[[correctional_institutions]]"
+  - "[[court_appearances]]"
+  - "[[court_decisions]]"
+  - "[[courts]]"
+  - "[[criminal_code]]"
+  - "[[criminal_justice]]"
+  - "[[criminal_law]]"
+  - "[[criminal_records]]"
+  - "[[drug_laws]]"
+  - "[[duty_to_accommodate]]"
+  - "[[employment_act]]"
+  - "[[environmental_law]]"
+  - "[[estates]]"
+  - "[[evidence]]"
+  - "[[extradition]]"
+  - "[[family_law]]"
+  - "[[fiduciary_obligations]]"
+  - "[[fines]]"
+  - "[[firearms]]"
+  - "[[fiscal_law]]"
+  - "[[forensics]]"
+  - "[[fugitives_from_justice]]"
+  - "[[gangs]]"
+  - "[[hearings]]"
+  - "[[homicide]]"
+  - "[[imprisonment]]"
+  - "[[incorporation]]"
+  - "[[indigenous_law]]"
+  - "[[inequality]]"
+  - "[[inheritance]]"
+  - "[[injunctions]]"
+  - "[[inmates]]"
+  - "[[intellectual_property]]"
+  - "[[international_courts]]"
+  - "[[international_law]]"
+  - "[[judges]]"
+  - "[[judicial_appointments]]"
+  - "[[jurisprudence]]"
+  - "[[justice_system]]"
+  - "[[juvenile_court]]"
+  - "[[labour_law]]"
+  - "[[law]]"
+  - "[[lease]]"
+  - "[[legal_aid]]"
+  - "[[legal_documents]]"
+  - "[[legal_issues]]"
+  - "[[legal_obligations]]"
+  - "[[legal_rights]]"
+  - "[[legal_services]]"
+  - "[[legislation]]"
+  - "[[legislative_writing]]"
+  - "[[litigation]]"
+  - "[[marijuana]]"
+  - "[[marital_status]]"
+  - "[[maritime_law]]"
+  - "[[medical_law]]"
+  - "[[methadone]]"
+  - "[[military_law]]"
+  - "[[offences]]"
+  - "[[ombud]]"
+  - "[[organized_crime]]"
+  - "[[parole]]"
+  - "[[police_services]]"
+  - "[[pro_bono_legal_services]]"
+  - "[[probate]]"
+  - "[[regulations]]"
+  - "[[regulations]]"
+  - "[[regulatory_agencies]]"
+  - "[[testimony]]"
+  - "[[trustees]]"
+  - "[[warranties]]"
+  - "[[warrants]]"
+  - "[[young_offenders]]"
 ---
 
 # LW Law

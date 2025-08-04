@@ -1,81 +1,53 @@
 ---
 uri: http://www.thesaurus.gc.ca/#hi_history_and_archaeology
+tags: prefix/gct
 aliases: HI History and Archaeology
-members:
-- '[[aboriginal_heritage]]'
-- '[[anniversaries]]'
-- '[[antiques]]'
-- '[[archaeological_excavation_sites]]'
-- '[[archaeological_investigations]]'
-- '[[archaeological_sites]]'
-- '[[archaeology]]'
-- '[[archeology]]'
-- '[[architectural_heritage]]'
-- '[[archives]]'
-- '[[arms_heraldry]]'
-- '[[artefacts]]'
-- '[[badges]]'
-- '[[battle_sites]]'
-- '[[canadian_history]]'
-- '[[cartographic_records]]'
-- '[[celebrations]]'
-- '[[coats_of_arms]]'
-- '[[coin_collecting]]'
-- '[[collector_coins]]'
-- '[[colonization]]'
-- '[[commemoration]]'
-- '[[commemorative_coins]]'
-- '[[costume]]'
-- '[[cultural_heritage]]'
-- '[[cultural_history]]'
-- '[[customs]]'
-- '[[economic_history]]'
-- '[[emblems]]'
-- '[[environmental_heritage]]'
-- '[[flags]]'
-- '[[genealogy]]'
-- '[[heraldry]]'
-- '[[heritage]]'
-- '[[heritage_buildings]]'
-- '[[heritage_conservation]]'
-- '[[heritage_resources]]'
-- '[[historic_buildings]]'
-- '[[historic_monuments]]'
-- '[[historic_plaques]]'
-- '[[historic_sites]]'
-- '[[historical_documents]]'
-- '[[historical_research]]'
-- '[[historical_societies]]'
-- '[[history]]'
-- '[[history_of_canada]]'
-- '[[marine_heritage]]'
-- '[[memorials]]'
-- '[[military_history]]'
-- '[[monuments]]'
-- '[[museology]]'
-- '[[museum_collections]]'
-- '[[museums]]'
-- '[[national_anthems]]'
-- '[[national_archives]]'
-- '[[national_flags]]'
-- '[[national_heritage]]'
-- '[[national_historic_sites]]'
-- '[[national_symbols]]'
-- '[[natural_heritage]]'
-- '[[natural_history]]'
-- '[[numismatics]]'
-- '[[philately]]'
-- '[[pioneers]]'
-- '[[religious_heritage]]'
-- '[[religious_history]]'
-- '[[social_history]]'
-- '[[sound_archives]]'
-- '[[stamp_collecting]]'
-- '[[traditions]]'
-- '[[visual_archives]]'
-- '[[war_cemeteries]]'
-- '[[war_memorials]]'
-- '[[world_heritage]]'
+narrower:
+  - "[[archaeological_investigations]]"
+  - "[[archaeology]]"
+  - "[[architectural_heritage]]"
+  - "[[archives]]"
+  - "[[artefacts]]"
+  - "[[canadian_history]]"
+  - "[[cartographic_records]]"
+  - "[[colonization]]"
+  - "[[commemoration]]"
+  - "[[costume]]"
+  - "[[cultural_heritage]]"
+  - "[[customs]]"
+  - "[[economic_history]]"
+  - "[[emblems]]"
+  - "[[flags]]"
+  - "[[genealogy]]"
+  - "[[heraldry]]"
+  - "[[heritage]]"
+  - "[[heritage_buildings]]"
+  - "[[heritage_conservation]]"
+  - "[[historic_sites]]"
+  - "[[historical_research]]"
+  - "[[historical_societies]]"
+  - "[[history]]"
+  - "[[marine_heritage]]"
+  - "[[military_history]]"
+  - "[[monuments]]"
+  - "[[museum_collections]]"
+  - "[[museums]]"
+  - "[[national_anthems]]"
+  - "[[national_archives]]"
+  - "[[national_heritage]]"
+  - "[[national_symbols]]"
+  - "[[natural_heritage]]"
+  - "[[natural_history]]"
+  - "[[numismatics]]"
+  - "[[philately]]"
+  - "[[pioneers]]"
+  - "[[religious_heritage]]"
+  - "[[religious_history]]"
+  - "[[social_history]]"
+  - "[[sound_archives]]"
+  - "[[visual_archives]]"
+  - "[[war_memorials]]"
+  - "[[world_heritage]]"
 ---
 
 # HI History and Archaeology

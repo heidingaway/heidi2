@@ -1,0 +1,71 @@
+# ==============================================================================
+# Essential Python Libraries for Knowledge Graph Extraction Script
+# This list is derived from a full 'pip freeze' output, filtered to
+# include only direct dependencies and their core, necessary transitive dependencies
+# for the knowledge graph generation functionality.
+#
+# To install these:
+# 1. (Optional, but Recommended) Create and activate a virtual environment:
+#    python3 -m venv venv
+#    source venv/bin/activate  (Linux/macOS)
+#    .\venv\Scripts\activate   (Windows)
+# 2. Install:
+#    pip install -r requirements.txt
+# ==============================================================================
+
+# Core Machine Learning & NLP
+transformers==4.54.1             # Main library for the REBEL model (Babelscape/rebel-large)
+torch==2.7.1                     # PyTorch, the deep learning framework used by transformers (CPU version)
+
+# Web Scraping and Article Parsing
+newspaper3k==0.2.8               # For downloading and parsing web articles
+GoogleNews==1.6.15               # For potentially fetching news article URLs
+wikipedia==1.4.0                 # For validating and enriching entities with Wikipedia data
+
+# Knowledge Graph Representation and Visualization
+rdflib==7.1.4                    # For creating and serializing the knowledge graph to Turtle (.ttl) format
+pyvis==0.3.2                     # For interactive graph visualization (if you choose to implement it)
+
+# Common Transitive Dependencies (pulled in by the above libraries)
+# These are often installed automatically, but explicitly listing them
+# ensures consistency and clarity.
+
+# Dependencies for `transformers`, `requests`, `newspaper3k`
+huggingface-hub==0.34.3          # Manages models and datasets from Hugging Face Hub
+tokenizers==0.21.4               # Tokenization backend for transformers
+safetensors==0.5.3               # For efficient loading/saving of model weights
+tqdm==4.67.1                     # Progress bars (used by transformers, nltk)
+filelock==3.18.0                 # For managing file access (used by transformers)
+packaging==25.0                  # For version parsing and compatibility checks
+regex==2025.7.34                 # Regular expression operations (often used by NLP libraries)
+requests==2.32.4                 # HTTP library for making web requests (core for scraping/APIs)
+charset-normalizer==3.4.2        # Character set detection for web content
+idna==3.10                       # Internationalized Domain Names in Applications
+urllib3==2.5.0                   # HTTP client library (dependency of requests)
+certifi==2025.7.14               # SSL Certificates for verifying HTTPS connections
+beautifulsoup4==4.13.4           # HTML/XML parsing (used by newspaper3k, GoogleNews, wikipedia)
+soupsieve==2.7                   # CSS selector engine for BeautifulSoup4
+lxml==6.0.0                      # High-performance XML/HTML parser (used by newspaper3k, wikipedia)
+nltk==3.9.1                      # Natural Language Toolkit (used by newspaper3k for NLP features)
+Pillow==11.3.0                   # Python Imaging Library (PIL fork, used by newspaper3k for images)
+cssselect==1.3.0                 # CSS Selectors for ElementTree (used by newspaper3k)
+feedparser==6.0.11               # Universal feed parser (used by newspaper3k)
+tldextract==5.3.0                # Extracts TLDs from URLs (used by newspaper3k)
+jieba3k==0.35.1                  # Chinese text segmentation (used by newspaper3k)
+tinysegmenter==0.3               # Japanese text segmentation (used by newspaper3k)
+
+# Dependencies for `pyvis`
+networkx==3.5                    # Graph creation and manipulation (dependency of pyvis)
+Jinja2==3.1.6                    # Templating engine (used by pyvis for HTML output)
+MarkupSafe==3.0.2                # HTML/XML markup safe string utility (dependency of Jinja2)
+
+# Dependencies for `rdflib`
+isoduration==20.11.0             # ISO 8601 duration parsing (used by rdflib)
+pyparsing==3.2.3                 # Parsing library (used by rdflib)
+python-dateutil==2.9.0.post0     # Extensions to datetime module (used by rdflib, newspaper3k)
+pytz==2025.2                     # World timezone definitions (used by python-dateutil)
+webencodings==0.5.1              # Character encoding detection (used by rdflib)
+six==1.17.0                      # Python 2 and 3 compatibility utilities (common dependency)
+
+# Numerical computing (often a dependency of torch, pandas, etc.)
+numpy==2.3.2                     # Fundamental package for numerical computation

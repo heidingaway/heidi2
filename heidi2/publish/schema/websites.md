@@ -1,16 +1,18 @@
 ---
 title: WebSite
+aliases:
+  - WebSite
+  - WebSites
 created: 2025-07-27
 modified: 2025-08-03
-tags: []
-context: schema
+tags: schema, gct
 draft: true
 mermaid_layers: 1
-permalink: null
-subClassOf:
-- '[[CreativeWork]]'
+permalink:
 related:
-- '[[CreativeWork]]'
+  - "[[CreativeWork]]"
+subClassOf:
+  - "[[CreativeWork]]"
 ---
 # WebSite
 

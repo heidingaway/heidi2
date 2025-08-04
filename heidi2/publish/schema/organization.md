@@ -1,17 +1,22 @@
 ---
 title: Organization
 aliases:
-- Organization
+  - Organization
+  - Organizations
 created: 2025-07-27
 modified: 2025-08-03
 tags: []
+broaderTerm:
+  - "[[so_society_and_culture]]"
 class:
-- '[[Class]]'
+  - "[[Thing]]"
 draft: true
-subClassOf:
-- '[[Thing]]'
+mermaid_layers: 1
+permalink: 
 related:
-- '[[Thing]]'
+  - "[[Thing]]"
+subClassOf:
+  - "[[Thing]]"
 ---
 # Organization
 An organization such as a school, NGO, corporation, club, etc.[^1]

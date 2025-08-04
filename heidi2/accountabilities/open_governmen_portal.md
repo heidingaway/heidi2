@@ -1,12 +1,12 @@
 ---
 title: Open Government Portal
 aliases:
-- Open Government Portal
+  - Open Government Portal
 created: 2025-07-30
 modified: 2025-08-03
 tags: []
 class:
-- '[[WebSite]]'
+  - "[[websites]]"
 draft: true
 related: []
 ---

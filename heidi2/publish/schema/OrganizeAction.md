@@ -1,17 +1,17 @@
 ---
 title: Organize Action
 aliases:
-- Organize Action
+  - Organize Action
 created: 2025-08-02
 modified: 2025-08-03
-tags: []
-context:
-- '[[schema]]'
+tags: prefix/schema
 draft: true
-subClassOf:
-- '[[Action]]'
+mermaid_layers: 1
+permalink:
 related:
-- '[[Action]]'
+  - "[[Action]]"
+subClassOf:
+  - "[[Action]]"
 ---
 # Organize Action
 
