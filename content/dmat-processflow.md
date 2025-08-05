@@ -36,8 +36,8 @@ start
 
   start ---> n1
   n1 --> n2
-  n2 -- Inferred Facts --> n3
-  n3 --> n4
+  n2 --> n3
+  n3 -- Inferred Facts --> n4
   n4 --> n5
   n5 -- Calculated Score --> n6
   n6 --> n7
