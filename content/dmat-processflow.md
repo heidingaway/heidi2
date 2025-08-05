@@ -34,7 +34,7 @@ start
   n9["Report with Maturity Level, Analysis, and Recommendations"]
   n10((Organization receives report))
 
-  id1 ---> n1
+  start ---> n1
   n1 --> n2
   n2 -- Inferred Facts --> n3
   n3 --> n4
