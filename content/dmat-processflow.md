@@ -13,7 +13,7 @@ permalink:
 
 ```mermaid
 flowchart TD
-id1((Organization inputs data))
+start
 
   subgraph s1["Knowledge Graph Layer"]
     n1["Model Ontologies and Maturity Profiles"]
