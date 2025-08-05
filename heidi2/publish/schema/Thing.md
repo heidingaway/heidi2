@@ -4,11 +4,11 @@ created: 2025-07-23
 modified: 2025-08-03
 tags: prefix/schema
 class:
-  - "[[Class]]"
+- '[[Class]]'
 draft: true
 mermaid_layers: 1
-permalink:
-subClassOf: "[[schema]]"
+permalink: null
+subClassOf: '[[schema]]'
 related: []
 ---
 # Thing

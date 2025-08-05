@@ -1,15 +1,15 @@
 ---
 title: Government Organization
 aliases:
-  - Government Organization
+- Government Organization
 created: 2025-07-27
 modified: 2025-08-03
 tags: []
 draft: true
 subClassOf:
-  - "[[organization]]"
+- '[[organization]]'
 related:
-  - "[[organization]]"
+- '[[Organization]]'
 ---
 # Government Organization
 

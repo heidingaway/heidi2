@@ -5,9 +5,9 @@ modified: 2025-08-03
 tags: prefix/schema
 draft: true
 subClassOf:
-  - "[[Intangible]]"
+- '[[Intangible]]'
 related:
-  - "[[Intangible]]"
+- '[[Intangible]]'
 ---
 # Rating
 

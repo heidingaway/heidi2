@@ -20,7 +20,7 @@ ochro:output a rdfs:Class ;
 ochro:stakeholder rdfs:subClassOf ochro:function ;
     rdfs:label "Stakeholder"@en ;
     rdfs:comment "Who interacts with it?"@en ;
-    ochro:interactsWith ochro:business_line , ochro:output
+    gc:interacts_with ochro:business_line , ochro:output
     .
 
 ochro:business_line rdfs:subClassOf ochro:function ; 
@@ -45,11 +45,11 @@ ochro:drives a owl:ObjectProperty ;
     rdfs:label "drives"@en ;
     owl:inverseOf ochro:isDrivenBy .
 
-ochro:interactsWith a owl:ObjectProperty ;
+gc:interacts_with a owl:ObjectProperty ;
     rdfs:domain ochro:stakeholder ;
     rdfs:range ochro:function ;
     rdfs:label "interacts with"@en ;
-    owl:inverseOf ochro:isInteractedBy .
+    owl:inverseOf gc:is_interacted_by .
 
 ochro:delivers a owl:ObjectProperty ;
     rdfs:domain ochro:business_line ;
@@ -75,7 +75,7 @@ ochro:isDrivenBy a owl:ObjectProperty ;
     rdfs:range ochro:output ;         
     rdfs:label "is driven by"@en .
 
-ochro:isInteractedBy a owl:ObjectProperty ;
+gc:is_interacted_by a owl:ObjectProperty ;
     rdfs:domain ochro:function ;      
     rdfs:range ochro:stakeholder ;    
     rdfs:label "is interacted by"@en .

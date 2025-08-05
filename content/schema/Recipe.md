@@ -2,9 +2,8 @@
 title: Recipe
 created: 2025-07-27
 modified: 2025-08-03
-tags: []
+tags: prefix/schema
 draft: false
-context: schema
 subClassOf:
 - '[[HowTo]]'
 entities:

@@ -5,10 +5,12 @@ modified: 2025-08-03
 tags: []
 draft: true
 equivalentClass:
-  - "[[State]]"
+- '[[State]]'
 mermaid_layers: 1
-permalink: 
+permalink: null
 subClassOf:
-  - "[[AdministrativeArea]]"
+- '[[AdministrativeArea]]'
+related:
+- '[[AdministrativeArea]]'
 ---
 # Province

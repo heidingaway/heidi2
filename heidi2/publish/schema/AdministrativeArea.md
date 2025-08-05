@@ -1,18 +1,20 @@
 ---
 title: Administrative Area
 aliases:
-  - Administrative Area
+- Administrative Area
 created: 2025-07-23
 modified: 2025-08-04
 tags:
-  - prefix/schema
-date: 
-description: 
+- prefix/schema
+date: null
+description: null
 draft: true
 mermaid_layers: 1
-permalink: 
+permalink: null
 subClassOf:
-  - "[[Place]]"
+- '[[Place]]'
+related:
+- '[[Place]]'
 ---
 # Administrative Area
 

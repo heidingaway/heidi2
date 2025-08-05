@@ -2,8 +2,7 @@
 title: State
 created: 2025-07-23
 modified: 2025-08-03
-tags: []
-context: schema
+tags: prefix/schema
 draft: false
 subClassOf:
 - '[[AdministrativeArea]]'
@@ -15,6 +14,10 @@ entities:
 > A state or province of a country.[^1]
 
 [^1]: [State - Schema.org Type](https://schema.org/State)
+
+## Related Links
+
+- [[AdministrativeArea]]
 
 ## Semantic Connections
 

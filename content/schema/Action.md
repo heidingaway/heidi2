@@ -26,6 +26,6 @@ graph TD
   Action["Action<br>+ label: Action<br>+ comment: //blog.schema.org/2014/04/announcing-schemaorg-actions.html) and [Actions overview document](https://schema.org/docs/actions.html)."]:::current-page-node
   Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]
   ActionCollabClass["ActionCollabClass"]
-  Action-->|" contributor "|ActionCollabClass
   Action-->|" subClassOf "|Thing
+  Action-->|" contributor "|ActionCollabClass
 ```

@@ -33,7 +33,7 @@ graph TD
   Stakeholder["Stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output-->|" drives "|Outcome_Statement
+  Outcome_Statement-->|" defines "|Function
   Function-->|" hasPart "|Stakeholder
   Function-->|" hasPart "|Business_Line
-  Outcome_Statement-->|" defines "|Function
 ```

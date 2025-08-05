@@ -5,7 +5,7 @@ modified: 2025-08-03
 tags: prefix/schema
 draft: true
 subClassOf:
-  - "[[HowTo]]"
+- '[[HowTo]]'
 related: []
 ---
 # Recipe

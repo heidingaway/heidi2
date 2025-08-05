@@ -2,8 +2,7 @@
 title: Place
 created: 2025-07-23
 modified: 2025-08-03
-tags: []
-context: schema
+tags: prefix/schema
 draft: false
 subClassOf:
 - '[[Thing]]'

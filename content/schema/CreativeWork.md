@@ -3,10 +3,12 @@ title: Creative Work
 aliases:
 - Creative Work
 created: 2025-07-23
-modified: 2025-08-03
-tags: []
-context: schema
+modified: 2025-08-04
+tags:
+- prefix/schema
 draft: false
+mermaid_layers: 1
+permalink: null
 subClassOf:
 - '[[Thing]]'
 entities:

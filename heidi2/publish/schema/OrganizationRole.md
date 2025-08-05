@@ -4,11 +4,13 @@ created: 2025-07-28
 modified: 2025-08-03
 tags: prefix/schema
 draft: true
-has: "[[accountability]]"
+has: '[[accountability]]'
 mermaid_layers: 1
-permalink:
+permalink: null
 subClassOf:
-  - "[[Role]]"
+- '[[Role]]'
+related:
+- '[[Role]]'
 ---
 # OrganizationRole
 

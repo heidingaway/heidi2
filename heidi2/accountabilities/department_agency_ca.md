@@ -2,7 +2,6 @@
 title: Department and Agency
 aliases:
 - Department and Agency
-- department_agency
 created: 2025-08-03
 modified: 2025-08-03
 tags: []

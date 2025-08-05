@@ -21,6 +21,7 @@ entities:
 
 - [[business_line]]
 - [[function]]
+- [[orgOntology]]
 - [[outcome_statement]]
 - [[output]]
 
@@ -32,16 +33,16 @@ graph TD
   Function["Function<br>+ label: Function"]
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
-  Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
   OCHRO_Function_Ontology["OCHRO Function Ontology<br>+ label: OCHRO Function Ontology<br>+ comment: An ontology for modeling Government of Canada functions.<br>+ versionInfo: v1.0"]
-  Output-->|" drives "|Outcome_Statement
+  Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
   Stakeholder-->|" subClassOf "|Function
-  Stakeholder-->|" interactsWith "|Output
-  Function-->|" hasPart "|Business_Line
-  Stakeholder-->|" interactsWith "|Business_Line
-  Outcome_Statement-->|" defines "|Function
-  OCHRO_Function_Ontology-->|" subject "|Function
-  Function-->|" hasPart "|Stakeholder
-  Business_Line-->|" subClassOf "|Function
   Business_Line-->|" delivers "|Output
+  Business_Line-->|" subClassOf "|Function
+  Function-->|" hasPart "|Stakeholder
+  Outcome_Statement-->|" defines "|Function
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interacts_with "|Output
+  OCHRO_Function_Ontology-->|" subject "|Function
+  Output-->|" drives "|Outcome_Statement
+  Stakeholder-->|" interacts_with "|Business_Line
 ```

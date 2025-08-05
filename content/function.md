@@ -2,6 +2,7 @@
 title: Function
 aliases:
 - Function
+- Functions
 created: 2025-07-28
 modified: 2025-08-03
 tags: []
@@ -32,12 +33,12 @@ graph TD
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
   Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
-  Output-->|" drives "|Outcome_Statement
   Stakeholder-->|" subClassOf "|Function
-  Function-->|" hasPart "|Business_Line
-  Stakeholder-->|" interactsWith "|Output
-  Stakeholder-->|" interactsWith "|Business_Line
-  Function-->|" hasPart "|Stakeholder
-  Business_Line-->|" subClassOf "|Function
   Business_Line-->|" delivers "|Output
+  Business_Line-->|" subClassOf "|Function
+  Function-->|" hasPart "|Stakeholder
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interacts_with "|Output
+  Output-->|" drives "|Outcome_Statement
+  Stakeholder-->|" interacts_with "|Business_Line
 ```
