@@ -212,4 +212,3 @@ This layered model is a perfect showcase of the power of a knowledge graph and r
 - **Actionable Insights:** This model is not just for assessment but for action. You can use SPARQL queries or rules to identify weaknesses and generate recommendations. For example: "Find all organizations with an overall maturity of less than 3 where their 'Data Governance' topic is less than 2." This helps you target interventions precisely.
 
 This is exactly the kind of complex, multi-layered problem that a well-designed knowledge graph, powered by a rules engine, is built to solve.
-

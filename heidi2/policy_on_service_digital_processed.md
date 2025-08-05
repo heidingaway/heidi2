@@ -19,7 +19,7 @@ permalink:
 	- [[rules]]
 	- [[service_digital_functions]]
 3. Policy on Service and Digital applies to Government of Canada organizations.
-	- [[department_agency_ca|department_agency]]
+	- [[accountabilities1/department_agency_ca|department_agency]]
 4. Policy on Service and Digital defines how Government of Canada organizations manage service delivery.
 	- [[manages_service_delivery]]
 5. Policy on Service and Digital defines how Government of Canada organizations manage information and data.
@@ -35,7 +35,7 @@ permalink:
 	- [[service_delivery]]
 	- [[information_data]]
 	- [[information_technology]]
-	- [[cyber_security]]
+	- [[accountabilities1/cyber_security]]
 11. Government of Canada organizations must follow requirements for managing service and digital functions in conjunction with requirements for privacy, requirements for official languages, and requirements for accessibility.
 	- [[privacy_requirements]]
 	- [[official_languages_requirements]]
@@ -52,7 +52,7 @@ permalink:
 	- [[clients]]
 16. clients use operations and services.
 17. Focusing on the client includes considering proactively key requirements when designing operations and services.
-	- [[department_agency_ca]] performs
+	- [[accountabilities1/department_agency_ca]] performs
 	- [[government_operations_services design]] has [[key_requirements]]
 	- [[requirements]] include [[key requirements]]
 18. operations and services includes programs.
