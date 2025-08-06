@@ -17,7 +17,7 @@ Directs the development and implementation of strategies, frameworks, policies, 
 [[data_information]]> [[data_information_asset]]
 [[policy_suite]]> [[policy]]> [[supporting_instrument]]>[[strategies]] ,  [[frameworks]] ,  [[directives]] , [[standards]],[[guidelines]]
 [[policy_suite_service_digital]] > [[data_information_policy_suite]]
-[[leads_data_information_governance]]
+[[leads_data_information_functions]]
 [[develops_data_information_policy_suite]]
 [[implements_data_information_policy_suite]]
 Identifies and provides leadership on opportunities to enhance service delivery through data and automation.

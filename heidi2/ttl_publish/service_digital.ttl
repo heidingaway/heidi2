@@ -554,13 +554,41 @@ gc:chief_digital_service_officer a rdfs:OrganizationRole ;
 
 gc:service_digital_functions a rdfs:Class , ochro:function .
 
-gc:data_information_functions rdfs:subClassOf  gc:service_digital_functions .
+gc:data_information_functions rdfs:subClassOf  gc:service_digital_functions ;
+    dcterms:hasPart 
+        gc:data_information_functions_stakeholder,
+        gc:data_information_functions_business_line ;
+    gc:reports_to gc:chief_data_office
+    .
 
-gc:data_information_outputs rdfs:subClassOf gc:service_digital_output .
+gc:leads_data_information_functions a schema:government_action ;
+    schema:agent gc:chief_data_officer ;
+    schema:object 
+        gc:develops_data_information_policy_suite ,
+        gc:implements_data_information_policy_suite ,
+        gc:enhance_service_delivery_automation ,
+        gc:enhance_service_delivery_data_information ,
+        gc:integrates_data_information_functions_business ## Heidi continue here     
+        ;
+    schema:provider gc:data_information_functions
+    .
+
+gc:develops_data_information_policy_suite rdfs:subClassOf schema:leads_data_information_functions ;
+    schema:agent gc:chief_data_office ;
+    schema:result gc:data_information_policy_suite
+    .
+
+gc:s rdfs:subClassOf schema:leads_data_information_functions .
+
+gc:chief_data_office rdfs:subClassOf schema:data_information_functions ;
+    gc:provides gc:data_information_functions
+    .
+
+gc:data_information_functions_output rdfs:subClassOf gc:service_digital_output .
 
 gc:service_digital_output a rdfs:Class , ochro:output .
 
-gc:data_information_policy_suite a gc:data_information_outputs ;
+gc:data_information_policy_suite a gc:data_information_functions_output ;
     dcterms:hasPart gc:data_information_policy , gc:data_information_supporting_instruments
     .
 
