@@ -1,10 +1,9 @@
 ---
 title: Web-based Reasoning Engine Demo
-aliases:
-  - Web-based Reasoning Engine Demo
 created: 2025-08-05
 modified: 2025-08-05
 tags: []
+class: "[[Python]]"
 draft: true
 mermaid_layers: 2
 permalink: 

@@ -32,15 +32,15 @@ rdfs:subClassOf a rdf:Property ;
 	rdfs:range rdfs:Class ;
 	rdfs:domain rdfs:Class .
 
-gc:service_digital_suite a rdfs:Resource , rdfs:Class ;
+gc:service_digital_suite a rdfs:Resource , gc:policy_suite ;
     skos:prefLabel "Service and Digital policy Suite"@en ;
     rdfs:seeAlso <https://www.tbs-sct.canada.ca/pol/topic-sujet-eng.aspx?ta=27> ;
-    dcterms:hasPart gc:policy_service_digital , gc:service_digital_supporting_instruments
+    dcterms:hasPart gc:policy_service_digital , gc:service_digital_supporting_instrument
     .
 
-gc:policy_service_digital a rdfs:Class , gc:policy_instrument, gc:rule_set;
+gc:policy_service_digital a rdfs:Class , gc:policy_suite, gc:rule_set;
     rdfs:label "Policy on Service and Digital"@en ;
-    gc:supportedBy gc:service_digital_supporting_instruments ;
+    gc:supportedBy gc:service_digital_supporting_instrument ;
     gc:in_conjunction_with gc:privacy_requirements , gc:official_languages_requirements , gc:accessibility_requirements ;
     schema:object gc:service_digital_functions ;
     schema:provider gc:department_agency_ca ;
@@ -100,7 +100,8 @@ gc:manages_data_information_strategic rdfs:subClassOf gc:advances_government_ope
     dcterms:hasPart gc:manages_data_information , gc:is_strategic
     .
 
-gc:service_digital_supporting_instruments a rdfs:Class , gc:policy_instrument ;
+gc:service_digital_supporting_instrument a rdfs:Class ;
+    rdfs:subClassOf gc:policy_suite ;
     rdfs:label "Policy on Service and Digital Supporting Instruments"@en ;
     gc:supports gc:policy_service_digital .
 
@@ -113,6 +114,10 @@ gc:government a rdfs:Class , wiki:government;
     rdfs:label "Government of Canada"
     .
 
+gc:policy_suite a rdfs:Class , schema:CreativeWorkSeries;
+    dcterms:hasPart gc:policy , gc:supporting_instrument.
+
+
 gc:policy a rdfs:Class , schema:CreativeWork ;
     rdfs:label "Public policy"@en ;
     rdfs:comment "about what governments choose to do, or not do"@en ; 
@@ -120,8 +125,13 @@ gc:policy a rdfs:Class , schema:CreativeWork ;
     schema:potentialAction gc:government_action 
     .
 
-gc:policy_instrument rdfs:subClassOf gc:policy ;
-    rdfs:label "Policy instrument"@en
+gc:supporting_instrument rdfs:subClassOf gc:policy_suite ;
+    dcterms:hasPart 
+        gc:strategy ,
+        gc:framework ,
+        gc:directive ,
+        gc:standard ,
+        gc:guideline
     .
 
 gc:government_action a rdfs:Class , schema:OrganizeAction ;
@@ -170,7 +180,9 @@ gc:service_delivery a rdfs:Class ;
 
 gc:data_information a rdfs:Class ;
     rdfs:label "Data and Information" ;
-    rdfs:subClassOf gc:service_digital_functions .
+    rdfs:subClassOf ochro:service_digital_functions_output .
+
+gc:service_digital_functions_output a ochro:output .
 
 gc:information_technology a rdfs:Class ;
     rdfs:label "Information Technology" ;
@@ -273,62 +285,62 @@ gc:statistics_act
     dcterms:isReferencedBy <https://laws-lois.justice.gc.ca/eng/acts/s-19/> .
 
 gc:foundation_framework_for_treasury_board_policies
-    a gc:policy_instrument ;
+    a gc:supporting_instrument ;
     rdfs:label "Foundation Framework for Treasury Board Policies" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=13616> .
 
 gc:policy_on_access_to_information
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Access to Information" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=12453> .
 
 gc:policy_on_communications_and_federal_identity
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Communications and Federal Identity" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=30683> .
 
 gc:policy_on_green_procurement
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Green Procurement" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32573> .
 
 gc:policy_on_government_security
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Government Security" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=12361> .
 
 gc:policy_on_the_planning_and_management_of_investments
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on the Planning and Management of Investments" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32593> .
 
 gc:policy_on_official_languages
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Official Languages" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=12368> .
 
 gc:policy_on_privacy_protection
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Privacy Protection" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32738> .
 
 gc:policy_on_results
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Results" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=31300> .
 
 gc:policy_on_the_duty_to_accommodate
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on the Duty to Accommodate Persons with Disabilities in the Federal Public Service" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/hr-rh/baa-am/index-eng.asp> .
 
 gc:policy_on_transfer_payments
-    a gc:policy_instrument ;
+    a gc:policy ;
     rdfs:label "Policy on Transfer Payments" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=14208> .
 
 gc:values_and_ethics_code_for_the_public_sector
-    a gc:policy_instrument ;
+    a gc:supporting_instrument ;
     rdfs:label "Values and Ethics Code for the Public Sector" ;
     dcterms:isReferencedBy <https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25150> .
 
@@ -364,7 +376,7 @@ gc:user rdfs:subClassOf gc:client ;
 gc:government_operations_services a rdfs:Class ;
     rdfs:label "Government operations and services".
 
-gc:service_digital_functions a rdfs:Class ;
+gc:service_digital_functions a rdfs:Class , ochro:function ;
     rdfs:subClassOf gc:government_operations_services ;
     rdfs:label "Service and digital functions"
     .
@@ -468,3 +480,98 @@ dcterms:partOf a owl:ObjectProperty ;
     rdfs:range ochro:function ;       
     rdfs:label "part of"@en .
 
+
+<CDO_Job_Description_Template_December_2024.docx> a owl:Ontology ;
+    rdfs:label "CDO Job Description Template" ;
+    dcterms:issued "2024-12-01" 
+    .
+
+gc:chief_data_officer a rdfs:Class , schema:OrganizationRole ;
+    rdfs:label  "Chief Data Officer"@en  ;
+    gc:has_accountabilities gc:cdo_accountabilities ;
+    gc:reports_to gc:chief_digital_service_officer
+    .
+
+gc:chief_technology_officer a rdfs:Class , schema:OrganizationRole ;
+    rdfs:label  "Chief Technology Officer"@en  ;
+    gc:has_accountabilities gc:cto_accountabilities ;
+    gc:reports_to gc:chief_digital_service_officer
+    .
+
+gc:cdo_accountabilities a rdfs:Class .
+
+gc:cdo_specific_accountabilities rdfs:subClassOf rdfs:cdo_accountabilities ;
+    dcterms:hasPart 
+        gc:cdo_accountability_1 ,
+        gc:cdo_accountability_10 ,
+        gc:cdo_accountability_2 ,
+        gc:cdo_accountability_3 ,
+        gc:cdo_accountability_4 ,
+        gc:cdo_accountability_5 ,
+        gc:cdo_accountability_6 ,
+        gc:cdo_accountability_7 ,
+        gc:cdo_accountability_8 ,
+        gc:cdo_accountability_9
+    .
+
+
+gc:cdo_general_accountabilities rdfs:subClassOf gc:cdo_accountabilities ;
+    dcterms:hasPart gc:cdo_accountability_11.
+
+gc:cdo_accountability_1 dcterms:subject gc:leadership .
+
+gc:cdo_accountability_2 dcterms:subject gc:governance .
+
+gc:cdo_accountability_3 dcterms:subject gc:quality .
+
+gc:cdo_accountability_4 dcterms:subject gc:collaboration .
+
+gc:cdo_accountability_5 dcterms:subject gc:management .
+
+gc:cdo_accountability_6 dcterms:subject gc:insights  .
+
+gc:cdo_accountability_7 dcterms:subject gc:operations  .
+
+gc:cdo_accountability_8 dcterms:subject gc:operations .
+
+gc:cdo_accountability_9 dcterms:subject gc:operations  .
+
+gc:cdo_accountability_10 dcterms:subject gc:innovation .
+
+gc:cdo_accountability_11 dcterms:subject gc:innovation .
+
+schema:OrganizationRole rdfs:subClassOf schema:Role  .
+
+gc:cdso_specific_accountabilities rdfs:subClassOf gc:cdso_accountabilities .
+
+gc:cdso_general_accountabilities rdfs:subClassOf gc:cdso_accountabilities .
+
+gc:chief_digital_service_officer a rdfs:OrganizationRole ;
+    gc:has_accountabilities gc:cdso_accountabilities ;
+    gc:reports_to gc:deputy_head ;
+    dcterms:partOf gc:service_digital_functions
+    .
+
+gc:service_digital_functions a rdfs:Class , ochro:function .
+
+gc:data_information_functions rdfs:subClassOf  gc:service_digital_functions .
+
+gc:data_information_outputs rdfs:subClassOf gc:service_digital_output .
+
+gc:service_digital_output a rdfs:Class , ochro:output .
+
+gc:data_information_policy_suite a gc:data_information_outputs ;
+    dcterms:hasPart gc:data_information_policy , gc:data_information_supporting_instruments
+    .
+
+gc:policy_suite a rdfs:Class , schema:CreativeWorkSeries;
+    dcterms:hasPart gc:policy , gc:supporting_instruments.
+
+gc:supporting_instruments rdfs:subClassOf gc:policy_suite ;
+    dcterms:hasPart 
+        gc:strategy ,
+        gc:framework ,
+        gc:directive ,
+        gc:standard ,
+        gc:guideline
+    .
