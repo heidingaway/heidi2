@@ -1,11 +1,16 @@
 ---
-uri: https://www.canada.ca/#policy
-title: Public policy
-mermaid_layers: 3
+title: Public Policy
+aliases:
+- Public Policy
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
+mermaid_layers: 1
+permalink: null
 related:
-- '[[CreativeWork]]'
-- '[[information_technology]]'
-- '[[websites]]'
+- '[[Government]]'
+- '[[government_action]]'
+uri: https://www.canada.ca/#policy
 ---
-# Public policy
-
+# Public Policy

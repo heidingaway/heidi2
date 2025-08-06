@@ -1,15 +1,21 @@
 ---
+title: Rule
+aliases:
+- Rule
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: false
+mermaid_layers: 2
+permalink: null
 uri: https://www.canada.ca/#rule
-title: rule
-mermaid_layers: 3
 entities:
 - https://www.canada.ca/#rule
-draft: false
 ---
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  rule["rule<br>+ label: rule"]:::current-page-node
+  Rule["Rule<br>+ label: rule"]:::current-page-node
 ```

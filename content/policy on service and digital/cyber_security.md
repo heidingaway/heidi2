@@ -1,7 +1,7 @@
 ---
 uri: https://www.canada.ca/#cyber_security
 title: Cyber Security
-mermaid_layers: 3
+mermaid_layers: 2
 entities:
 - https://www.canada.ca/#cyber_security
 - https://www.canada.ca/#government_operations_services
@@ -21,6 +21,6 @@ graph TD
   Cyber_Security["Cyber Security<br>+ label: Cyber Security"]:::current-page-node
   Service_and_digital_functions["Service and digital functions<br>+ label: Service and digital functions"]
   Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
-  Cyber_Security-->|" subClassOf "|Service_and_digital_functions
   Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
+  Cyber_Security-->|" subClassOf "|Service_and_digital_functions
 ```

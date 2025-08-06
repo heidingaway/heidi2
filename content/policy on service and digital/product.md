@@ -1,12 +1,18 @@
 ---
-uri: https://www.canada.ca/#product
 title: Product
-mermaid_layers: 3
+aliases:
+- Product
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: false
+mermaid_layers: 1
+permalink: null
+uri: https://www.canada.ca/#product
 entities:
 - https://schema.org/Product
 - https://schema.org/Thing
 - https://schema.org/docs/collab/GoodRelationsTerms
-draft: false
 ---
 
 ## Related Links

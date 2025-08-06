@@ -1,7 +1,13 @@
 ---
-uri: https://www.canada.ca/#public_service_employment_act
 title: Public Service Employment Act
+aliases:
+- Public Service Employment Act
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
 mermaid_layers: 2
+permalink: null
 related:
 - '[[access_to_information_act]]'
 - '[[canada_evidence_act]]'
@@ -18,6 +24,6 @@ related:
 - '[[service_fees_act]]'
 - '[[shared_services_canada_act]]'
 - '[[statistics_act]]'
+uri: https://www.canada.ca/#public_service_employment_act
 ---
 # Public Service Employment Act
-

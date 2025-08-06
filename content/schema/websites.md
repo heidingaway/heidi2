@@ -42,16 +42,16 @@ graph TD
   web_usability["web_usability"]
   templates["templates"]
   CreativeWork["CreativeWork<br>+ label: CreativeWork<br>+ comment: The most generic kind of creative work, including books, movies, photographs, software programs, etc."]
-  WebSite-->|" narrower "|web_usability
-  internet-->|" narrower "|WebSite
+  WebSite-->|" broader "|in_information_and_communications
   web_usability-->|" broader "|WebSite
   WebSite-->|" subClassOf "|CreativeWork
-  WebSite-->|" related "|templates
-  WebSite-->|" broader "|in_information_and_communications
-  WebSite-->|" inScheme "|httpwwwthesaurusgcca
+  WebSite-->|" narrower "|web_usability
   WebSite-->|" broader "|internet
+  WebSite-->|" inScheme "|httpwwwthesaurusgcca
   templates-->|" related "|WebSite
-  WebSite-->|" broader "|st_science_and_technology
   in_information_and_communications-->|" narrower "|WebSite
+  WebSite-->|" related "|templates
+  internet-->|" narrower "|WebSite
   st_science_and_technology-->|" narrower "|WebSite
+  WebSite-->|" broader "|st_science_and_technology
 ```

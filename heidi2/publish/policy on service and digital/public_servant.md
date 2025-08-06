@@ -1,11 +1,15 @@
 ---
-uri: https://www.canada.ca/#public_servant
-title: Public servant
-mermaid_layers: 3
+title: Public Servant
+aliases:
+- Public Servant
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
+mermaid_layers: 1
+permalink: null
 related:
-- '[[Intangible]]'
 - '[[OrganizationRole]]'
-- '[[Role]]'
+uri: https://www.canada.ca/#public_servant
 ---
-# Public servant
-
+# Public Servant

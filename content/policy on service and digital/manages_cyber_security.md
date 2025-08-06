@@ -4,8 +4,10 @@ title: Manages cyber security
 mermaid_layers: 3
 entities:
 - http://www.thesaurus.gc.ca/#information_technology
+- https://www.canada.ca/#chief_digital_service_officer
 - https://www.canada.ca/#cyber_security
 - https://www.canada.ca/#data_information
+- https://www.canada.ca/#data_information_functions
 - https://www.canada.ca/#deliver_government_operations_services
 - https://www.canada.ca/#department_agency_ca
 - https://www.canada.ca/#government_operations_services
@@ -45,35 +47,38 @@ graph TD
   Manages_cyber_security["Manages cyber security<br>+ label: Manages cyber security"]:::current-page-node
   Manages_service_and_digital_functions["Manages service and digital functions<br>+ label: Manages service and digital functions"]
   Cyber_Security["Cyber Security<br>+ label: Cyber Security"]
-  Delivery_government_operations_and_services["Delivery government operations and services<br>+ label: Delivery government operations and services"]
   Service_and_digital_functions["Service and digital functions<br>+ label: Service and digital functions"]
+  Delivery_government_operations_and_services["Delivery government operations and services<br>+ label: Delivery government operations and services"]
   Manages_service_delivery["Manages service delivery<br>+ label: Manages service delivery"]
   Manages_data_and_information["Manages data and information<br>+ label: Manages data and information"]
   Manages_information_technology["Manages information technology<br>+ label: Manages information technology"]
-  Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
-  Policy_on_Service_and_Digital["Policy on Service and Digital<br>+ label: Policy on Service and Digital<br>+ comment: The Policy on Service and Digital defines how a Government Department Agency manages service and digital functions. "]
-  Service_delivery["Service delivery<br>+ label: Service delivery"]
   Data_and_Information["Data and Information<br>+ label: Data and Information"]
-  Information_Technology["Information Technology<br>+ label: Information Technology"]
-  GC_Departments_or_Agencies["GC Departments or Agencies<br>+ label: GC Departments or Agencies"]
   strategic_management_of_data_and_information["strategic management of data and information<br>+ label: strategic management of data and information"]
-  GC_Departments_or_Agencies-->|" performs "|Delivery_government_operations_and_services
-  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
-  Cyber_Security-->|" subClassOf "|Service_and_digital_functions
-  Manages_data_and_information-->|" object "|Data_and_Information
-  Manages_information_technology-->|" object "|Information_Technology
+  Service_delivery["Service delivery<br>+ label: Service delivery"]
+  Information_Technology["Information Technology<br>+ label: Information Technology"]
+  Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
+  GC_Departments_or_Agencies["GC Departments or Agencies<br>+ label: GC Departments or Agencies"]
+  Policy_on_Service_and_Digital["Policy on Service and Digital<br>+ label: Policy on Service and Digital<br>+ comment: The Policy on Service and Digital defines how a Government Department Agency manages service and digital functions. "]
+  chief_digital_service_officer["chief_digital_service_officer"]
+  data_information_functions["data_information_functions"]
   Manages_cyber_security-->|" subClassOf "|Manages_service_and_digital_functions
-  strategic_management_of_data_and_information-->|" hasPart "|Manages_data_and_information
   Manages_service_delivery-->|" subClassOf "|Manages_service_and_digital_functions
-  Manages_service_and_digital_functions-->|" object "|Service_and_digital_functions
-  Manages_information_technology-->|" subClassOf "|Manages_service_and_digital_functions
-  Delivery_government_operations_and_services-->|" object "|Government_operations_and_services
-  Information_Technology-->|" subClassOf "|Service_and_digital_functions
-  Data_and_Information-->|" subClassOf "|Service_and_digital_functions
-  Manages_cyber_security-->|" object "|Cyber_Security
   Manages_data_and_information-->|" subClassOf "|Manages_service_and_digital_functions
-  Manages_service_and_digital_functions-->|" subClassOf "|Delivery_government_operations_and_services
-  Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
-  Manages_service_delivery-->|" object "|Service_delivery
+  data_information_functions-->|" subClassOf "|Service_and_digital_functions
+  strategic_management_of_data_and_information-->|" hasPart "|Manages_data_and_information
+  chief_digital_service_officer-->|" partOf "|Service_and_digital_functions
   Service_delivery-->|" subClassOf "|Service_and_digital_functions
+  Manages_cyber_security-->|" object "|Cyber_Security
+  Manages_service_and_digital_functions-->|" subClassOf "|Delivery_government_operations_and_services
+  Manages_service_and_digital_functions-->|" object "|Service_and_digital_functions
+  Manages_information_technology-->|" object "|Information_Technology
+  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
+  Manages_service_delivery-->|" object "|Service_delivery
+  Information_Technology-->|" subClassOf "|Service_and_digital_functions
+  Delivery_government_operations_and_services-->|" object "|Government_operations_and_services
+  Cyber_Security-->|" subClassOf "|Service_and_digital_functions
+  Manages_information_technology-->|" subClassOf "|Manages_service_and_digital_functions
+  GC_Departments_or_Agencies-->|" performs "|Delivery_government_operations_and_services
+  Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
+  Manages_data_and_information-->|" object "|Data_and_Information
 ```

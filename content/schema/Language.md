@@ -35,9 +35,9 @@ graph TD
   inLanguage["inLanguage<br>+ label: inLanguage<br>+ comment: //tools.ietf.org/html/bcp47). See also [[availableLanguage]]."]
   Intangible["Intangible<br>+ label: Intangible<br>+ comment: A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc."]
   Language-->|" domainIncludes "|CommunicateAction
-  Language-->|" domainIncludes "|WriteAction
-  Language-->|" supersededBy "|inLanguage
   Language-->|" subPropertyOf "|instrument
-  Language-->|" rangeIncludes "|Language_1
   Language-->|" subClassOf "|Intangible
+  Language-->|" supersededBy "|inLanguage
+  Language-->|" domainIncludes "|WriteAction
+  Language-->|" rangeIncludes "|Language_1
 ```

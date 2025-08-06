@@ -1,18 +1,18 @@
 ---
-uri: https://www.canada.ca/#user
 title: User
-mermaid_layers: 3
+aliases:
+- User
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
+mermaid_layers: 2
+permalink: null
 related:
-  - "[[client]]"
-  - "[[publish/policy on service and digital/cyber_security]]"
-  - "[[data_information]]"
-  - "[[government_operations_services]]"
-  - "[[information_technology]]"
-  - "[[manages_information_technology]]"
-  - "[[manages_service_digital_functions]]"
-  - "[[policy_service_digital]]"
-  - "[[service_delivery]]"
-  - "[[service_digital_functions]]"
+- '[[client]]'
+- '[[information_technology]]'
+- '[[manages_information_technology]]'
+- '[[service_digital_functions]]'
+uri: https://www.canada.ca/#user
 ---
 # User
-

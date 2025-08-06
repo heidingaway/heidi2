@@ -1,12 +1,14 @@
 ---
 title: Readme
-aliases: []
+aliases:
+  - Readme
 created: 2025-07-23
-modified: 2025-08-02
+modified: 2025-08-06
 tags: []
 date: 
 description: 
 draft: true
+mermaid_layers: 2
 permalink: 
 ---
 # Readme

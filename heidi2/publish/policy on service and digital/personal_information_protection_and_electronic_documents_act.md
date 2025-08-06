@@ -1,7 +1,13 @@
 ---
-uri: https://www.canada.ca/#personal_information_protection_and_electronic_documents_act
 title: Personal Information Protection and Electronic Documents Act (Part 2)
+aliases:
+- Personal Information Protection and Electronic Documents Act (Part 2)
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
 mermaid_layers: 2
+permalink: null
 related:
 - '[[access_to_information_act]]'
 - '[[canada_evidence_act]]'
@@ -18,6 +24,6 @@ related:
 - '[[service_fees_act]]'
 - '[[shared_services_canada_act]]'
 - '[[statistics_act]]'
+uri: https://www.canada.ca/#personal_information_protection_and_electronic_documents_act
 ---
 # Personal Information Protection and Electronic Documents Act (Part 2)
-

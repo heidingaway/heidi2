@@ -78,52 +78,52 @@ graph TD
   Service_Fees_Act["Service Fees Act<br>+ label: Service Fees Act"]
   Shared_Services_Canada_Act["Shared Services Canada Act<br>+ label: Shared Services Canada Act"]
   Statistics_Act["Statistics Act<br>+ label: Statistics Act"]
-  s_19["s-19"]
-  l_77["l-7.7"]
-  o_301["o-3.01"]
-  s_23["s-23"]
-  p_86["p-8.6"]
-  s_89["s-8.9"]
-  p_21["p-21"]
-  s_84["s-8.4"]
+  f_11["f-11"]
   e_45["e-4.5"]
-  a_1["a-1"]
-  c_5["c-5"]
   d_2["d-2"]
+  l_77["l-7.7"]
+  s_84["s-8.4"]
+  p_21["p-21"]
+  s_23["s-23"]
+  o_301["o-3.01"]
+  c_5["c-5"]
   p_3301["p-33.01"]
+  p_86["p-8.6"]
+  a_1["a-1"]
+  s_19["s-19"]
+  s_89["s-8.9"]
   Policy_on_Service_and_Digital["Policy on Service and Digital<br>+ label: Policy on Service and Digital<br>+ comment: The Policy on Service and Digital defines how a Government Department Agency manages service and digital functions. "]
   Related_policy_instruments["Related policy instruments<br>+ label: Related policy instruments"]
-  f_11["f-11"]
   Public_Service_Employment_Act-->|" isReferencedBy "|p_3301
-  Official_Languages_Act-->|" isReferencedBy "|o_301
-  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
-  Library_and_Archives_of_Canada_Act-->|" isReferencedBy "|l_77
-  Privacy_Act-->|" isReferencedBy "|p_21
-  Access_to_Information_Act-->|" isReferencedBy "|a_1
-  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
   Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
-  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
-  Shared_Services_Canada_Act-->|" isReferencedBy "|s_89
+  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
   Emergency_Management_Act-->|" isReferencedBy "|e_45
+  Reference_legislations-->|" hasPart "|Access_to_Information_Act
+  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
+  Library_and_Archives_of_Canada_Act-->|" isReferencedBy "|l_77
+  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
+  Reference_legislations-->|" hasPart "|Service_Fees_Act
+  Privacy_Act-->|" isReferencedBy "|p_21
+  Official_Languages_Act-->|" isReferencedBy "|o_301
+  Canada_Evidence_Act-->|" isReferencedBy "|c_5
+  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
+  Reference_legislations-->|" hasPart "|Security_of_Information_Act
+  Reference_legislations-->|" hasPart "|Emergency_Management_Act
+  Service_Fees_Act-->|" isReferencedBy "|s_84
+  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Personal_Information_Protection_and_Electronic_Documents_Act_Part_2-->|" isReferencedBy "|p_86
+  Access_to_Information_Act-->|" isReferencedBy "|a_1
+  Reference_legislations-->|" hasPart "|Official_Languages_Act
+  Reference_legislations-->|" hasPart "|Financial_Administration_Act
+  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
+  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
   Security_of_Information_Act-->|" isReferencedBy "|s_23
   Department_of_Justice_Act-->|" isReferencedBy "|d_2
-  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
-  Reference_legislations-->|" hasPart "|Access_to_Information_Act
-  Reference_legislations-->|" hasPart "|Financial_Administration_Act
-  Personal_Information_Protection_and_Electronic_Documents_Act_Part_2-->|" isReferencedBy "|p_86
-  Reference_legislations-->|" hasPart "|Service_Fees_Act
-  Statistics_Act-->|" isReferencedBy "|s_19
-  Canada_Evidence_Act-->|" isReferencedBy "|c_5
-  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
-  Reference_legislations-->|" hasPart "|Emergency_Management_Act
-  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
-  Reference_legislations-->|" hasPart "|Security_of_Information_Act
-  Reference_legislations-->|" hasPart "|Privacy_Act
-  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
-  Service_Fees_Act-->|" isReferencedBy "|s_84
   Reference_legislations-->|" hasPart "|Statistics_Act
-  Reference_legislations-->|" hasPart "|Official_Languages_Act
-  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Shared_Services_Canada_Act-->|" isReferencedBy "|s_89
+  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
+  Reference_legislations-->|" hasPart "|Privacy_Act
+  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Statistics_Act-->|" isReferencedBy "|s_19
   Financial_Administration_Act-->|" isReferencedBy "|f_11
 ```

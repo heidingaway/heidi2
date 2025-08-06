@@ -1,7 +1,7 @@
 ---
 uri: https://www.canada.ca/#client
 title: Client
-mermaid_layers: 3
+mermaid_layers: 2
 entities:
 - https://www.canada.ca/#client
 - https://www.canada.ca/#external_service

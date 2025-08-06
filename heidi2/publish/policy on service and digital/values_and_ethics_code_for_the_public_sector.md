@@ -1,7 +1,13 @@
 ---
-uri: https://www.canada.ca/#values_and_ethics_code_for_the_public_sector
 title: Values and Ethics Code for the Public Sector
+aliases:
+- Values and Ethics Code for the Public Sector
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
 mermaid_layers: 3
+permalink: null
 related:
 - '[[directive_on_charging_and_special_financial_authorities]]'
 - '[[directive_on_the_management_of_projects_and_programmes]]'
@@ -20,6 +26,6 @@ related:
 - '[[policy_service_digital_8]]'
 - '[[policy_service_digital_8_1]]'
 - '[[policy_service_digital_8_2]]'
+uri: https://www.canada.ca/#values_and_ethics_code_for_the_public_sector
 ---
 # Values and Ethics Code for the Public Sector
-

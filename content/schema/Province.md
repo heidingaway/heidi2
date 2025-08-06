@@ -11,7 +11,7 @@ permalink: null
 subClassOf:
 - '[[AdministrativeArea]]'
 entities:
-- https://heidingaway.github.io/heidi2/province
+- https://gcxgce.sharepoint.com/teams/10001579/#province
 - https://schema.org/AdministrativeArea
 ---
 

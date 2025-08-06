@@ -12,7 +12,7 @@ subClassOf:
 - '[[Action]]'
 entities:
 - https://schema.org/Action
-- https://schema.org/organizeAction
+- https://schema.org/OrganizeAction
 ---
 
 > The act of manipulating/administering/supervising/controlling one or more objects.[^1]
@@ -27,7 +27,7 @@ entities:
 
 ```mermaid
 graph TD
-  Organize_Action["Organize Action"]:::current-page-node
+  Organize_Action["Organize Action<br>+ label: OrganizeAction<br>+ comment: controlling one or more objects."]:::current-page-node
   Action["Action<br>+ label: Action<br>+ comment: //blog.schema.org/2014/04/announcing-schemaorg-actions.html) and [Actions overview document](https://schema.org/docs/actions.html)."]
   Organize_Action-->|" subClassOf "|Action
 ```

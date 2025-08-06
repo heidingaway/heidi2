@@ -21,6 +21,6 @@ graph TD
   Service_delivery["Service delivery<br>+ label: Service delivery"]:::current-page-node
   Service_and_digital_functions["Service and digital functions<br>+ label: Service and digital functions"]
   Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
-  Service_delivery-->|" subClassOf "|Service_and_digital_functions
   Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
+  Service_delivery-->|" subClassOf "|Service_and_digital_functions
 ```

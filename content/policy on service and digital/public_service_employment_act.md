@@ -1,7 +1,14 @@
 ---
-uri: https://www.canada.ca/#public_service_employment_act
 title: Public Service Employment Act
+aliases:
+- Public Service Employment Act
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: false
 mermaid_layers: 2
+permalink: null
+uri: https://www.canada.ca/#public_service_employment_act
 entities:
 - https://laws-lois.justice.gc.ca/eng/acts/p-33.01/
 - https://www.canada.ca/#access_to_information_act
@@ -20,7 +27,6 @@ entities:
 - https://www.canada.ca/#service_fees_act
 - https://www.canada.ca/#shared_services_canada_act
 - https://www.canada.ca/#statistics_act
-draft: false
 ---
 
 ## Related Links
@@ -63,19 +69,19 @@ graph TD
   Shared_Services_Canada_Act["Shared Services Canada Act<br>+ label: Shared Services Canada Act"]
   Statistics_Act["Statistics Act<br>+ label: Statistics Act"]
   Public_Service_Employment_Act-->|" isReferencedBy "|p_3301
-  Reference_legislations-->|" hasPart "|Privacy_Act
-  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
-  Reference_legislations-->|" hasPart "|Emergency_Management_Act
-  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
   Reference_legislations-->|" hasPart "|Security_of_Information_Act
-  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
-  Reference_legislations-->|" hasPart "|Statistics_Act
-  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
-  Reference_legislations-->|" hasPart "|Official_Languages_Act
-  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Reference_legislations-->|" hasPart "|Access_to_Information_Act
-  Reference_legislations-->|" hasPart "|Financial_Administration_Act
-  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
+  Reference_legislations-->|" hasPart "|Emergency_Management_Act
   Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
   Reference_legislations-->|" hasPart "|Service_Fees_Act
+  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
+  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
+  Reference_legislations-->|" hasPart "|Official_Languages_Act
+  Reference_legislations-->|" hasPart "|Privacy_Act
+  Reference_legislations-->|" hasPart "|Financial_Administration_Act
+  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
+  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
+  Reference_legislations-->|" hasPart "|Access_to_Information_Act
+  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
+  Reference_legislations-->|" hasPart "|Statistics_Act
 ```

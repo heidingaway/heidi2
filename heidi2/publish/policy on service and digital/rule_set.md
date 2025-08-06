@@ -1,8 +1,14 @@
 ---
-uri: https://www.canada.ca/#rule_set
-title: a set of rules
+title: A Set of Rules
+aliases:
+- A Set of Rules
+created: 2025-08-04
+modified: 2025-08-06
+tags: []
+draft: true
 mermaid_layers: 3
+permalink: null
 related: []
+uri: https://www.canada.ca/#rule_set
 ---
-# a set of rules
-
+# A Set of Rules

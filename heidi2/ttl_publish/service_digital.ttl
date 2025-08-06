@@ -518,8 +518,6 @@ gc:cdo_specific_accountabilities rdfs:subClassOf rdfs:cdo_accountabilities ;
 gc:cdo_general_accountabilities rdfs:subClassOf gc:cdo_accountabilities ;
     dcterms:hasPart gc:cdo_accountability_11.
 
-gc:cdo_accountability_1 dcterms:subject gc:leadership .
-
 gc:cdo_accountability_2 dcterms:subject gc:governance .
 
 gc:cdo_accountability_3 dcterms:subject gc:quality .
@@ -562,31 +560,36 @@ gc:data_information_functions rdfs:subClassOf  gc:service_digital_functions ;
     .
 
 gc:leads_data_information_functions a schema:government_action ;
+    dcterms:source gc:cdo_accountability_1 ;
+    dcterms:subject gc:leadership ;
     schema:agent gc:chief_data_officer ;
     schema:object 
         gc:develops_data_information_policy_suite ,
         gc:implements_data_information_policy_suite ,
         gc:enhance_service_delivery_automation ,
         gc:enhance_service_delivery_data_information ,
-        gc:integrates_data_information_functions_business ## Heidi continue here     
-        ;
+        gc:delivers_data_information_function_business_integration ,
+        gc:promotes_data_information_literacy ,
+        gc:promotes_data_information_function_business_integration,
+        gc:promotes_release_open_organization_data_information ;
     schema:provider gc:data_information_functions
     .
-
-gc:develops_data_information_policy_suite rdfs:subClassOf schema:leads_data_information_functions ;
-    schema:agent gc:chief_data_office ;
-    schema:result gc:data_information_policy_suite
-    .
-
-gc:s rdfs:subClassOf schema:leads_data_information_functions .
 
 gc:chief_data_office rdfs:subClassOf schema:data_information_functions ;
     gc:provides gc:data_information_functions
     .
 
-gc:data_information_functions_output rdfs:subClassOf gc:service_digital_output .
-
 gc:service_digital_output a rdfs:Class , ochro:output .
+
+gc:data_information_functions_output rdfs:subClassOf gc:service_digital_output ;
+    dcterms:hasPart 
+        gc:data_information_policy_suite ,
+        gc:service_delivery_data_information , 
+        gc:service_delivery_automation ,
+        gc:data_information_function_business_integration ,
+        gc:data_information_literacy ,
+        gc:open_organization_data_information 
+    .
 
 gc:data_information_policy_suite a gc:data_information_functions_output ;
     dcterms:hasPart gc:data_information_policy , gc:data_information_supporting_instruments
