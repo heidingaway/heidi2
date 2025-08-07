@@ -3,13 +3,14 @@ title: CDO Accountability 2
 aliases:
   - CDO Accountability 2
 created: 2025-08-05
-modified: 2025-08-05
+modified: 2025-08-06
 tags: []
 acc_type:
   - "[[CDO_SpecificAccountability]]"
 draft: true
 mermaid_layers: 2
 permalink: 
+processed: "[[CDO_Accountability_2_processed]]"
 subClassOf:
   - "[[Governance]]"
 ---
