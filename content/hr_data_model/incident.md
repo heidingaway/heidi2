@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_recourse_ohs]]
+- [[incident]]
 
 ## Semantic Connections
 

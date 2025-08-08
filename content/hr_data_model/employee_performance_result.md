@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_performance]]
+- [[employee_performance_result]]
 
 ## Semantic Connections
 

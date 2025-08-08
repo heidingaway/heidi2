@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_compensation_leave_pension]]
+- [[hours_recorded]]
 
 ## Semantic Connections
 

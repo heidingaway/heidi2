@@ -14,6 +14,7 @@ draft: false
 ## Related Links
 
 - [[business_line]]
+- [[function]]
 - [[outcome_statement]]
 - [[output]]
 - [[stakeholder]]
@@ -27,12 +28,12 @@ graph TD
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
   Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
-  Function-->|" hasPart "|Business_Line
-  Stakeholder-->|" subClassOf "|Function
   Business_Line-->|" delivers "|Output
-  Business_Line-->|" subClassOf "|Function
-  Stakeholder-->|" interacts_with "|Output
   Output-->|" drives "|Outcome_Statement
   Function-->|" hasPart "|Stakeholder
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interacts_with "|Output
+  Business_Line-->|" subClassOf "|Function
   Stakeholder-->|" interacts_with "|Business_Line
+  Stakeholder-->|" subClassOf "|Function
 ```

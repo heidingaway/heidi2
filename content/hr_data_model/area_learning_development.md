@@ -26,6 +26,7 @@ draft: false
 
 ## Related Links
 
+- [[area_learning_development]]
 - [[developmental_opportunities_repository]]
 - [[employee_learning_development_program]]
 - [[employee_learning_evaluation]]
@@ -66,21 +67,21 @@ graph TD
   external_learning_event["external_learning_event"]
   learning_event["learning_event"]
   employee_learning_event["employee_learning_event"]
-  learning_object-->|" subClassOf "|Learning__Development
-  external_learning_event-->|" subClassOf "|Learning__Development
-  employee_learning_registration-->|" subClassOf "|Learning__Development
   developmental_opportunities_repository-->|" subClassOf "|Learning__Development
-  employee_learning_development_program-->|" subClassOf "|Learning__Development
-  government_of_canada_travel-->|" subClassOf "|Learning__Development
-  learning_event-->|" subClassOf "|Learning__Development
-  employee_learning_event-->|" subClassOf "|Learning__Development
-  external_learning_session-->|" subClassOf "|Learning__Development
   learning_development_program_curriculum-->|" subClassOf "|Learning__Development
-  learning_event_status-->|" subClassOf "|Learning__Development
-  Learning__Development-->|" subClassOf "|hr_business_line_data
-  learning_development_program-->|" subClassOf "|Learning__Development
-  learning_session-->|" subClassOf "|Learning__Development
-  learning_event_plan-->|" subClassOf "|Learning__Development
   employee_learning_evaluation-->|" subClassOf "|Learning__Development
+  learning_development_program-->|" subClassOf "|Learning__Development
+  employee_learning_event-->|" subClassOf "|Learning__Development
+  government_of_canada_travel-->|" subClassOf "|Learning__Development
+  external_learning_event-->|" subClassOf "|Learning__Development
+  learning_session-->|" subClassOf "|Learning__Development
+  employee_learning_registration-->|" subClassOf "|Learning__Development
+  learning_event-->|" subClassOf "|Learning__Development
+  Learning__Development-->|" subClassOf "|hr_business_line_data
   learning_session_status-->|" subClassOf "|Learning__Development
+  employee_learning_development_program-->|" subClassOf "|Learning__Development
+  learning_event_status-->|" subClassOf "|Learning__Development
+  learning_event_plan-->|" subClassOf "|Learning__Development
+  learning_object-->|" subClassOf "|Learning__Development
+  external_learning_session-->|" subClassOf "|Learning__Development
 ```

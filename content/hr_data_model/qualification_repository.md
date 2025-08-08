@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[qualification_repository]]
 
 ## Semantic Connections
 

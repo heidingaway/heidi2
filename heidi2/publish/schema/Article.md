@@ -8,8 +8,7 @@ mermaid_layers: 1
 permalink: null
 subClassOf:
 - '[[CreativeWork]]'
-related:
-- '[[CreativeWork]]'
+related: []
 ---
 # Article
 

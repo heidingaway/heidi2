@@ -7,8 +7,7 @@ draft: false
 subClassOf:
 - '[[AdministrativeArea]]'
 entities:
-- https://schema.org/AdministrativeArea
-- https://schema.org/State
+- https://heidingaway.github.io/heidi2/state
 ---
 
 > A state or province of a country.[^1]
@@ -17,13 +16,11 @@ entities:
 
 ## Related Links
 
-- [[AdministrativeArea]]
+- [[state]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  State["State<br>+ label: State<br>+ comment: A state or province of a country."]:::current-page-node
-  AdministrativeArea["AdministrativeArea<br>+ label: AdministrativeArea<br>+ comment: A geographical region, typically under the jurisdiction of a particular government."]
-  State-->|" subClassOf "|AdministrativeArea
+  State["State"]:::current-page-node
 ```

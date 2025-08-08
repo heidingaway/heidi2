@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[government_operations_services]]
+- [[service_delivery]]
 - [[service_digital_functions]]
 
 ## Semantic Connections

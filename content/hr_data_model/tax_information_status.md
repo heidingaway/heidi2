@@ -13,6 +13,7 @@ draft: false
 
 - [[area_employee]]
 - [[tax_information]]
+- [[tax_information_status]]
 
 ## Semantic Connections
 

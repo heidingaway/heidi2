@@ -7,8 +7,7 @@ draft: false
 subClassOf:
 - '[[Intangible]]'
 entities:
-- https://schema.org/Intangible
-- https://schema.org/Rating
+- https://heidingaway.github.io/heidi2/rating
 ---
 
 > A rating is an evaluation on a numeric scale, such as 1 to 5 stars.[^1]
@@ -17,13 +16,11 @@ entities:
 
 ## Related Links
 
-- [[Intangible]]
+- [[rating]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Rating["Rating<br>+ label: Rating<br>+ comment: A rating is an evaluation on a numeric scale, such as 1 to 5 stars."]:::current-page-node
-  Intangible["Intangible<br>+ label: Intangible<br>+ comment: A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc."]
-  Rating-->|" subClassOf "|Intangible
+  Rating["Rating"]:::current-page-node
 ```

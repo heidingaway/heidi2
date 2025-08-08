@@ -3,9 +3,9 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#area_classification
 title: Classification
 mermaid_layers: 1
 entities:
-- http://www.thesaurus.gc.ca/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#area_classification
 - https://gcxgce.sharepoint.com/teams/10001579/#bargaining_agent
+- https://gcxgce.sharepoint.com/teams/10001579/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_decision
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_evaluation_authorization
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_factor_point
@@ -27,6 +27,7 @@ draft: false
 
 ## Related Links
 
+- [[area_classification]]
 - [[bargaining_agent]]
 - [[classification]]
 - [[classification_decision]]
@@ -66,22 +67,22 @@ graph TD
   classification_evaluation_authorization["classification_evaluation_authorization"]
   collective_agreement["collective_agreement"]
   work_description["work_description"]
-  work_description_status-->|" subClassOf "|Classification
-  classification-->|" subClassOf "|Classification
-  Classification-->|" subClassOf "|hr_business_line_data
-  classification_standard-->|" subClassOf "|Classification
-  occupational_group-->|" subClassOf "|Classification
-  work_description-->|" subClassOf "|Classification
-  bargaining_agent-->|" subClassOf "|Classification
-  classification_evaluation_authorization-->|" subClassOf "|Classification
-  collective_agreement-->|" subClassOf "|Classification
   classification_factor_point-->|" subClassOf "|Classification
-  occupational_category-->|" subClassOf "|Classification
-  relativity_review_sample-->|" subClassOf "|Classification
-  factor-->|" subClassOf "|Classification
-  classification_decision-->|" subClassOf "|Classification
+  collective_agreement-->|" subClassOf "|Classification
+  Classification-->|" subClassOf "|hr_business_line_data
   tbs_terms_conditions-->|" subClassOf "|Classification
-  relativity_review-->|" subClassOf "|Classification
   on_site_review-->|" subClassOf "|Classification
+  relativity_review-->|" subClassOf "|Classification
   classification_standard_factor-->|" subClassOf "|Classification
+  classification-->|" subClassOf "|Classification
+  classification_decision-->|" subClassOf "|Classification
+  bargaining_agent-->|" subClassOf "|Classification
+  work_description_status-->|" subClassOf "|Classification
+  classification_standard-->|" subClassOf "|Classification
+  relativity_review_sample-->|" subClassOf "|Classification
+  work_description-->|" subClassOf "|Classification
+  classification_evaluation_authorization-->|" subClassOf "|Classification
+  occupational_category-->|" subClassOf "|Classification
+  factor-->|" subClassOf "|Classification
+  occupational_group-->|" subClassOf "|Classification
 ```

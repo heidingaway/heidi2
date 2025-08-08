@@ -10,8 +10,7 @@ permalink: null
 subClassOf:
 - '[[Role]]'
 entities:
-- https://schema.org/OrganizationRole
-- https://schema.org/Role
+- http://www.w3.org/2000/01/rdf-schema#OrganizationRole
 ---
 
 > A subclass of Role used to describe roles within organizations.[^1]
@@ -20,13 +19,11 @@ entities:
 
 ## Related Links
 
-- [[Role]]
+- [[OrganizationRole]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  OrganizationRole["OrganizationRole<br>+ label: OrganizationRole<br>+ comment: A subclass of Role used to describe roles within organizations."]:::current-page-node
-  Role["Role<br>+ label: Role<br>+ comment: //blog.schema.org/2014/06/introducing-role.html)."]
-  OrganizationRole-->|" subClassOf "|Role
+  OrganizationRole["OrganizationRole"]:::current-page-node
 ```

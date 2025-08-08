@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_compensation_leave_pension]]
+- [[record_of_employment]]
 
 ## Semantic Connections
 

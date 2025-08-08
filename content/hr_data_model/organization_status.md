@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_organization]]
+- [[organization_status]]
 
 ## Semantic Connections
 

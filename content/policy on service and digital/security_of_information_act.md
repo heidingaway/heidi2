@@ -43,6 +43,7 @@ entities:
 - [[policy_service_digital_8_1]]
 - [[privacy_act]]
 - [[public_service_employment_act]]
+- [[security_of_information_act]]
 - [[service_fees_act]]
 - [[shared_services_canada_act]]
 - [[statistics_act]]
@@ -68,20 +69,20 @@ graph TD
   Service_Fees_Act["Service Fees Act<br>+ label: Service Fees Act"]
   Shared_Services_Canada_Act["Shared Services Canada Act<br>+ label: Shared Services Canada Act"]
   Statistics_Act["Statistics Act<br>+ label: Statistics Act"]
-  Reference_legislations-->|" hasPart "|Security_of_Information_Act
-  Reference_legislations-->|" hasPart "|Emergency_Management_Act
-  Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
-  Reference_legislations-->|" hasPart "|Service_Fees_Act
-  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
-  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
-  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
-  Reference_legislations-->|" hasPart "|Official_Languages_Act
-  Reference_legislations-->|" hasPart "|Privacy_Act
-  Reference_legislations-->|" hasPart "|Financial_Administration_Act
   Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
-  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
-  Reference_legislations-->|" hasPart "|Access_to_Information_Act
-  Security_of_Information_Act-->|" isReferencedBy "|s_23
+  Reference_legislations-->|" hasPart "|Financial_Administration_Act
+  Reference_legislations-->|" hasPart "|Privacy_Act
   Reference_legislations-->|" hasPart "|Statistics_Act
+  Security_of_Information_Act-->|" isReferencedBy "|s_23
+  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Reference_legislations-->|" hasPart "|Access_to_Information_Act
+  Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
+  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
+  Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
+  Reference_legislations-->|" hasPart "|Official_Languages_Act
+  Reference_legislations-->|" hasPart "|Emergency_Management_Act
+  Reference_legislations-->|" hasPart "|Service_Fees_Act
+  Reference_legislations-->|" hasPart "|Security_of_Information_Act
+  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
+  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
 ```

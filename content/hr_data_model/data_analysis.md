@@ -13,6 +13,7 @@ draft: false
 ## Related Links
 
 - [[area_hr_planning_reporting]]
+- [[data_analysis]]
 - [[data_set]]
 - [[report]]
 
@@ -24,7 +25,7 @@ graph TD
   area_hr_planning_reporting["area_hr_planning_reporting"]
   data_set["data_set"]
   report["report"]
-  Data_Analysis-->|" subClassOf "|area_hr_planning_reporting
   report-->|" uses "|Data_Analysis
   Data_Analysis-->|" uses "|data_set
+  Data_Analysis-->|" subClassOf "|area_hr_planning_reporting
 ```

@@ -10,6 +10,7 @@ draft: false
 
 ## Related Links
 
+- [[advertising_campaign]]
 - [[area_staffing]]
 
 ## Semantic Connections

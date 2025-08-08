@@ -6,8 +6,7 @@ tags: []
 draft: true
 mermaid_layers: 1
 permalink: null
-related:
-- '[[CreativeWork]]'
+related: []
 subClassOf:
 - '[[CreativeWork]]'
 ---

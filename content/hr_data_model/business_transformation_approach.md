@@ -15,6 +15,7 @@ draft: false
 
 - [[area_hr_planning_reporting]]
 - [[business_plan]]
+- [[business_transformation_approach]]
 - [[business_transformation_outcome]]
 - [[organization_relationship]]
 
@@ -27,8 +28,8 @@ graph TD
   organization_relationship["organization_relationship"]
   business_transformation_outcome["business_transformation_outcome"]
   business_plan["business_plan"]
-  business_plan-->|" includes "|Business_Transformation_Approach
+  Business_Transformation_Approach-->|" subClassOf "|area_hr_planning_reporting
   Business_Transformation_Approach-->|" has "|business_transformation_outcome
   Business_Transformation_Approach-->|" areasofTransformation "|organization_relationship
-  Business_Transformation_Approach-->|" subClassOf "|area_hr_planning_reporting
+  business_plan-->|" includes "|Business_Transformation_Approach
 ```

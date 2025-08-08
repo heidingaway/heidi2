@@ -15,6 +15,7 @@ draft: false
 
 - [[area_employee]]
 - [[offsite_location]]
+- [[work_arrangement]]
 - [[work_arrangement_schedule]]
 - [[work_arrangement_status]]
 
@@ -27,8 +28,8 @@ graph TD
   work_arrangement_schedule["work_arrangement_schedule"]
   work_arrangement_status["work_arrangement_status"]
   offsite_location["offsite_location"]
-  Work_Arrangement_-->|" has "|work_arrangement_schedule
   Work_Arrangement_-->|" has "|work_arrangement_status
+  Work_Arrangement_-->|" has "|work_arrangement_schedule
   Work_Arrangement_-->|" subClassOf "|area_employee
   Work_Arrangement_-->|" qualifies "|offsite_location
 ```

@@ -37,6 +37,7 @@ draft: false
 ## Related Links
 
 - [[appointment]]
+- [[area_compensation_leave_pension]]
 - [[cash_receipt]]
 - [[compensation]]
 - [[deduction]]
@@ -93,31 +94,31 @@ graph TD
   work_schedule["work_schedule"]
   entitlement["entitlement"]
   appointment["appointment"]
-  employer_request-->|" subClassOf "|Compensation_Leave__Pension
-  Compensation_Leave__Pension-->|" subClassOf "|hr_business_line_data
-  leave_type-->|" subClassOf "|Compensation_Leave__Pension
   entitlement-->|" subClassOf "|Compensation_Leave__Pension
-  workplace_requirement_status-->|" subClassOf "|Compensation_Leave__Pension
-  compensation-->|" subClassOf "|Compensation_Leave__Pension
-  leave_balance-->|" subClassOf "|Compensation_Leave__Pension
-  record_of_employment-->|" subClassOf "|Compensation_Leave__Pension
-  appointment-->|" subClassOf "|Compensation_Leave__Pension
-  pension_member_status-->|" subClassOf "|Compensation_Leave__Pension
-  hours_of_work-->|" subClassOf "|Compensation_Leave__Pension
-  employee_benefit_election-->|" subClassOf "|Compensation_Leave__Pension
-  deduction-->|" subClassOf "|Compensation_Leave__Pension
+  employer_request-->|" subClassOf "|Compensation_Leave__Pension
   reduced_salary_leave-->|" subClassOf "|Compensation_Leave__Pension
   leave-->|" subClassOf "|Compensation_Leave__Pension
-  separation-->|" subClassOf "|Compensation_Leave__Pension
+  secondment-->|" subClassOf "|Compensation_Leave__Pension
+  schedule_submission_date-->|" subClassOf "|Compensation_Leave__Pension
+  leave_balance-->|" subClassOf "|Compensation_Leave__Pension
+  deduction-->|" subClassOf "|Compensation_Leave__Pension
+  workplace_requirement_status-->|" subClassOf "|Compensation_Leave__Pension
   hours_recorded-->|" subClassOf "|Compensation_Leave__Pension
+  employee_request-->|" subClassOf "|Compensation_Leave__Pension
+  compensation-->|" subClassOf "|Compensation_Leave__Pension
+  Compensation_Leave__Pension-->|" subClassOf "|hr_business_line_data
   workplace_requirement-->|" subClassOf "|Compensation_Leave__Pension
+  appointment-->|" subClassOf "|Compensation_Leave__Pension
   conditions_of_appointment-->|" subClassOf "|Compensation_Leave__Pension
   work_schedule-->|" subClassOf "|Compensation_Leave__Pension
-  employee_benefit_election_status-->|" subClassOf "|Compensation_Leave__Pension
-  employee_request-->|" subClassOf "|Compensation_Leave__Pension
-  pension-->|" subClassOf "|Compensation_Leave__Pension
-  schedule_submission_date-->|" subClassOf "|Compensation_Leave__Pension
-  pay_cheque-->|" subClassOf "|Compensation_Leave__Pension
-  secondment-->|" subClassOf "|Compensation_Leave__Pension
+  employee_benefit_election-->|" subClassOf "|Compensation_Leave__Pension
+  separation-->|" subClassOf "|Compensation_Leave__Pension
+  pension_member_status-->|" subClassOf "|Compensation_Leave__Pension
   cash_receipt-->|" subClassOf "|Compensation_Leave__Pension
+  hours_of_work-->|" subClassOf "|Compensation_Leave__Pension
+  employee_benefit_election_status-->|" subClassOf "|Compensation_Leave__Pension
+  pay_cheque-->|" subClassOf "|Compensation_Leave__Pension
+  leave_type-->|" subClassOf "|Compensation_Leave__Pension
+  pension-->|" subClassOf "|Compensation_Leave__Pension
+  record_of_employment-->|" subClassOf "|Compensation_Leave__Pension
 ```

@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[person_pool_status]]
 
 ## Semantic Connections
 

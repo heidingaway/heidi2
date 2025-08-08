@@ -14,6 +14,7 @@ draft: false
 
 - [[area_hr_planning_reporting]]
 - [[data_analysis]]
+- [[data_set]]
 - [[measurement_framework]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_hr_planning_reporting["area_hr_planning_reporting"]
   data_analysis["data_analysis"]
   measurement_framework["measurement_framework"]
-  measurement_framework-->|" compiles "|Data_Set
   Data_Set-->|" subClassOf "|area_hr_planning_reporting
+  measurement_framework-->|" compiles "|Data_Set
   data_analysis-->|" uses "|Data_Set
 ```

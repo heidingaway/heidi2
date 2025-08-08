@@ -9,7 +9,7 @@ draft: true
 mermaid_layers: 1
 permalink: null
 related:
-- '[[Government]]'
+- '[[government]]'
 - '[[government_action]]'
 uri: https://www.canada.ca/#policy
 ---

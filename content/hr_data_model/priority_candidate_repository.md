@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[priority_candidate_repository]]
 
 ## Semantic Connections
 

@@ -13,6 +13,7 @@ entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#language_evaluation
 - https://gcxgce.sharepoint.com/teams/10001579/#marital_status
 - https://gcxgce.sharepoint.com/teams/10001579/#membership
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 - https://gcxgce.sharepoint.com/teams/10001579/#person_competency
 - https://gcxgce.sharepoint.com/teams/10001579/#person_contact
 - https://gcxgce.sharepoint.com/teams/10001579/#person_contact_status
@@ -24,9 +25,8 @@ entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#preference
 - https://gcxgce.sharepoint.com/teams/10001579/#security_clearance
 - https://gcxgce.sharepoint.com/teams/10001579/#self_identification_group_membership
+- https://gcxgce.sharepoint.com/teams/10001579/#telephone
 - https://gcxgce.sharepoint.com/teams/10001579/#workplace_accessibility_requirement
-- https://schema.org/Person
-- https://schema.org/telephone
 draft: false
 ---
 
@@ -34,6 +34,7 @@ draft: false
 
 - [[accessibility_barrier]]
 - [[accessibility_solution]]
+- [[area_person]]
 - [[core_workforce_data]]
 - [[education_institution]]
 - [[employment_equity_designated_group_membership]]
@@ -84,27 +85,27 @@ graph TD
   workplace_accessibility_requirement["workplace_accessibility_requirement"]
   person["person"]
   person_name["person_name"]
-  person_license_certification-->|" subClassOf "|Person
-  external_employment_history-->|" subClassOf "|Person
-  education_institution-->|" subClassOf "|Person
-  membership-->|" subClassOf "|Person
-  Person-->|" subClassOf "|core_workforce_data
-  person_contact_status-->|" subClassOf "|Person
-  person_competency-->|" subClassOf "|Person
-  person_education-->|" subClassOf "|Person
-  employment_equity_designated_group_membership-->|" subClassOf "|Person
-  person_preference-->|" subClassOf "|Person
-  telephone-->|" subClassOf "|Person
   language_evaluation-->|" subClassOf "|Person
-  person_contact-->|" subClassOf "|Person
-  preference-->|" subClassOf "|Person
-  self_identification_group_membership-->|" subClassOf "|Person
-  person_email-->|" subClassOf "|Person
-  security_clearance-->|" subClassOf "|Person
-  person-->|" subClassOf "|Person
-  marital_status-->|" subClassOf "|Person
-  accessibility_barrier-->|" subClassOf "|Person
+  person_contact_status-->|" subClassOf "|Person
+  Person-->|" subClassOf "|core_workforce_data
   accessibility_solution-->|" subClassOf "|Person
-  person_name-->|" subClassOf "|Person
+  accessibility_barrier-->|" subClassOf "|Person
+  person_preference-->|" subClassOf "|Person
+  security_clearance-->|" subClassOf "|Person
+  person_license_certification-->|" subClassOf "|Person
+  person_email-->|" subClassOf "|Person
   workplace_accessibility_requirement-->|" subClassOf "|Person
+  person_competency-->|" subClassOf "|Person
+  employment_equity_designated_group_membership-->|" subClassOf "|Person
+  person_name-->|" subClassOf "|Person
+  telephone-->|" subClassOf "|Person
+  self_identification_group_membership-->|" subClassOf "|Person
+  preference-->|" subClassOf "|Person
+  membership-->|" subClassOf "|Person
+  education_institution-->|" subClassOf "|Person
+  external_employment_history-->|" subClassOf "|Person
+  person_contact-->|" subClassOf "|Person
+  person_education-->|" subClassOf "|Person
+  marital_status-->|" subClassOf "|Person
+  person-->|" subClassOf "|Person
 ```

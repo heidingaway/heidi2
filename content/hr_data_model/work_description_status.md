@@ -13,6 +13,7 @@ draft: false
 
 - [[area_classification]]
 - [[work_description]]
+- [[work_description_status]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   work_description_status["work_description_status"]:::current-page-node
   area_classification["area_classification"]
   work_description["work_description"]
-  work_description_status-->|" subClassOf "|area_classification
   work_description-->|" has "|work_description_status
+  work_description_status-->|" subClassOf "|area_classification
 ```

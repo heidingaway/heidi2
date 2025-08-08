@@ -13,6 +13,7 @@ draft: false
 ## Related Links
 
 - [[area_organizational_design]]
+- [[organization_design_structure]]
 - [[organization_model]]
 - [[organization_relationship]]
 
@@ -24,7 +25,7 @@ graph TD
   area_organizational_design["area_organizational_design"]
   organization_relationship["organization_relationship"]
   organization_model["organization_model"]
+  Organization_Design_Structure-->|" designs "|organization_relationship
   Organization_Design_Structure-->|" subClassOf "|area_organizational_design
   organization_model-->|" includes "|Organization_Design_Structure
-  Organization_Design_Structure-->|" designs "|organization_relationship
 ```

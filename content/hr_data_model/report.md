@@ -17,6 +17,7 @@ draft: false
 - [[area_hr_planning_reporting]]
 - [[data_analysis]]
 - [[measurement_framework]]
+- [[report]]
 - [[report_status]]
 - [[reporting_requirement]]
 
@@ -30,9 +31,9 @@ graph TD
   report_status["report_status"]
   data_analysis["data_analysis"]
   reporting_requirement["reporting_requirement"]
-  Report-->|" consolidates "|measurement_framework
-  Report-->|" subClassOf "|area_hr_planning_reporting
   reporting_requirement-->|" metBy "|Report
-  Report-->|" has "|report_status
+  Report-->|" subClassOf "|area_hr_planning_reporting
+  Report-->|" consolidates "|measurement_framework
   Report-->|" uses "|data_analysis
+  Report-->|" has "|report_status
 ```

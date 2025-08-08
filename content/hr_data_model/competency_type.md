@@ -13,6 +13,7 @@ draft: false
 
 - [[area_competency]]
 - [[competency_dictionary]]
+- [[competency_type]]
 
 ## Semantic Connections
 

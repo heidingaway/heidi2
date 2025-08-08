@@ -19,6 +19,7 @@ draft: false
 
 ## Related Links
 
+- [[area_position]]
 - [[conditions_of_employment]]
 - [[core_workforce_data]]
 - [[essential_service]]
@@ -45,14 +46,14 @@ graph TD
   position_competency["position_competency"]
   position_pay["position_pay"]
   position["position"]
-  essential_service-->|" subClassOf "|Position
+  conditions_of_employment-->|" subClassOf "|Position
   position_competency-->|" subClassOf "|Position
-  position_language-->|" subClassOf "|Position
+  position-->|" subClassOf "|Position
+  position_pay-->|" subClassOf "|Position
   exclusion-->|" subClassOf "|Position
   position_status-->|" subClassOf "|Position
   Position-->|" subClassOf "|core_workforce_data
-  position_pay-->|" subClassOf "|Position
-  position-->|" subClassOf "|Position
+  essential_service-->|" subClassOf "|Position
+  position_language-->|" subClassOf "|Position
   position_relationship-->|" subClassOf "|Position
-  conditions_of_employment-->|" subClassOf "|Position
 ```

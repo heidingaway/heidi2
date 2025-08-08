@@ -15,6 +15,7 @@ draft: false
 
 - [[area_hr_planning_reporting]]
 - [[job]]
+- [[labour_data]]
 - [[reporting_requirement]]
 - [[workforce_workplace_planning]]
 
@@ -27,8 +28,8 @@ graph TD
   reporting_requirement["reporting_requirement"]
   workforce_workplace_planning["workforce_workplace_planning"]
   job["job"]
-  Labour_Data-->|" usedBy "|workforce_workplace_planning
-  Labour_Data-->|" subClassOf "|area_hr_planning_reporting
-  Labour_Data-->|" has "|reporting_requirement
   Labour_Data-->|" uses "|job
+  Labour_Data-->|" usedBy "|workforce_workplace_planning
+  Labour_Data-->|" has "|reporting_requirement
+  Labour_Data-->|" subClassOf "|area_hr_planning_reporting
 ```

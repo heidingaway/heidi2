@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[assessment_board_member]]
 
 ## Semantic Connections
 

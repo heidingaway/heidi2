@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_learning_development]]
+- [[learning_event_status]]
 
 ## Semantic Connections
 

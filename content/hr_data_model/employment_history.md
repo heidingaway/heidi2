@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_employee]]
+- [[employment_history]]
 
 ## Semantic Connections
 

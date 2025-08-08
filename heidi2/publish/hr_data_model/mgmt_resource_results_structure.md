@@ -3,8 +3,8 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#mgmt_resource_results_structu
 title: Mgmt Resource & Results Structure
 mermaid_layers: 1
 related:
-- '[[Organization]]'
 - '[[area_organizational_design]]'
+- '[[organization]]'
 ---
 # Mgmt Resource & Results Structure
 

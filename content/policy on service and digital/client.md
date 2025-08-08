@@ -9,6 +9,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[client]]
+
 ## Semantic Connections
 
 ```mermaid

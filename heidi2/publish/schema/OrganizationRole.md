@@ -9,8 +9,7 @@ mermaid_layers: 1
 permalink: null
 subClassOf:
 - '[[Role]]'
-related:
-- '[[Role]]'
+related: []
 ---
 # OrganizationRole
 

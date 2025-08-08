@@ -7,8 +7,7 @@ draft: false
 subClassOf:
 - '[[Thing]]'
 entities:
-- https://schema.org/Place
-- https://schema.org/Thing
+- https://heidingaway.github.io/heidi2/place
 ---
 
 > Entities that have a somewhat fixed, physical extension.[^1]
@@ -17,13 +16,11 @@ entities:
 
 ## Related Links
 
-- [[Thing]]
+- [[place]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Place["Place<br>+ label: Place<br>+ comment: Entities that have a somewhat fixed, physical extension."]:::current-page-node
-  Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]
-  Place-->|" subClassOf "|Thing
+  Place["Place"]:::current-page-node
 ```

@@ -9,9 +9,7 @@ permalink: null
 subClassOf:
 - '[[CreativeWork]]'
 entities:
-- https://schema.org/Article
-- https://schema.org/CreativeWork
-- https://schema.org/docs/collab/rNews
+- https://heidingaway.github.io/heidi2/article
 ---
 
 > An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.[^1]
@@ -20,15 +18,11 @@ entities:
 
 ## Related Links
 
-- [[CreativeWork]]
+- [[article]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Article["Article<br>+ label: Article<br>+ comment: //blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."]:::current-page-node
-  CreativeWork["CreativeWork<br>+ label: CreativeWork<br>+ comment: The most generic kind of creative work, including books, movies, photographs, software programs, etc."]
-  rNews["rNews"]
-  Article-->|" subClassOf "|CreativeWork
-  Article-->|" contributor "|rNews
+  Article["Article"]:::current-page-node
 ```

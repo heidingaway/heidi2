@@ -13,6 +13,7 @@ draft: false
 ## Related Links
 
 - [[area_position]]
+- [[conditions_of_employment]]
 - [[job]]
 - [[position]]
 
@@ -24,9 +25,9 @@ graph TD
   area_position["area_position"]
   job["job"]
   position["position"]
-  Conditions_of_Employment-->|" requiredBy "|job
-  Conditions_of_Employment-->|" subClassOf "|area_position
   job-->|" requires "|Conditions_of_Employment
   position-->|" requires "|Conditions_of_Employment
+  Conditions_of_Employment-->|" requiredBy "|job
   Conditions_of_Employment-->|" requiredBy "|position
+  Conditions_of_Employment-->|" subClassOf "|area_position
 ```

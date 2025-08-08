@@ -10,7 +10,7 @@ mermaid_layers: 1
 permalink: null
 uri: https://www.canada.ca/#policy
 entities:
-- https://en.wikipedia.org/wiki/Government
+- https://en.wikipedia.org/wiki/government
 - https://www.canada.ca/#government_action
 - https://www.canada.ca/#policy
 ---
@@ -19,6 +19,7 @@ entities:
 
 - [[Government]]
 - [[government_action]]
+- [[policy]]
 
 ## Semantic Connections
 

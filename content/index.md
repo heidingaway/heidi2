@@ -12,6 +12,10 @@ entities:
 - https://heidingaway.github.io/heidi2/index
 ---
 
+## Related Links
+
+- [[index]]
+
 ## Semantic Connections
 
 ```mermaid

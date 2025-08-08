@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[staffing_process_area_of_selection]]
 
 ## Semantic Connections
 

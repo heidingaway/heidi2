@@ -15,6 +15,7 @@ entities:
 ## Related Links
 
 - [[function]]
+- [[outcome_statement]]
 
 ## Semantic Connections
 

@@ -44,7 +44,7 @@ entities:
 - https://www.canada.ca/#shared_services_canada_act
 - https://www.canada.ca/#statistics_act
 - https://www.canada.ca/#values_and_ethics_code_for_the_public_sector
-- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32738
+- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603
 draft: false
 ---
 
@@ -74,6 +74,7 @@ draft: false
 - [[policy_on_the_planning_and_management_of_investments]]
 - [[policy_on_transfer_payments]]
 - [[policy_service_digital]]
+- [[policy_service_digital_8]]
 - [[policy_service_digital_8_1]]
 - [[policy_service_digital_8_2]]
 - [[privacy_act]]
@@ -132,47 +133,47 @@ graph TD
   Service_Fees_Act["Service Fees Act<br>+ label: Service Fees Act"]
   Shared_Services_Canada_Act["Shared Services Canada Act<br>+ label: Shared Services Canada Act"]
   Statistics_Act["Statistics Act<br>+ label: Statistics Act"]
-  Related_policy_instruments-->|" hasPart "|Policy_on_Results
-  Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
-  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
-  Related_policy_instruments-->|" hasPart "|Policy_on_Communications_and_Federal_Identity
-  Related_policy_instruments-->|" hasPart "|Policy_on_Privacy_Protection
-  Reference_legislations-->|" hasPart "|Access_to_Information_Act
-  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
-  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
-  Policy_on_Service_and_Digital-->|" in_conjunction_with "|privacy_requirements
   Related_policy_instruments-->|" hasPart "|Values_and_Ethics_Code_for_the_Public_Sector
-  Related_policy_instruments-->|" hasPart "|Directive_on_the_Management_of_Projects_and_Programmes
-  Reference_legislations-->|" hasPart "|Service_Fees_Act
-  Policy_on_Service_and_Digital-->|" provider "|GC_Departments_or_Agencies
-  Policy_on_Service_and_Digital-->|" seeAlso "|doc_engaspx
-  Related_policy_instruments-->|" hasPart "|Policy_on_Government_Security
-  Policy_on_Service_and_Digital_Supporting_Instruments-->|" supports "|Policy_on_Service_and_Digital
-  service_digital_suite-->|" hasPart "|Policy_on_Service_and_Digital
-  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
-  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
+  Related_policy_instruments-->|" hasPart "|Policy_on_Communications_and_Federal_Identity
   Related_policy_instruments-->|" hasPart "|Policy_on_the_Planning_and_Management_of_Investments
-  Policy_on_Service_and_Digital-->|" has_context "|digital_era
-  Policy_on_Service_and_Digital-->|" supportedBy "|Policy_on_Service_and_Digital_Supporting_Instruments
-  Reference_legislations-->|" hasPart "|Emergency_Management_Act
-  Reference_legislations-->|" hasPart "|Security_of_Information_Act
-  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Related_policy_instruments-->|" hasPart "|Policy_on_Official_Languages
-  Reference_legislations-->|" hasPart "|Official_Languages_Act
-  Related_policy_instruments-->|" hasPart "|Policy_on_Access_to_Information
-  Reference_legislations-->|" hasPart "|Financial_Administration_Act
-  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
-  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
-  Related_policy_instruments-->|" hasPart "|Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service
   Policy_on_Service_and_Digital-->|" in_conjunction_with "|official_languages_requirements
-  Reference_legislations-->|" hasPart "|Statistics_Act
-  Related_policy_instruments-->|" hasPart "|Policy_on_Transfer_Payments
-  Related_policy_instruments-->|" hasPart "|Foundation_Framework_for_Treasury_Board_Policies
+  Policy_on_Service_and_Digital-->|" in_conjunction_with "|privacy_requirements
+  Reference_legislations-->|" hasPart "|Canada_Evidence_Act
+  service_digital_suite-->|" hasPart "|Policy_on_Service_and_Digital
+  Policy_on_Service_and_Digital-->|" provider "|GC_Departments_or_Agencies
+  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
+  Related_policy_instruments-->|" hasPart "|Directive_on_the_Management_of_Projects_and_Programmes
+  Related_policy_instruments-->|" hasPart "|Policy_on_Results
   Reference_legislations-->|" hasPart "|Public_Service_Employment_Act
-  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Related_policy_instruments-->|" hasPart "|Directive_on_Charging_and_Special_Financial_Authorities
-  Reference_legislations-->|" hasPart "|Privacy_Act
+  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
+  Related_policy_instruments-->|" hasPart "|Foundation_Framework_for_Treasury_Board_Policies
   Related_policy_instruments-->|" hasPart "|Policy_on_Green_Procurement
+  Reference_legislations-->|" hasPart "|Shared_Services_Canada_Act
+  Related_policy_instruments-->|" hasPart "|Policy_on_Government_Security
+  Related_policy_instruments-->|" hasPart "|Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service
+  Reference_legislations-->|" hasPart "|Financial_Administration_Act
+  Reference_legislations-->|" hasPart "|Statistics_Act
+  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Related_policy_instruments-->|" hasPart "|Policy_on_Transfer_Payments
+  Related_policy_instruments-->|" hasPart "|Policy_on_Official_Languages
+  Related_policy_instruments-->|" hasPart "|Directive_on_Charging_and_Special_Financial_Authorities
+  Reference_legislations-->|" hasPart "|Service_Fees_Act
+  Reference_legislations-->|" hasPart "|Emergency_Management_Act
+  Related_policy_instruments-->|" hasPart "|Policy_on_Privacy_Protection
+  Reference_legislations-->|" hasPart "|Security_of_Information_Act
+  Reference_legislations-->|" hasPart "|Department_of_Justice_Act
+  Reference_legislations-->|" hasPart "|Personal_Information_Protection_and_Electronic_Documents_Act_Part_2
+  Policy_on_Service_and_Digital-->|" supportedBy "|Policy_on_Service_and_Digital_Supporting_Instruments
+  Policy_on_Service_and_Digital_Supporting_Instruments-->|" supports "|Policy_on_Service_and_Digital
+  Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Policy_on_Service_and_Digital-->|" has_context "|digital_era
+  Reference_legislations-->|" hasPart "|Access_to_Information_Act
+  Related_policy_instruments-->|" hasPart "|Policy_on_Access_to_Information
+  Policy_on_Service_and_Digital-->|" intended_result "|Advances_government_operations_and_services
+  Reference_legislations-->|" hasPart "|Library_and_Archives_of_Canada_Act
   Policy_on_Service_and_Digital-->|" in_conjunction_with "|accessibility_requirements
-  Policy_on_Service_and_Digital-->|" result "|Advances_government_operations_and_services
+  Policy_on_Service_and_Digital-->|" seeAlso "|doc_engaspx
+  Reference_legislations-->|" hasPart "|Official_Languages_Act
+  Reference_legislations-->|" hasPart "|Privacy_Act
+  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
 ```

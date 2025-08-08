@@ -15,6 +15,7 @@ draft: false
 - [[area_hr_planning_reporting]]
 - [[business_plan]]
 - [[labour_data]]
+- [[workforce_workplace_planning]]
 
 ## Semantic Connections
 
@@ -24,7 +25,7 @@ graph TD
   area_hr_planning_reporting["area_hr_planning_reporting"]
   business_plan["business_plan"]
   labour_data["labour_data"]
-  Workforce__Workplace_Planning-->|" subClassOf "|area_hr_planning_reporting
   labour_data-->|" usedBy "|Workforce__Workplace_Planning
   Workforce__Workplace_Planning-->|" usedFor "|business_plan
+  Workforce__Workplace_Planning-->|" subClassOf "|area_hr_planning_reporting
 ```

@@ -6,8 +6,7 @@ tags: prefix/schema
 draft: true
 subClassOf:
 - '[[Intangible]]'
-related:
-- '[[Intangible]]'
+related: []
 ---
 # Rating
 

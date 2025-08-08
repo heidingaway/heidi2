@@ -5,14 +5,15 @@ mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
 - https://gcxgce.sharepoint.com/teams/10001579/#external_employment_history
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 - https://gcxgce.sharepoint.com/teams/10001579/#service_buy_back_election
-- https://schema.org/Person
 draft: false
 ---
 
 ## Related Links
 
 - [[area_person]]
+- [[external_employment_history]]
 - [[person]]
 - [[service_buy_back_election]]
 

@@ -13,8 +13,7 @@ mermaid_layers: 1
 permalink: null
 subClassOf:
 - '[[Place]]'
-related:
-- '[[Place]]'
+related: []
 ---
 # Administrative Area
 

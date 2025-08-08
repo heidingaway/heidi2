@@ -3,10 +3,10 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#education_institution
 title: Education Institution
 mermaid_layers: 1
 entities:
+- https://gcxgce.sharepoint.com/teams/10001579/#address
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
 - https://gcxgce.sharepoint.com/teams/10001579/#education_institution
 - https://gcxgce.sharepoint.com/teams/10001579/#person_education
-- https://schema.org/address
 draft: false
 ---
 
@@ -14,6 +14,7 @@ draft: false
 
 - [[address]]
 - [[area_person]]
+- [[education_institution]]
 - [[person_education]]
 
 ## Semantic Connections
@@ -25,6 +26,6 @@ graph TD
   address["address"]
   person_education["person_education"]
   Education_Institution-->|" subClassOf "|area_person
-  Education_Institution-->|" contactedAt "|address
   person_education-->|" has "|Education_Institution
+  Education_Institution-->|" contactedAt "|address
 ```

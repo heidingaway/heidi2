@@ -14,8 +14,7 @@ permalink: null
 subClassOf:
 - '[[Place]]'
 entities:
-- https://schema.org/AdministrativeArea
-- https://schema.org/Place
+- https://heidingaway.github.io/heidi2/administrativearea
 ---
 
 > A geographical region, typically under the jurisdiction of a particular government.[^1]
@@ -24,13 +23,11 @@ entities:
 
 ## Related Links
 
-- [[Place]]
+- [[administrativearea]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Administrative_Area["Administrative Area<br>+ label: AdministrativeArea<br>+ comment: A geographical region, typically under the jurisdiction of a particular government."]:::current-page-node
-  Place["Place<br>+ label: Place<br>+ comment: Entities that have a somewhat fixed, physical extension."]
-  Administrative_Area-->|" subClassOf "|Place
+  Administrative_Area["Administrative Area"]:::current-page-node
 ```

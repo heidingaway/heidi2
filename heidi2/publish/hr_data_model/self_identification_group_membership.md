@@ -3,8 +3,8 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#self_identification_group_mem
 title: Self-Identification Group Membership *
 mermaid_layers: 1
 related:
-- '[[Person]]'
 - '[[area_person]]'
+- '[[person]]'
 ---
 # Self-Identification Group Membership *
 

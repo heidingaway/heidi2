@@ -13,6 +13,7 @@ draft: false
 ## Related Links
 
 - [[area_financial_management]]
+- [[budget]]
 - [[budget_status]]
 - [[position]]
 
@@ -26,6 +27,6 @@ graph TD
   budget_status["budget_status"]
   Budget-->|" has "|budget_status
   position-->|" fundedBy "|Budget
-  Budget-->|" funds "|position
   Budget-->|" subClassOf "|area_financial_management
+  Budget-->|" funds "|position
 ```

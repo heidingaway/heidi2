@@ -14,6 +14,7 @@ draft: false
 ## Related Links
 
 - [[area_hr_planning_reporting]]
+- [[business_plan]]
 - [[business_transformation_approach]]
 - [[workforce_workplace_performance_measure]]
 - [[workforce_workplace_planning]]
@@ -27,9 +28,9 @@ graph TD
   workforce_workplace_performance_measure["workforce_workplace_performance_measure"]
   business_transformation_approach["business_transformation_approach"]
   workforce_workplace_planning["workforce_workplace_planning"]
-  Business_Plan-->|" subClassOf "|area_hr_planning_reporting
   Business_Plan-->|" includes "|business_transformation_approach
-  workforce_workplace_performance_measure-->|" achieves "|Business_Plan
-  Business_Plan-->|" achievedBy "|workforce_workplace_performance_measure
+  Business_Plan-->|" subClassOf "|area_hr_planning_reporting
   workforce_workplace_planning-->|" usedFor "|Business_Plan
+  Business_Plan-->|" achievedBy "|workforce_workplace_performance_measure
+  workforce_workplace_performance_measure-->|" achieves "|Business_Plan
 ```

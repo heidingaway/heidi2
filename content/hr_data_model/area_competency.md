@@ -15,6 +15,7 @@ draft: false
 
 ## Related Links
 
+- [[area_competency]]
 - [[competency_dictionary]]
 - [[competency_indicator]]
 - [[competency_proficiency_level]]
@@ -35,8 +36,8 @@ graph TD
   competency_dictionary["competency_dictionary"]
   competency_indicator-->|" subClassOf "|Competency
   Competency-->|" subClassOf "|core_workforce_data
-  competency_subtype-->|" subClassOf "|Competency
   competency_dictionary-->|" subClassOf "|Competency
   competency_proficiency_level-->|" subClassOf "|Competency
   competency_type-->|" subClassOf "|Competency
+  competency_subtype-->|" subClassOf "|Competency
 ```

@@ -23,6 +23,7 @@ draft: false
 - [[job]]
 - [[position]]
 - [[relativity_review_sample]]
+- [[work_description]]
 - [[work_description_status]]
 
 ## Semantic Connections
@@ -38,13 +39,13 @@ graph TD
   relativity_review_sample["relativity_review_sample"]
   classification_evaluation_authorization["classification_evaluation_authorization"]
   position["position"]
-  Work_Description-->|" subClassOf "|area_classification
-  position-->|" relatesTo "|Work_Description
-  Work_Description-->|" correspondsTo "|job
-  classification_evaluation_authorization-->|" evaluates "|Work_Description
-  Work_Description-->|" has "|work_description_status
   job-->|" documentedBy "|Work_Description
-  work_description_status_att-->|" qualifies "|Work_Description
-  Work_Description-->|" has "|classification_decision
+  Work_Description-->|" subClassOf "|area_classification
   relativity_review_sample-->|" includes "|Work_Description
+  Work_Description-->|" has "|classification_decision
+  position-->|" relatesTo "|Work_Description
+  work_description_status_att-->|" qualifies "|Work_Description
+  Work_Description-->|" correspondsTo "|job
+  Work_Description-->|" has "|work_description_status
+  classification_evaluation_authorization-->|" evaluates "|Work_Description
 ```

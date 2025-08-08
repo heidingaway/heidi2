@@ -13,6 +13,7 @@ draft: false
 
 - [[area_employee]]
 - [[service_buy_back_election]]
+- [[service_buy_back_election_status]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   service_buy_back_election_status["service_buy_back_election_status"]:::current-page-node
   area_employee["area_employee"]
   service_buy_back_election["service_buy_back_election"]
-  service_buy_back_election-->|" has "|service_buy_back_election_status
   service_buy_back_election_status-->|" subClassOf "|area_employee
+  service_buy_back_election-->|" has "|service_buy_back_election_status
 ```

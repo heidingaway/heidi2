@@ -14,6 +14,7 @@ draft: false
 
 - [[area_classification]]
 - [[classification_evaluation_authorization]]
+- [[relativity_review]]
 - [[relativity_review_sample]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_classification["area_classification"]
   relativity_review_sample["relativity_review_sample"]
   classification_evaluation_authorization["classification_evaluation_authorization"]
+  Relativity_Review-->|" uses "|relativity_review_sample
   Relativity_Review-->|" subClassOf "|area_classification
   classification_evaluation_authorization-->|" includes "|Relativity_Review
-  Relativity_Review-->|" uses "|relativity_review_sample
 ```

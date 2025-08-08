@@ -14,6 +14,7 @@ draft: false
 
 - [[area_classification]]
 - [[classification_standard]]
+- [[classification_standard_factor]]
 - [[factor]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_classification["area_classification"]
   factor["factor"]
   classification_standard["classification_standard"]
-  Classification_Standard_Factor-->|" subClassOf "|area_classification
-  classification_standard-->|" rates "|Classification_Standard_Factor
   Classification_Standard_Factor-->|" uses "|factor
+  classification_standard-->|" rates "|Classification_Standard_Factor
+  Classification_Standard_Factor-->|" subClassOf "|area_classification
 ```

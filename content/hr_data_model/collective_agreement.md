@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_classification]]
+- [[collective_agreement]]
 - [[occupational_group]]
 
 ## Semantic Connections
@@ -21,7 +22,7 @@ graph TD
   Collective_Agreement["Collective Agreement"]:::current-page-node
   area_classification["area_classification"]
   occupational_group["occupational_group"]
-  Collective_Agreement-->|" subClassOf "|area_classification
-  occupational_group-->|" has "|Collective_Agreement
   Collective_Agreement-->|" negotiatedFor "|occupational_group
+  occupational_group-->|" has "|Collective_Agreement
+  Collective_Agreement-->|" subClassOf "|area_classification
 ```

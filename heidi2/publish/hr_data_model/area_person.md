@@ -3,7 +3,6 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#area_person
 title: Person
 mermaid_layers: 1
 related:
-- '[[Person]]'
 - '[[accessibility_barrier]]'
 - '[[accessibility_solution]]'
 - '[[core_workforce_data]]'
@@ -13,6 +12,7 @@ related:
 - '[[language_evaluation]]'
 - '[[marital_status]]'
 - '[[membership]]'
+- '[[person]]'
 - '[[person_competency]]'
 - '[[person_contact]]'
 - '[[person_contact_status]]'

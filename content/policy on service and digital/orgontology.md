@@ -16,6 +16,7 @@ draft: false
 
 - [[business_line]]
 - [[function]]
+- [[orgOntology]]
 - [[outcome_statement]]
 - [[output]]
 - [[stakeholder]]
@@ -30,14 +31,14 @@ graph TD
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Outcome_Statement["Outcome Statement<br>+ label: Outcome Statement<br>+ comment: Why does this function exist"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
-  Function-->|" hasPart "|Business_Line
-  OCHRO_Function_Ontology-->|" subject "|Function
-  Stakeholder-->|" subClassOf "|Function
   Business_Line-->|" delivers "|Output
-  Business_Line-->|" subClassOf "|Function
-  Stakeholder-->|" interacts_with "|Output
   Outcome_Statement-->|" defines "|Function
   Output-->|" drives "|Outcome_Statement
   Function-->|" hasPart "|Stakeholder
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interacts_with "|Output
+  Business_Line-->|" subClassOf "|Function
+  OCHRO_Function_Ontology-->|" subject "|Function
   Stakeholder-->|" interacts_with "|Business_Line
+  Stakeholder-->|" subClassOf "|Function
 ```

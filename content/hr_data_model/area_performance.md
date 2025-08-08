@@ -18,6 +18,7 @@ draft: false
 
 ## Related Links
 
+- [[area_performance]]
 - [[employee_performance_result]]
 - [[hr_business_line_data]]
 - [[performance_agreement]]
@@ -40,13 +41,13 @@ graph TD
   performance_agreement["performance_agreement"]
   performance_improvement_plan["performance_improvement_plan"]
   employee_performance_result["employee_performance_result"]
-  performance_improvement_plan-->|" subClassOf "|Performance
-  Performance-->|" subClassOf "|hr_business_line_data
-  performance_agreement_status-->|" subClassOf "|Performance
-  performance_agreement-->|" subClassOf "|Performance
   performance_agreement_signoff-->|" subClassOf "|Performance
-  performance_agreement_review_schedule-->|" subClassOf "|Performance
+  Performance-->|" subClassOf "|hr_business_line_data
+  performance_agreement-->|" subClassOf "|Performance
   employee_performance_result-->|" subClassOf "|Performance
-  talent_management_plan-->|" subClassOf "|Performance
   performance_agreement_commitment-->|" subClassOf "|Performance
+  performance_agreement_review_schedule-->|" subClassOf "|Performance
+  performance_improvement_plan-->|" subClassOf "|Performance
+  performance_agreement_status-->|" subClassOf "|Performance
+  talent_management_plan-->|" subClassOf "|Performance
 ```

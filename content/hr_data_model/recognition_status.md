@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_recognition]]
+- [[recognition_status]]
 
 ## Semantic Connections
 

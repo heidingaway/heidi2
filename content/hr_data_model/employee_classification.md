@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_employee]]
+- [[employee_classification]]
 
 ## Semantic Connections
 

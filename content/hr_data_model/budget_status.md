@@ -13,6 +13,7 @@ draft: false
 
 - [[area_financial_management]]
 - [[budget]]
+- [[budget_status]]
 
 ## Semantic Connections
 

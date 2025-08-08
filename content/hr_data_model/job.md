@@ -18,6 +18,7 @@ draft: false
 
 - [[area_job]]
 - [[conditions_of_employment]]
+- [[job]]
 - [[job_status]]
 - [[labour_data]]
 - [[position_competency]]
@@ -36,14 +37,14 @@ graph TD
   reporting_requirement["reporting_requirement"]
   conditions_of_employment["conditions_of_employment"]
   labour_data["labour_data"]
-  Job-->|" requires "|conditions_of_employment
-  work_description-->|" correspondsTo "|Job
-  labour_data-->|" uses "|Job
-  Job-->|" subClassOf "|area_job
-  Job-->|" has "|reporting_requirement
-  conditions_of_employment-->|" requiredBy "|Job
-  Job-->|" has "|job_status
   Job-->|" describedBy "|position_competency
+  Job-->|" requires "|conditions_of_employment
+  labour_data-->|" uses "|Job
+  conditions_of_employment-->|" requiredBy "|Job
   position_competency-->|" describes "|Job
+  Job-->|" subClassOf "|area_job
+  work_description-->|" correspondsTo "|Job
+  Job-->|" has "|reporting_requirement
   Job-->|" documentedBy "|work_description
+  Job-->|" has "|job_status
 ```

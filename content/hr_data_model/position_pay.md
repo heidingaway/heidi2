@@ -15,6 +15,7 @@ draft: false
 - [[area_position]]
 - [[organization_relationship]]
 - [[position]]
+- [[position_pay]]
 
 ## Semantic Connections
 
@@ -24,9 +25,9 @@ graph TD
   area_position["area_position"]
   position["position"]
   organization_relationship["organization_relationship"]
-  Position_Pay-->|" includedIn "|position
-  Position_Pay-->|" uses "|organization_relationship
-  Position_Pay-->|" subClassOf "|area_position
-  position-->|" includes "|Position_Pay
   organization_relationship-->|" usedBy "|Position_Pay
+  Position_Pay-->|" uses "|organization_relationship
+  position-->|" includes "|Position_Pay
+  Position_Pay-->|" subClassOf "|area_position
+  Position_Pay-->|" includedIn "|position
 ```

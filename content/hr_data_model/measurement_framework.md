@@ -16,6 +16,7 @@ draft: false
 - [[area_hr_planning_reporting]]
 - [[data_set]]
 - [[measurement_collection]]
+- [[measurement_framework]]
 - [[report]]
 
 ## Semantic Connections
@@ -28,7 +29,7 @@ graph TD
   measurement_collection["measurement_collection"]
   report["report"]
   report-->|" consolidates "|Measurement_Framework
-  Measurement_Framework-->|" subClassOf "|area_hr_planning_reporting
   Measurement_Framework-->|" compiles "|data_set
   measurement_collection-->|" usedIn "|Measurement_Framework
+  Measurement_Framework-->|" subClassOf "|area_hr_planning_reporting
 ```

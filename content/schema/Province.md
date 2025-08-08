@@ -12,18 +12,15 @@ subClassOf:
 - '[[AdministrativeArea]]'
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#province
-- https://schema.org/AdministrativeArea
 ---
 
 ## Related Links
 
-- [[AdministrativeArea]]
+- [[province]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
   Province["Province"]:::current-page-node
-  AdministrativeArea["AdministrativeArea<br>+ label: AdministrativeArea<br>+ comment: A geographical region, typically under the jurisdiction of a particular government."]
-  Province-->|" subClassOf "|AdministrativeArea
 ```

@@ -14,6 +14,7 @@ draft: false
 
 - [[area_employee]]
 - [[external_employment_history]]
+- [[service_buy_back_election]]
 - [[service_buy_back_election_status]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_employee["area_employee"]
   service_buy_back_election_status["service_buy_back_election_status"]
   external_employment_history["external_employment_history"]
+  Service_Buy_Back_Election-->|" subClassOf "|area_employee
   Service_Buy_Back_Election-->|" has "|service_buy_back_election_status
   external_employment_history-->|" usedFor "|Service_Buy_Back_Election
-  Service_Buy_Back_Election-->|" subClassOf "|area_employee
 ```

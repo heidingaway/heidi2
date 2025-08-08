@@ -13,6 +13,7 @@ draft: false
 
 ## Related Links
 
+- [[area_organizational_design]]
 - [[hr_business_line_data]]
 - [[mgmt_resource_results_structure]]
 - [[organization_design_structure]]
@@ -27,8 +28,8 @@ graph TD
   organization_model["organization_model"]
   mgmt_resource_results_structure["mgmt_resource_results_structure"]
   organization_design_structure["organization_design_structure"]
+  Organizational_Design-->|" subClassOf "|hr_business_line_data
+  organization_design_structure-->|" subClassOf "|Organizational_Design
   mgmt_resource_results_structure-->|" subClassOf "|Organizational_Design
   organization_model-->|" subClassOf "|Organizational_Design
-  organization_design_structure-->|" subClassOf "|Organizational_Design
-  Organizational_Design-->|" subClassOf "|hr_business_line_data
 ```

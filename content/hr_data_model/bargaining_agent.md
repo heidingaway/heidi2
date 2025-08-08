@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_classification]]
+- [[bargaining_agent]]
 - [[occupational_group]]
 
 ## Semantic Connections
@@ -21,6 +22,6 @@ graph TD
   Bargaining_Agent["Bargaining Agent"]:::current-page-node
   area_classification["area_classification"]
   occupational_group["occupational_group"]
-  occupational_group-->|" has "|Bargaining_Agent
   Bargaining_Agent-->|" subClassOf "|area_classification
+  occupational_group-->|" has "|Bargaining_Agent
 ```

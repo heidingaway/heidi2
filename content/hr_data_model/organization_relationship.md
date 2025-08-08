@@ -5,10 +5,10 @@ mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_organization
 - https://gcxgce.sharepoint.com/teams/10001579/#business_transformation_approach
+- https://gcxgce.sharepoint.com/teams/10001579/#organization
 - https://gcxgce.sharepoint.com/teams/10001579/#organization_design_structure
 - https://gcxgce.sharepoint.com/teams/10001579/#organization_relationship
 - https://gcxgce.sharepoint.com/teams/10001579/#position_pay
-- https://schema.org/Organization
 draft: false
 ---
 
@@ -18,6 +18,7 @@ draft: false
 - [[business_transformation_approach]]
 - [[organization]]
 - [[organization_design_structure]]
+- [[organization_relationship]]
 - [[position_pay]]
 
 ## Semantic Connections
@@ -30,10 +31,10 @@ graph TD
   business_transformation_approach["business_transformation_approach"]
   organization_design_structure["organization_design_structure"]
   organization["organization"]
-  organization_design_structure-->|" designs "|Organization_Relationship
+  position_pay-->|" uses "|Organization_Relationship
+  Organization_Relationship-->|" subClassOf "|area_organization
   organization-->|" relatesTo "|Organization_Relationship
   Organization_Relationship-->|" usedBy "|position_pay
   business_transformation_approach-->|" areasofTransformation "|Organization_Relationship
-  Organization_Relationship-->|" subClassOf "|area_organization
-  position_pay-->|" uses "|Organization_Relationship
+  organization_design_structure-->|" designs "|Organization_Relationship
 ```

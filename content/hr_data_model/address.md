@@ -3,40 +3,41 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#address
 title: Address
 mermaid_layers: 1
 entities:
-- https://gcxgce.sharepoint.com/teams/10001579/#text
-- https://schema.org/GeoCoordinates
-- https://schema.org/GeoShape
-- https://schema.org/Organization
-- https://schema.org/Person
-- https://schema.org/Place
-- https://schema.org/PostalAddress
-- https://schema.org/address
+- https://gcxgce.sharepoint.com/teams/10001579/#address
+- https://gcxgce.sharepoint.com/teams/10001579/#area_external_data
+- https://gcxgce.sharepoint.com/teams/10001579/#education_institution
+- https://gcxgce.sharepoint.com/teams/10001579/#offsite_location
+- https://gcxgce.sharepoint.com/teams/10001579/#organization
+- https://gcxgce.sharepoint.com/teams/10001579/#person
+- https://gcxgce.sharepoint.com/teams/10001579/#position
 draft: false
 ---
 
 ## Related Links
 
-- [[Organization]]
-- [[Person]]
-- [[Place]]
+- [[address]]
+- [[area_external_data]]
+- [[education_institution]]
+- [[offsite_location]]
+- [[organization]]
+- [[person]]
+- [[position]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Address["Address<br>+ label: address<br>+ comment: Physical address of the item."]:::current-page-node
-  GeoCoordinates["GeoCoordinates<br>+ label: GeoCoordinates<br>+ comment: The geographic coordinates of a place or event."]
-  GeoShape["GeoShape<br>+ label: GeoShape<br>+ comment: longitude pairs. Either whitespace or commas can be used to separate latitude and longitude"]
-  Organization["Organization<br>+ label: Organization<br>+ comment: An organization such as a school, NGO, corporation, club, etc."]
-  Person["Person<br>+ label: Person<br>+ comment: A person (alive, dead, undead, or fictional)."]
-  Place["Place<br>+ label: Place<br>+ comment: Entities that have a somewhat fixed, physical extension."]
-  PostalAddress["PostalAddress<br>+ label: PostalAddress<br>+ comment: The mailing address."]
-  Text["Text<br>+ label: Text<br>+ comment:  Text."]
-  Address-->|" domainIncludes "|GeoShape
-  Address-->|" domainIncludes "|GeoCoordinates
-  Address-->|" domainIncludes "|Person
-  Address-->|" domainIncludes "|Organization
-  Address-->|" domainIncludes "|Place
-  Address-->|" rangeIncludes "|Text
-  Address-->|" rangeIncludes "|PostalAddress
+  Address["Address"]:::current-page-node
+  area_external_data["area_external_data"]
+  education_institution["education_institution"]
+  offsite_location["offsite_location"]
+  organization["organization"]
+  person["person"]
+  position["position"]
+  offsite_location-->|" contactedAt "|Address
+  person-->|" contactedAt "|Address
+  organization-->|" contactedAt "|Address
+  Address-->|" subClassOf "|area_external_data
+  position-->|" has "|Address
+  education_institution-->|" contactedAt "|Address
 ```

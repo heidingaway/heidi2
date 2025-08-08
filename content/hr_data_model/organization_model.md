@@ -13,6 +13,7 @@ draft: false
 
 - [[area_organizational_design]]
 - [[organization_design_structure]]
+- [[organization_model]]
 
 ## Semantic Connections
 

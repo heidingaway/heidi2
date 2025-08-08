@@ -13,6 +13,7 @@ draft: false
 
 - [[area_competency]]
 - [[competency_dictionary]]
+- [[competency_indicator]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   competency_indicator["competency_indicator"]:::current-page-node
   area_competency["area_competency"]
   competency_dictionary["competency_dictionary"]
-  competency_indicator-->|" includedIn "|competency_dictionary
   competency_indicator-->|" subClassOf "|area_competency
+  competency_indicator-->|" includedIn "|competency_dictionary
 ```

@@ -9,7 +9,7 @@ permalink: null
 subClassOf:
 - '[[Intangible]]'
 entities:
-- https://schema.org/Intangible
+- http://www.w3.org/2000/01/rdf-schema#OrganizationRole
 - https://schema.org/Role
 ---
 
@@ -19,13 +19,14 @@ entities:
 
 ## Related Links
 
-- [[Intangible]]
+- [[OrganizationRole]]
+- [[Role]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Role["Role<br>+ label: Role<br>+ comment: //blog.schema.org/2014/06/introducing-role.html)."]:::current-page-node
-  Intangible["Intangible<br>+ label: Intangible<br>+ comment: A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc."]
-  Role-->|" subClassOf "|Intangible
+  Role["Role"]:::current-page-node
+  OrganizationRole["OrganizationRole"]
+  OrganizationRole-->|" subClassOf "|Role
 ```

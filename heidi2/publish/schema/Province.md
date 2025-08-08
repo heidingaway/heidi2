@@ -10,7 +10,6 @@ mermaid_layers: 1
 permalink: null
 subClassOf:
 - '[[AdministrativeArea]]'
-related:
-- '[[AdministrativeArea]]'
+related: []
 ---
 # Province

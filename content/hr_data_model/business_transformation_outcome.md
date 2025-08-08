@@ -14,6 +14,7 @@ draft: false
 
 - [[area_hr_planning_reporting]]
 - [[business_transformation_approach]]
+- [[business_transformation_outcome]]
 - [[leave]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_hr_planning_reporting["area_hr_planning_reporting"]
   leave["leave"]
   business_transformation_approach["business_transformation_approach"]
-  Business_Transformation_Outcome-->|" resultsIn "|leave
   Business_Transformation_Outcome-->|" subClassOf "|area_hr_planning_reporting
+  Business_Transformation_Outcome-->|" resultsIn "|leave
   business_transformation_approach-->|" has "|Business_Transformation_Outcome
 ```

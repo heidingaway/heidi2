@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_learning_development]]
+- [[developmental_opportunities_repository]]
 
 ## Semantic Connections
 

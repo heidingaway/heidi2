@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_position]]
+- [[essential_service]]
 - [[position]]
 
 ## Semantic Connections
@@ -21,6 +22,6 @@ graph TD
   essential_service["essential_service"]:::current-page-node
   area_position["area_position"]
   position["position"]
-  position-->|" designated "|essential_service
   essential_service-->|" subClassOf "|area_position
+  position-->|" designated "|essential_service
 ```

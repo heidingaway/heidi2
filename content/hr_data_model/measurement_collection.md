@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_hr_planning_reporting]]
+- [[measurement_collection]]
 - [[measurement_framework]]
 
 ## Semantic Connections

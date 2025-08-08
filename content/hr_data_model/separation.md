@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_compensation_leave_pension]]
+- [[separation]]
 
 ## Semantic Connections
 

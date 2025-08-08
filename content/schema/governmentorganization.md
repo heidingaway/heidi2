@@ -9,8 +9,7 @@ draft: false
 subClassOf:
 - '[[organization]]'
 entities:
-- https://schema.org/GovernmentOrganization
-- https://schema.org/Organization
+- https://heidingaway.github.io/heidi2/governmentorganization
 ---
 
 > A governmental organization or agency.[^1]
@@ -19,13 +18,11 @@ entities:
 
 ## Related Links
 
-- [[Organization]]
+- [[governmentorganization]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Government_Organization["Government Organization<br>+ label: GovernmentOrganization<br>+ comment: A governmental organization or agency."]:::current-page-node
-  Organization["Organization<br>+ label: Organization<br>+ comment: An organization such as a school, NGO, corporation, club, etc."]
-  Government_Organization-->|" subClassOf "|Organization
+  Government_Organization["Government Organization"]:::current-page-node
 ```

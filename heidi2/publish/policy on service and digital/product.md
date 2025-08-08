@@ -9,7 +9,7 @@ draft: true
 mermaid_layers: 1
 permalink: null
 related:
-- '[[Thing]]'
+- '[[government_operations_services]]'
 uri: https://www.canada.ca/#product
 ---
 # Product

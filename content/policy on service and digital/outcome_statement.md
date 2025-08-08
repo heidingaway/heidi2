@@ -21,6 +21,7 @@ entities:
 
 - [[business_line]]
 - [[function]]
+- [[outcome_statement]]
 - [[output]]
 - [[stakeholder]]
 
@@ -33,12 +34,12 @@ graph TD
   Stakeholder["Stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
   Output["Output<br>+ label: Output<br>+ comment: What does it produce"]
-  Function-->|" hasPart "|Business_Line
-  Stakeholder-->|" subClassOf "|Function
   Business_Line-->|" delivers "|Output
-  Business_Line-->|" subClassOf "|Function
-  Stakeholder-->|" interacts_with "|Output
   Outcome_Statement-->|" defines "|Function
   Function-->|" hasPart "|Stakeholder
+  Function-->|" hasPart "|Business_Line
+  Stakeholder-->|" interacts_with "|Output
+  Business_Line-->|" subClassOf "|Function
   Stakeholder-->|" interacts_with "|Business_Line
+  Stakeholder-->|" subClassOf "|Function
 ```

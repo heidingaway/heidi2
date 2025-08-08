@@ -13,6 +13,10 @@ entities:
 - https://www.canada.ca/#rule
 ---
 
+## Related Links
+
+- [[rule]]
+
 ## Semantic Connections
 
 ```mermaid

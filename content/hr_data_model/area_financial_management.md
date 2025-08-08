@@ -12,6 +12,7 @@ draft: false
 
 ## Related Links
 
+- [[area_financial_management]]
 - [[budget]]
 - [[budget_status]]
 - [[core_support_data]]

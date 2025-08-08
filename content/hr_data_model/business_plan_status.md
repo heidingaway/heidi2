@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_hr_planning_reporting]]
+- [[business_plan_status]]
 
 ## Semantic Connections
 

@@ -10,6 +10,7 @@ draft: false
 
 ## Related Links
 
+- [[applicant_evaluation]]
 - [[area_staffing]]
 
 ## Semantic Connections

@@ -13,6 +13,7 @@ draft: false
 
 - [[area_employee]]
 - [[work_arrangement]]
+- [[work_arrangement_schedule]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   Work_Arrangement_Schedule_["Work Arrangement Schedule *"]:::current-page-node
   area_employee["area_employee"]
   work_arrangement["work_arrangement"]
-  work_arrangement-->|" has "|Work_Arrangement_Schedule_
   Work_Arrangement_Schedule_-->|" subClassOf "|area_employee
+  work_arrangement-->|" has "|Work_Arrangement_Schedule_
 ```

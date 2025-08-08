@@ -15,6 +15,7 @@ draft: false
 ## Related Links
 
 - [[area_classification]]
+- [[classification_evaluation_authorization]]
 - [[grievance]]
 - [[on_site_review]]
 - [[relativity_review]]
@@ -30,9 +31,9 @@ graph TD
   on_site_review["on_site_review"]
   relativity_review["relativity_review"]
   grievance["grievance"]
+  grievance-->|" isFor "|Classification_Evaluation__Authorization
   Classification_Evaluation__Authorization-->|" includes "|on_site_review
   Classification_Evaluation__Authorization-->|" includes "|relativity_review
-  Classification_Evaluation__Authorization-->|" evaluates "|work_description
-  grievance-->|" isFor "|Classification_Evaluation__Authorization
   Classification_Evaluation__Authorization-->|" subClassOf "|area_classification
+  Classification_Evaluation__Authorization-->|" evaluates "|work_description
 ```

@@ -15,6 +15,7 @@ draft: false
 - [[area_hr_planning_reporting]]
 - [[business_plan]]
 - [[reporting_requirement]]
+- [[workforce_workplace_performance_measure]]
 
 ## Semantic Connections
 
@@ -24,8 +25,8 @@ graph TD
   area_hr_planning_reporting["area_hr_planning_reporting"]
   business_plan["business_plan"]
   reporting_requirement["reporting_requirement"]
-  Workforce__Workplace_Performance_Measure-->|" includedIn "|reporting_requirement
-  Workforce__Workplace_Performance_Measure-->|" achieves "|business_plan
-  business_plan-->|" achievedBy "|Workforce__Workplace_Performance_Measure
   Workforce__Workplace_Performance_Measure-->|" subClassOf "|area_hr_planning_reporting
+  Workforce__Workplace_Performance_Measure-->|" includedIn "|reporting_requirement
+  business_plan-->|" achievedBy "|Workforce__Workplace_Performance_Measure
+  Workforce__Workplace_Performance_Measure-->|" achieves "|business_plan
 ```

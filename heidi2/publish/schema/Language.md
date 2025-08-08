@@ -10,7 +10,6 @@ equivalentClass:
 - '[[languages]]'
 subClassOf:
 - '[[Intangible]]'
-related:
-- '[[Intangible]]'
+related: []
 ---
 # Language

@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[accessibility_barrier]]
+- [[accessibility_solution]]
 - [[area_person]]
 
 ## Semantic Connections

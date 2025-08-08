@@ -22,7 +22,7 @@ entities:
 - https://www.canada.ca/#policy_service_digital_8_2
 - https://www.canada.ca/#values_and_ethics_code_for_the_public_sector
 - https://www.tbs-sct.canada.ca/hr-rh/baa-am/index-eng.asp
-- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32738
+- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603
 draft: false
 ---
 
@@ -31,6 +31,7 @@ draft: false
 - [[directive_on_charging_and_special_financial_authorities]]
 - [[directive_on_the_management_of_projects_and_programmes]]
 - [[foundation_framework_for_treasury_board_policies]]
+- [[policy_on_access_to_information]]
 - [[policy_on_communications_and_federal_identity]]
 - [[policy_on_government_security]]
 - [[policy_on_green_procurement]]
@@ -68,50 +69,50 @@ graph TD
   Directive_on_the_Management_of_Projects_and_Programmes["Directive on the Management of Projects and Programmes<br>+ label: Directive on the Management of Projects and Programmes"]
   Directive_on_Charging_and_Special_Financial_Authorities["Directive on Charging and Special Financial Authorities<br>+ label: Directive on Charging and Special Financial Authorities"]
   doc_engaspx_1["doc-eng.aspx"]
+  Policy_on_Service_and_Digital["Policy on Service and Digital<br>+ label: Policy on Service and Digital<br>+ comment: The Policy on Service and Digital defines how a Government Department Agency manages service and digital functions. "]
+  Reference_legislations["Reference legislations<br>+ label: Reference legislations"]
   doc_engaspx_2["doc-eng.aspx"]
   doc_engaspx_3["doc-eng.aspx"]
   doc_engaspx_4["doc-eng.aspx"]
   doc_engaspx_5["doc-eng.aspx"]
+  index_engasp["index-eng.asp"]
   doc_engaspx_6["doc-eng.aspx"]
   doc_engaspx_7["doc-eng.aspx"]
   doc_engaspx_8["doc-eng.aspx"]
   doc_engaspx_9["doc-eng.aspx"]
-  index_engasp["index-eng.asp"]
   doc_engaspx_10["doc-eng.aspx"]
   doc_engaspx_11["doc-eng.aspx"]
   doc_engaspx_12["doc-eng.aspx"]
-  Policy_on_Service_and_Digital["Policy on Service and Digital<br>+ label: Policy on Service and Digital<br>+ comment: The Policy on Service and Digital defines how a Government Department Agency manages service and digital functions. "]
-  Reference_legislations["Reference legislations<br>+ label: Reference legislations"]
   Policy_on_Access_to_Information-->|" isReferencedBy "|doc_engaspx
-  Related_policy_instruments-->|" hasPart "|Policy_on_Results
-  Related_policy_instruments-->|" hasPart "|Policy_on_Communications_and_Federal_Identity
-  Related_policy_instruments-->|" hasPart "|Policy_on_Privacy_Protection
-  Policy_on_the_Planning_and_Management_of_Investments-->|" isReferencedBy "|doc_engaspx_1
-  Values_and_Ethics_Code_for_the_Public_Sector-->|" isReferencedBy "|doc_engaspx_8
-  Policy_on_Transfer_Payments-->|" isReferencedBy "|doc_engaspx_11
-  Directive_on_the_Management_of_Projects_and_Programmes-->|" isReferencedBy "|doc_engaspx_7
-  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
   Related_policy_instruments-->|" hasPart "|Values_and_Ethics_Code_for_the_Public_Sector
-  Related_policy_instruments-->|" hasPart "|Directive_on_the_Management_of_Projects_and_Programmes
-  Policy_on_Green_Procurement-->|" isReferencedBy "|doc_engaspx_2
-  Related_policy_instruments-->|" hasPart "|Policy_on_Government_Security
+  Related_policy_instruments-->|" hasPart "|Policy_on_Communications_and_Federal_Identity
   Related_policy_instruments-->|" hasPart "|Policy_on_the_Planning_and_Management_of_Investments
-  Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service-->|" isReferencedBy "|index_engasp
-  Policy_on_Government_Security-->|" isReferencedBy "|doc_engaspx_10
+  Policy_on_the_Planning_and_Management_of_Investments-->|" isReferencedBy "|doc_engaspx_5
+  Policy_on_Results-->|" isReferencedBy "|doc_engaspx_9
+  Policy_on_Green_Procurement-->|" isReferencedBy "|doc_engaspx_11
+  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
+  Related_policy_instruments-->|" hasPart "|Directive_on_the_Management_of_Projects_and_Programmes
+  Related_policy_instruments-->|" hasPart "|Policy_on_Results
+  Related_policy_instruments-->|" hasPart "|Foundation_Framework_for_Treasury_Board_Policies
+  Section_8___References___Policy_on_Service_and_Digital-->|" subClassOf "|Policy_on_Service_and_Digital
+  Related_policy_instruments-->|" hasPart "|Policy_on_Green_Procurement
+  Directive_on_Charging_and_Special_Financial_Authorities-->|" isReferencedBy "|doc_engaspx_10
+  Related_policy_instruments-->|" hasPart "|Policy_on_Government_Security
+  Related_policy_instruments-->|" hasPart "|Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service
+  Policy_on_Privacy_Protection-->|" isReferencedBy "|doc_engaspx_2
+  Foundation_Framework_for_Treasury_Board_Policies-->|" isReferencedBy "|doc_engaspx_12
+  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
+  Policy_on_Transfer_Payments-->|" isReferencedBy "|doc_engaspx_8
+  Related_policy_instruments-->|" hasPart "|Policy_on_Transfer_Payments
   Related_policy_instruments-->|" hasPart "|Policy_on_Official_Languages
+  Related_policy_instruments-->|" hasPart "|Directive_on_Charging_and_Special_Financial_Authorities
+  Policy_on_Government_Security-->|" isReferencedBy "|doc_engaspx_7
+  Policy_on_Official_Languages-->|" isReferencedBy "|doc_engaspx_3
+  Related_policy_instruments-->|" hasPart "|Policy_on_Privacy_Protection
+  Directive_on_the_Management_of_Projects_and_Programmes-->|" isReferencedBy "|doc_engaspx_6
+  Policy_on_Communications_and_Federal_Identity-->|" isReferencedBy "|doc_engaspx_1
+  Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service-->|" isReferencedBy "|index_engasp
   Reference_legislations-->|" source "|Section_8___References___Policy_on_Service_and_Digital
   Related_policy_instruments-->|" hasPart "|Policy_on_Access_to_Information
-  Section_8___References___Policy_on_Service_and_Digital-->|" source "|Policy_on_Service_and_Digital
-  Policy_on_Official_Languages-->|" isReferencedBy "|doc_engaspx_6
-  Related_policy_instruments-->|" hasPart "|Policy_on_the_Duty_to_Accommodate_Persons_with_Disabilities_in_the_Federal_Public_Service
-  Policy_on_Results-->|" isReferencedBy "|doc_engaspx_3
-  Related_policy_instruments-->|" hasPart "|Policy_on_Transfer_Payments
-  Related_policy_instruments-->|" hasPart "|Foundation_Framework_for_Treasury_Board_Policies
-  Policy_on_Privacy_Protection-->|" isReferencedBy "|doc_engaspx_12
-  Related_policy_instruments-->|" source "|Section_8___References___Policy_on_Service_and_Digital
-  Related_policy_instruments-->|" hasPart "|Directive_on_Charging_and_Special_Financial_Authorities
-  Directive_on_Charging_and_Special_Financial_Authorities-->|" isReferencedBy "|doc_engaspx_5
-  Related_policy_instruments-->|" hasPart "|Policy_on_Green_Procurement
-  Policy_on_Communications_and_Federal_Identity-->|" isReferencedBy "|doc_engaspx_4
-  Foundation_Framework_for_Treasury_Board_Policies-->|" isReferencedBy "|doc_engaspx_9
+  Values_and_Ethics_Code_for_the_Public_Sector-->|" isReferencedBy "|doc_engaspx_4
 ```

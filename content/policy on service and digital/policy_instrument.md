@@ -7,6 +7,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[policy_instrument]]
+
 ## Semantic Connections
 
 ```mermaid

@@ -5,8 +5,7 @@ modified: 2025-08-03
 tags: []
 draft: true
 subClassOf: '[[Thing]]'
-related:
-- '[[Thing]]'
+related: []
 ---
 # Action
 

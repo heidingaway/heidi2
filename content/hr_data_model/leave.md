@@ -13,6 +13,7 @@ draft: false
 
 - [[area_compensation_leave_pension]]
 - [[business_transformation_outcome]]
+- [[leave]]
 
 ## Semantic Connections
 

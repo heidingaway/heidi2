@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_person]]
+- [[person_contact_status]]
 
 ## Semantic Connections
 

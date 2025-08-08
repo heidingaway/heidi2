@@ -10,6 +10,7 @@ draft: false
 
 ## Related Links
 
+- [[application_status]]
 - [[area_staffing]]
 
 ## Semantic Connections

@@ -3,11 +3,11 @@ uri: https://www.canada.ca/#service_digital_suite
 title: Service and Digital policy Suite
 mermaid_layers: 3
 related:
-- '[[Government]]'
 - '[[advances_government_operations_services]]'
 - '[[cyber_security]]'
 - '[[deliver_government_operations_services]]'
 - '[[department_agency_ca]]'
+- '[[government]]'
 - '[[government_operations_services]]'
 - '[[information_technology]]'
 - '[[manages_data_information_strategic]]'

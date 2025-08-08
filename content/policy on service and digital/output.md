@@ -22,6 +22,7 @@ entities:
 - [[business_line]]
 - [[function]]
 - [[outcome_statement]]
+- [[output]]
 - [[stakeholder]]
 
 ## Semantic Connections
@@ -33,8 +34,8 @@ graph TD
   Function["Function<br>+ label: Function"]
   Stakeholder["Stakeholder<br>+ label: Stakeholder<br>+ comment: Who interacts with it"]
   Business_Line["Business Line<br>+ label: Business Line<br>+ comment: Where is the work structured"]
+  Function-->|" hasPart "|Stakeholder
   Outcome_Statement-->|" defines "|Function
   Function-->|" hasPart "|Business_Line
   Output-->|" drives "|Outcome_Statement
-  Function-->|" hasPart "|Stakeholder
 ```

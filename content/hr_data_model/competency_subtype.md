@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_competency]]
+- [[competency_subtype]]
 
 ## Semantic Connections
 

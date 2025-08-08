@@ -8,8 +8,7 @@ tags: []
 draft: true
 subClassOf:
 - '[[organization]]'
-related:
-- '[[Organization]]'
+related: []
 ---
 # Government Organization
 

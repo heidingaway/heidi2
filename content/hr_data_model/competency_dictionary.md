@@ -16,6 +16,7 @@ draft: false
 ## Related Links
 
 - [[area_competency]]
+- [[competency_dictionary]]
 - [[competency_indicator]]
 - [[competency_proficiency_level]]
 - [[competency_type]]
@@ -33,10 +34,10 @@ graph TD
   competency_indicator["competency_indicator"]
   person_competency["person_competency"]
   position_competency["position_competency"]
+  person_competency-->|" uses "|Competency_Dictionary
+  competency_proficiency_level-->|" includedIn "|Competency_Dictionary
   Competency_Dictionary-->|" subClassOf "|area_competency
   position_competency-->|" uses "|Competency_Dictionary
   competency_type-->|" includedIn "|Competency_Dictionary
-  competency_proficiency_level-->|" includedIn "|Competency_Dictionary
-  person_competency-->|" uses "|Competency_Dictionary
   competency_indicator-->|" includedIn "|Competency_Dictionary
 ```

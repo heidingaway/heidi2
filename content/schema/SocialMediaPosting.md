@@ -9,8 +9,7 @@ permalink: null
 subClassOf:
 - '[[Article]]'
 entities:
-- https://schema.org/Article
-- https://schema.org/SocialMediaPosting
+- https://heidingaway.github.io/heidi2/socialmediaposting
 ---
 
 > A post to a social media platform, including blog posts, tweets, Facebook posts, etc.[^1]
@@ -19,13 +18,11 @@ entities:
 
 ## Related Links
 
-- [[Article]]
+- [[socialmediaposting]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  SocialMediaPosting["SocialMediaPosting<br>+ label: SocialMediaPosting<br>+ comment: A post to a social media platform, including blog posts, tweets, Facebook posts, etc."]:::current-page-node
-  Article["Article<br>+ label: Article<br>+ comment: //blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."]
-  SocialMediaPosting-->|" subClassOf "|Article
+  SocialMediaPosting["SocialMediaPosting"]:::current-page-node
 ```

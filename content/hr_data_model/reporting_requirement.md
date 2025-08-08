@@ -18,6 +18,7 @@ draft: false
 - [[job]]
 - [[labour_data]]
 - [[report]]
+- [[reporting_requirement]]
 - [[workforce_workplace_performance_measure]]
 
 ## Semantic Connections
@@ -31,8 +32,8 @@ graph TD
   labour_data["labour_data"]
   job["job"]
   workforce_workplace_performance_measure-->|" includedIn "|Reporting_Requirement
+  Reporting_Requirement-->|" metBy "|report
   labour_data-->|" has "|Reporting_Requirement
   Reporting_Requirement-->|" subClassOf "|area_hr_planning_reporting
-  Reporting_Requirement-->|" metBy "|report
   job-->|" has "|Reporting_Requirement
 ```

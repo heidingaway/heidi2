@@ -4,8 +4,8 @@ title: Person License-Certification
 mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 - https://gcxgce.sharepoint.com/teams/10001579/#person_license_certification
-- https://schema.org/Person
 draft: false
 ---
 
@@ -13,6 +13,7 @@ draft: false
 
 - [[area_person]]
 - [[person]]
+- [[person_license_certification]]
 
 ## Semantic Connections
 

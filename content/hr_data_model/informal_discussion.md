@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[informal_discussion]]
 
 ## Semantic Connections
 

@@ -24,6 +24,7 @@ draft: false
 
 ## Related Links
 
+- [[area_hr_planning_reporting]]
 - [[business_plan]]
 - [[business_plan_status]]
 - [[business_transformation_approach]]
@@ -60,19 +61,19 @@ graph TD
   report["report"]
   workforce_workplace_planning["workforce_workplace_planning"]
   data_set["data_set"]
-  business_plan_status-->|" subClassOf "|HR_Planning__Reporting
-  measurement_collection-->|" subClassOf "|HR_Planning__Reporting
-  data_set-->|" subClassOf "|HR_Planning__Reporting
-  workforce_workplace_planning-->|" subClassOf "|HR_Planning__Reporting
-  report-->|" subClassOf "|HR_Planning__Reporting
-  business_plan-->|" subClassOf "|HR_Planning__Reporting
-  measurement_framework-->|" subClassOf "|HR_Planning__Reporting
-  reporting_requirement-->|" subClassOf "|HR_Planning__Reporting
-  business_transformation_outcome-->|" subClassOf "|HR_Planning__Reporting
-  HR_Planning__Reporting-->|" subClassOf "|hr_business_line_data
   workforce_workplace_performance_measure-->|" subClassOf "|HR_Planning__Reporting
+  measurement_collection-->|" subClassOf "|HR_Planning__Reporting
   business_transformation_approach-->|" subClassOf "|HR_Planning__Reporting
-  labour_data-->|" subClassOf "|HR_Planning__Reporting
+  business_plan_status-->|" subClassOf "|HR_Planning__Reporting
+  HR_Planning__Reporting-->|" subClassOf "|hr_business_line_data
+  business_transformation_outcome-->|" subClassOf "|HR_Planning__Reporting
+  data_set-->|" subClassOf "|HR_Planning__Reporting
+  business_plan-->|" subClassOf "|HR_Planning__Reporting
+  reporting_requirement-->|" subClassOf "|HR_Planning__Reporting
+  report-->|" subClassOf "|HR_Planning__Reporting
+  workforce_workplace_planning-->|" subClassOf "|HR_Planning__Reporting
+  measurement_framework-->|" subClassOf "|HR_Planning__Reporting
   report_status-->|" subClassOf "|HR_Planning__Reporting
   data_analysis-->|" subClassOf "|HR_Planning__Reporting
+  labour_data-->|" subClassOf "|HR_Planning__Reporting
 ```

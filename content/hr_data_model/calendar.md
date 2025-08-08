@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_external_data]]
+- [[calendar]]
 - [[position]]
 
 ## Semantic Connections
@@ -21,6 +22,6 @@ graph TD
   Calendar["Calendar"]:::current-page-node
   area_external_data["area_external_data"]
   position["position"]
-  Calendar-->|" subClassOf "|area_external_data
   position-->|" has "|Calendar
+  Calendar-->|" subClassOf "|area_external_data
 ```

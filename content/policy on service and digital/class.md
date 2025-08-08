@@ -10,6 +10,7 @@ draft: false
 
 ## Related Links
 
+- [[Class]]
 - [[Resource]]
 
 ## Semantic Connections

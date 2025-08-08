@@ -3,8 +3,8 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#employment_equity_designated_
 title: Employment Equity Designated Group Membership
 mermaid_layers: 1
 related:
-- '[[Person]]'
 - '[[area_person]]'
+- '[[person]]'
 ---
 # Employment Equity Designated Group Membership
 

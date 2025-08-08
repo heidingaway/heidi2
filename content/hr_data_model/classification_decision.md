@@ -3,8 +3,8 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#classification_decision
 title: Classification Decision
 mermaid_layers: 1
 entities:
-- http://www.thesaurus.gc.ca/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#area_classification
+- https://gcxgce.sharepoint.com/teams/10001579/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_decision
 - https://gcxgce.sharepoint.com/teams/10001579/#work_description
 draft: false
@@ -14,6 +14,7 @@ draft: false
 
 - [[area_classification]]
 - [[classification]]
+- [[classification_decision]]
 - [[work_description]]
 
 ## Semantic Connections
@@ -25,6 +26,6 @@ graph TD
   classification["classification"]
   work_description["work_description"]
   Classification_Decision-->|" subClassOf "|area_classification
-  work_description-->|" has "|Classification_Decision
   classification-->|" inheritsFrom "|Classification_Decision
+  work_description-->|" has "|Classification_Decision
 ```

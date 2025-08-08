@@ -19,6 +19,7 @@ draft: false
 - [[job]]
 - [[person_competency]]
 - [[position]]
+- [[position_competency]]
 
 ## Semantic Connections
 
@@ -30,10 +31,10 @@ graph TD
   position["position"]
   competency_dictionary["competency_dictionary"]
   person_competency["person_competency"]
+  Position_Competency-->|" subClassOf "|area_position
+  person_competency-->|" uses "|Position_Competency
   Position_Competency-->|" describes "|job
   Position_Competency-->|" uses "|competency_dictionary
-  person_competency-->|" uses "|Position_Competency
-  Position_Competency-->|" subClassOf "|area_position
   job-->|" describedBy "|Position_Competency
   Position_Competency-->|" describes "|position
 ```

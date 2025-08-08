@@ -13,6 +13,7 @@ draft: false
 
 - [[area_recourse_ohs]]
 - [[classification_evaluation_authorization]]
+- [[grievance]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   Grievance["Grievance"]:::current-page-node
   area_recourse_ohs["area_recourse_ohs"]
   classification_evaluation_authorization["classification_evaluation_authorization"]
-  Grievance-->|" subClassOf "|area_recourse_ohs
   Grievance-->|" isFor "|classification_evaluation_authorization
+  Grievance-->|" subClassOf "|area_recourse_ohs
 ```

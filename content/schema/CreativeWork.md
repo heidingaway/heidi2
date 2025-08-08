@@ -13,8 +13,6 @@ subClassOf:
 - '[[Thing]]'
 entities:
 - https://schema.org/CreativeWork
-- https://schema.org/Thing
-- https://schema.org/docs/collab/rNews
 ---
 
 > The most generic kind of creative work, including books, movies, photographs, software programs, etc. [^1]
@@ -23,15 +21,11 @@ entities:
 
 ## Related Links
 
-- [[Thing]]
+- [[CreativeWork]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Creative_Work["Creative Work<br>+ label: CreativeWork<br>+ comment: The most generic kind of creative work, including books, movies, photographs, software programs, etc."]:::current-page-node
-  Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]
-  rNews["rNews"]
-  Creative_Work-->|" subClassOf "|Thing
-  Creative_Work-->|" contributor "|rNews
+  Creative_Work["Creative Work"]:::current-page-node
 ```

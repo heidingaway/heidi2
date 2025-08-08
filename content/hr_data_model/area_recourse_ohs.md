@@ -20,6 +20,7 @@ draft: false
 
 ## Related Links
 
+- [[area_recourse_ohs]]
 - [[complaint]]
 - [[complaint_status]]
 - [[disciplinary_action]]
@@ -48,15 +49,15 @@ graph TD
   ohs_event_action["ohs_event_action"]
   complaint["complaint"]
   grievance["grievance"]
-  incident_resolution-->|" subClassOf "|Recourse__OHS
-  complaint_status-->|" subClassOf "|Recourse__OHS
-  ohs_event_action_status-->|" subClassOf "|Recourse__OHS
-  complaint-->|" subClassOf "|Recourse__OHS
   grievance_status-->|" subClassOf "|Recourse__OHS
-  grievance_assessment-->|" subClassOf "|Recourse__OHS
   incident-->|" subClassOf "|Recourse__OHS
-  disciplinary_action-->|" subClassOf "|Recourse__OHS
-  Recourse__OHS-->|" subClassOf "|hr_business_line_data
+  ohs_event_action_status-->|" subClassOf "|Recourse__OHS
   ohs_event_action-->|" subClassOf "|Recourse__OHS
+  complaint_status-->|" subClassOf "|Recourse__OHS
+  grievance_assessment-->|" subClassOf "|Recourse__OHS
+  disciplinary_action-->|" subClassOf "|Recourse__OHS
+  incident_resolution-->|" subClassOf "|Recourse__OHS
+  complaint-->|" subClassOf "|Recourse__OHS
+  Recourse__OHS-->|" subClassOf "|hr_business_line_data
   grievance-->|" subClassOf "|Recourse__OHS
 ```

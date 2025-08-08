@@ -6,8 +6,7 @@ tags: prefix/schema
 draft: true
 subClassOf:
 - '[[AdministrativeArea]]'
-related:
-- '[[AdministrativeArea]]'
+related: []
 ---
 # State
 

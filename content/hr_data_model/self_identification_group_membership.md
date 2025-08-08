@@ -4,8 +4,8 @@ title: Self-Identification Group Membership *
 mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 - https://gcxgce.sharepoint.com/teams/10001579/#self_identification_group_membership
-- https://schema.org/Person
 draft: false
 ---
 
@@ -13,6 +13,7 @@ draft: false
 
 - [[area_person]]
 - [[person]]
+- [[self_identification_group_membership]]
 
 ## Semantic Connections
 

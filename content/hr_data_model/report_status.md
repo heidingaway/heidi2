@@ -13,6 +13,7 @@ draft: false
 
 - [[area_hr_planning_reporting]]
 - [[report]]
+- [[report_status]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   report_status["report_status"]:::current-page-node
   area_hr_planning_reporting["area_hr_planning_reporting"]
   report["report"]
-  report-->|" has "|report_status
   report_status-->|" subClassOf "|area_hr_planning_reporting
+  report-->|" has "|report_status
 ```

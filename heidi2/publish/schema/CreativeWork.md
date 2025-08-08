@@ -9,8 +9,7 @@ tags:
 draft: true
 mermaid_layers: 1
 permalink: null
-related:
-- '[[Thing]]'
+related: []
 subClassOf:
 - '[[Thing]]'
 ---

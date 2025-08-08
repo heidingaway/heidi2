@@ -5,13 +5,14 @@ mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
 - https://gcxgce.sharepoint.com/teams/10001579/#marital_status
-- https://schema.org/Person
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 draft: false
 ---
 
 ## Related Links
 
 - [[area_person]]
+- [[marital_status]]
 - [[person]]
 
 ## Semantic Connections

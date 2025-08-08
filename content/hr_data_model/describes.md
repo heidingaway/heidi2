@@ -7,6 +7,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[describes]]
+
 ## Semantic Connections
 
 ```mermaid

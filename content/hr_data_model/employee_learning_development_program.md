@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_learning_development]]
+- [[employee_learning_development_program]]
 
 ## Semantic Connections
 

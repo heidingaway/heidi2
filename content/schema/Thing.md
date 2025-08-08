@@ -10,16 +10,20 @@ mermaid_layers: 1
 permalink: null
 subClassOf: '[[schema]]'
 entities:
-- https://schema.org/Thing
+- https://heidingaway.github.io/heidi2/thing
 ---
 
 > The most generic type of item.[^1]
 
 [^1]: [Thing - Schema.org Type](https://schema.org/Thing)
 
+## Related Links
+
+- [[thing]]
+
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]:::current-page-node
+  Thing["Thing"]:::current-page-node
 ```

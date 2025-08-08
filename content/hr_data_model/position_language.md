@@ -13,6 +13,7 @@ draft: false
 
 - [[area_position]]
 - [[position]]
+- [[position_language]]
 
 ## Semantic Connections
 
@@ -21,7 +22,7 @@ graph TD
   Position_Language["Position Language"]:::current-page-node
   area_position["area_position"]
   position["position"]
-  Position_Language-->|" qualifies "|position
   Position_Language-->|" subClassOf "|area_position
+  Position_Language-->|" qualifies "|position
   position-->|" has "|Position_Language
 ```

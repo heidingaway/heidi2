@@ -13,6 +13,7 @@ draft: false
 
 - [[area_employee]]
 - [[work_arrangement]]
+- [[work_arrangement_status]]
 
 ## Semantic Connections
 

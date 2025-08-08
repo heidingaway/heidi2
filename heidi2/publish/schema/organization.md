@@ -14,7 +14,11 @@ draft: true
 mermaid_layers: 1
 permalink: null
 related:
-- '[[Thing]]'
+- '[[address]]'
+- '[[area_organization]]'
+- '[[mgmt_resource_results_structure]]'
+- '[[organization_relationship]]'
+- '[[position]]'
 subClassOf:
 - '[[Thing]]'
 ---

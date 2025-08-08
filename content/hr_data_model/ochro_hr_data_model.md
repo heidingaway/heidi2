@@ -7,6 +7,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[OCHRO_HR_DATA_MODEL]]
+
 ## Semantic Connections
 
 ```mermaid

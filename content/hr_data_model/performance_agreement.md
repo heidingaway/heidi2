@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_performance]]
+- [[performance_agreement]]
 
 ## Semantic Connections
 

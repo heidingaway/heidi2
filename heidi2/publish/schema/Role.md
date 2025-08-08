@@ -9,7 +9,7 @@ permalink: null
 subClassOf:
 - '[[Intangible]]'
 related:
-- '[[Intangible]]'
+- '[[OrganizationRole]]'
 ---
 # Role
 

@@ -12,6 +12,7 @@ draft: false
 
 ## Related Links
 
+- [[area_job]]
 - [[core_workforce_data]]
 - [[job]]
 - [[job_status]]
@@ -24,7 +25,7 @@ graph TD
   core_workforce_data["core_workforce_data"]
   job_status["job_status"]
   job["job"]
-  Job-->|" subClassOf "|core_workforce_data
   job-->|" subClassOf "|Job
   job_status-->|" subClassOf "|Job
+  Job-->|" subClassOf "|core_workforce_data
 ```

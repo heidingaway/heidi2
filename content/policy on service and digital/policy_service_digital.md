@@ -3,8 +3,8 @@ uri: https://www.canada.ca/#policy_service_digital
 title: Policy on Service and Digital
 mermaid_layers: 3
 entities:
-- https://en.wikipedia.org/wiki/Government
-- https://schema.org/OrganizationRole
+- http://www.w3.org/2000/01/rdf-schema#OrganizationRole
+- https://en.wikipedia.org/wiki/government
 - https://www.canada.ca/#accessibility_requirements
 - https://www.canada.ca/#advances_government_operations_services
 - https://www.canada.ca/#deliver_government_operations_services
@@ -21,7 +21,7 @@ entities:
 - https://www.canada.ca/#service_digital_supporting_instrument
 - https://www.canada.ca/#supporting_instrument
 - https://www.canada.ca/#supporting_instruments
-- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32738
+- https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603
 draft: false
 ---
 
@@ -34,6 +34,7 @@ draft: false
 - [[government]]
 - [[government_operations_services]]
 - [[policy]]
+- [[policy_service_digital]]
 - [[public_servant]]
 - [[service_digital_functions]]
 
@@ -52,33 +53,33 @@ graph TD
   digital_era["digital_era"]
   doc_engaspx["doc-eng.aspx"]
   Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
+  policy_suite["policy_suite"]
   Government_of_Canada["Government of Canada<br>+ label: Government of Canada"]
   Public_servant["Public servant<br>+ label: Public servant<br>+ comment: A role held by a person who is employed by the Government of Canada to carry out government duties and responsibilities."]
   Delivery_government_operations_and_services["Delivery government operations and services<br>+ label: Delivery government operations and services"]
-  policy_suite["policy_suite"]
-  OrganizationRole["OrganizationRole<br>+ label: OrganizationRole<br>+ comment: A subclass of Role used to describe roles within organizations."]
+  OrganizationRole["OrganizationRole"]
   Public_policy["Public policy<br>+ label: Public policy<br>+ comment: about what governments choose to do, or not do"]
   supporting_instrument["supporting_instrument"]
   supporting_instruments["supporting_instruments"]
-  Policy_on_Service_and_Digital_Supporting_Instruments-->|" subClassOf "|policy_suite
+  policy_suite-->|" hasPart "|supporting_instrument
+  Policy_on_Service_and_Digital-->|" in_conjunction_with "|official_languages_requirements
+  Policy_on_Service_and_Digital-->|" in_conjunction_with "|privacy_requirements
+  Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
   Public_servant-->|" subClassOf "|OrganizationRole
   policy_suite-->|" hasPart "|supporting_instruments
-  Policy_on_Service_and_Digital-->|" in_conjunction_with "|privacy_requirements
-  Policy_on_Service_and_Digital-->|" provider "|GC_Departments_or_Agencies
-  Policy_on_Service_and_Digital-->|" seeAlso "|doc_engaspx
-  policy_suite-->|" hasPart "|Public_policy
-  GC_Departments_or_Agencies-->|" subClassOf "|Government_of_Canada
-  Policy_on_Service_and_Digital_Supporting_Instruments-->|" supports "|Policy_on_Service_and_Digital
-  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
-  Advances_government_operations_and_services-->|" object "|Government_operations_and_services
-  Policy_on_Service_and_Digital-->|" has_context "|digital_era
-  Policy_on_Service_and_Digital-->|" supportedBy "|Policy_on_Service_and_Digital_Supporting_Instruments
-  policy_suite-->|" hasPart "|supporting_instrument
   GC_Departments_or_Agencies-->|" employee "|Public_servant
   Delivery_government_operations_and_services-->|" object "|Government_operations_and_services
-  Policy_on_Service_and_Digital-->|" in_conjunction_with "|official_languages_requirements
-  Policy_on_Service_and_Digital-->|" in_conjunction_with "|accessibility_requirements
+  Advances_government_operations_and_services-->|" object "|Government_operations_and_services
+  policy_suite-->|" hasPart "|Public_policy
+  GC_Departments_or_Agencies-->|" subClassOf "|Government_of_Canada
+  Policy_on_Service_and_Digital-->|" object "|Service_and_digital_functions
+  Policy_on_Service_and_Digital-->|" supportedBy "|Policy_on_Service_and_Digital_Supporting_Instruments
+  Policy_on_Service_and_Digital_Supporting_Instruments-->|" supports "|Policy_on_Service_and_Digital
+  Policy_on_Service_and_Digital-->|" has_context "|digital_era
   GC_Departments_or_Agencies-->|" performs "|Delivery_government_operations_and_services
-  Service_and_digital_functions-->|" subClassOf "|Government_operations_and_services
-  Policy_on_Service_and_Digital-->|" result "|Advances_government_operations_and_services
+  Policy_on_Service_and_Digital_Supporting_Instruments-->|" subClassOf "|policy_suite
+  Policy_on_Service_and_Digital-->|" intended_result "|Advances_government_operations_and_services
+  Policy_on_Service_and_Digital-->|" in_conjunction_with "|accessibility_requirements
+  Policy_on_Service_and_Digital-->|" seeAlso "|doc_engaspx
+  Policy_on_Service_and_Digital-->|" provider "|GC_Departments_or_Agencies
 ```

@@ -4,8 +4,8 @@ title: Security Clearance
 mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#area_person
+- https://gcxgce.sharepoint.com/teams/10001579/#person
 - https://gcxgce.sharepoint.com/teams/10001579/#security_clearance
-- https://schema.org/Person
 draft: false
 ---
 
@@ -13,6 +13,7 @@ draft: false
 
 - [[area_person]]
 - [[person]]
+- [[security_clearance]]
 
 ## Semantic Connections
 
@@ -21,6 +22,6 @@ graph TD
   Security_Clearance["Security Clearance"]:::current-page-node
   area_person["area_person"]
   person["person"]
-  person-->|" has "|Security_Clearance
   Security_Clearance-->|" subClassOf "|area_person
+  person-->|" has "|Security_Clearance
 ```

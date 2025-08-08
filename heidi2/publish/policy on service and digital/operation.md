@@ -3,8 +3,6 @@ uri: https://www.canada.ca/#operation
 title: Operation
 mermaid_layers: 3
 related:
-- '[[Product]]'
-- '[[Service]]'
 - '[[advances_government_operations_services]]'
 - '[[cyber_security]]'
 - '[[deliver_government_operations_services]]'
@@ -14,6 +12,8 @@ related:
 - '[[manages_data_information_strategic]]'
 - '[[manages_service_digital_functions]]'
 - '[[policy_service_digital]]'
+- '[[product]]'
+- '[[service]]'
 - '[[service_delivery]]'
 - '[[service_digital_functions]]'
 ---

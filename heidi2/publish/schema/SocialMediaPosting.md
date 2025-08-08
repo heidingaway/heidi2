@@ -8,8 +8,7 @@ mermaid_layers: 1
 permalink: null
 subClassOf:
 - '[[Article]]'
-related:
-- '[[Article]]'
+related: []
 ---
 # SocialMediaPosting
 

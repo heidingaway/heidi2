@@ -5,6 +5,7 @@ mermaid_layers: 1
 entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#advertising_campaign
 - https://gcxgce.sharepoint.com/teams/10001579/#applicant_evaluation
+- https://gcxgce.sharepoint.com/teams/10001579/#application
 - https://gcxgce.sharepoint.com/teams/10001579/#application_status
 - https://gcxgce.sharepoint.com/teams/10001579/#area_staffing
 - https://gcxgce.sharepoint.com/teams/10001579/#assessment_activity
@@ -29,7 +30,6 @@ entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#staffing_process_status
 - https://gcxgce.sharepoint.com/teams/10001579/#staffing_process_type
 - https://gcxgce.sharepoint.com/teams/10001579/#student_program_repository
-- https://schema.org/application
 draft: false
 ---
 
@@ -39,6 +39,7 @@ draft: false
 - [[applicant_evaluation]]
 - [[application]]
 - [[application_status]]
+- [[area_staffing]]
 - [[assessment_activity]]
 - [[assessment_board_member]]
 - [[assessment_tool]]
@@ -92,30 +93,30 @@ graph TD
   applicant_evaluation["applicant_evaluation"]
   assessment_activity["assessment_activity"]
   priority_candidate_repository["priority_candidate_repository"]
-  application-->|" subClassOf "|Staffing
-  applicant_evaluation-->|" subClassOf "|Staffing
-  assessment_board_member-->|" subClassOf "|Staffing
-  application_status-->|" subClassOf "|Staffing
-  reference-->|" subClassOf "|Staffing
-  staffing_process_type-->|" subClassOf "|Staffing
-  priority_candidate_repository-->|" subClassOf "|Staffing
-  collective_staffing_team_member-->|" subClassOf "|Staffing
-  government_of_canada_assessment_board-->|" subClassOf "|Staffing
-  assessment_tool_repository-->|" subClassOf "|Staffing
-  staffing_process_status-->|" subClassOf "|Staffing
-  pool-->|" subClassOf "|Staffing
-  student_program_repository-->|" subClassOf "|Staffing
-  person_pool_status-->|" subClassOf "|Staffing
-  advertising_campaign-->|" subClassOf "|Staffing
   assessment_tool-->|" subClassOf "|Staffing
-  qualification_evaluation-->|" subClassOf "|Staffing
+  reference-->|" subClassOf "|Staffing
   development_program_repository-->|" subClassOf "|Staffing
-  informal_discussion-->|" subClassOf "|Staffing
-  qualification_repository-->|" subClassOf "|Staffing
-  assessment_activity-->|" subClassOf "|Staffing
-  staffing_process-->|" subClassOf "|Staffing
-  staffing_process_qualification-->|" subClassOf "|Staffing
-  Staffing-->|" subClassOf "|hr_business_line_data
-  staffing_process_area_of_selection-->|" subClassOf "|Staffing
   externally_administered_assessment-->|" subClassOf "|Staffing
+  qualification_repository-->|" subClassOf "|Staffing
+  advertising_campaign-->|" subClassOf "|Staffing
+  Staffing-->|" subClassOf "|hr_business_line_data
+  government_of_canada_assessment_board-->|" subClassOf "|Staffing
+  application-->|" subClassOf "|Staffing
+  pool-->|" subClassOf "|Staffing
+  staffing_process_qualification-->|" subClassOf "|Staffing
+  person_pool_status-->|" subClassOf "|Staffing
+  staffing_process_type-->|" subClassOf "|Staffing
+  assessment_tool_repository-->|" subClassOf "|Staffing
+  application_status-->|" subClassOf "|Staffing
+  staffing_process_status-->|" subClassOf "|Staffing
+  collective_staffing_team_member-->|" subClassOf "|Staffing
+  applicant_evaluation-->|" subClassOf "|Staffing
+  informal_discussion-->|" subClassOf "|Staffing
+  priority_candidate_repository-->|" subClassOf "|Staffing
+  staffing_process_area_of_selection-->|" subClassOf "|Staffing
+  student_program_repository-->|" subClassOf "|Staffing
+  staffing_process-->|" subClassOf "|Staffing
+  assessment_activity-->|" subClassOf "|Staffing
+  qualification_evaluation-->|" subClassOf "|Staffing
+  assessment_board_member-->|" subClassOf "|Staffing
 ```

@@ -3,16 +3,17 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#area_external_data
 title: External Data
 mermaid_layers: 1
 entities:
+- https://gcxgce.sharepoint.com/teams/10001579/#address
 - https://gcxgce.sharepoint.com/teams/10001579/#area_external_data
 - https://gcxgce.sharepoint.com/teams/10001579/#calendar
 - https://gcxgce.sharepoint.com/teams/10001579/#core_support_data
-- https://schema.org/address
 draft: false
 ---
 
 ## Related Links
 
 - [[address]]
+- [[area_external_data]]
 - [[calendar]]
 - [[core_support_data]]
 

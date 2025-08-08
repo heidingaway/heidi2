@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_staffing]]
+- [[collective_staffing_team_member]]
 
 ## Semantic Connections
 

@@ -16,6 +16,7 @@ entities:
 
 ## Related Links
 
+- [[Class]]
 - [[Resource]]
 
 ## Semantic Connections

@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_position]]
+- [[position_relationship]]
 
 ## Semantic Connections
 

@@ -10,22 +10,20 @@ mermaid_layers: 1
 permalink: null
 uri: https://www.canada.ca/#product
 entities:
-- https://schema.org/Product
-- https://schema.org/Thing
-- https://schema.org/docs/collab/GoodRelationsTerms
+- https://www.canada.ca/#government_operations_services
+- https://www.canada.ca/#product
 ---
 
 ## Related Links
 
-- [[Thing]]
+- [[government_operations_services]]
+- [[product]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Product["Product<br>+ label: Product<br>+ comment:  a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online."]:::current-page-node
-  Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]
-  GoodRelationsTerms["GoodRelationsTerms"]
-  Product-->|" subClassOf "|Thing
-  Product-->|" contributor "|GoodRelationsTerms
+  Product["Product<br>+ label: Product"]:::current-page-node
+  Government_operations_and_services["Government operations and services<br>+ label: Government operations and services"]
+  Product-->|" subClassOf "|Government_operations_and_services
 ```

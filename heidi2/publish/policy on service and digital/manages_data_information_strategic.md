@@ -3,8 +3,6 @@ uri: https://www.canada.ca/#manages_data_information_strategic
 title: strategic management of data and information
 mermaid_layers: 3
 related:
-- '[[Product]]'
-- '[[Service]]'
 - '[[advances_government_operations_services]]'
 - '[[data_information]]'
 - '[[deliver_government_operations_services]]'
@@ -18,6 +16,8 @@ related:
 - '[[operation]]'
 - '[[policy_service_digital]]'
 - '[[policy_service_digital_8]]'
+- '[[product]]'
+- '[[service]]'
 - '[[service_digital_functions]]'
 - '[[service_digital_suite]]'
 ---

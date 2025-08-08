@@ -12,6 +12,7 @@ draft: false
 ## Related Links
 
 - [[area_employee]]
+- [[financial_institution_information]]
 - [[financial_institution_information_status]]
 
 ## Semantic Connections
@@ -21,6 +22,6 @@ graph TD
   Financial_Institution_Information["Financial Institution Information"]:::current-page-node
   area_employee["area_employee"]
   financial_institution_information_status["financial_institution_information_status"]
-  Financial_Institution_Information-->|" has "|financial_institution_information_status
   Financial_Institution_Information-->|" subClassOf "|area_employee
+  Financial_Institution_Information-->|" has "|financial_institution_information_status
 ```

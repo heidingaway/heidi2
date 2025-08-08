@@ -10,10 +10,10 @@ entities:
 - https://gcxgce.sharepoint.com/teams/10001579/#employment_history
 - https://gcxgce.sharepoint.com/teams/10001579/#financial_institution_information
 - https://gcxgce.sharepoint.com/teams/10001579/#medical_assessment
+- https://gcxgce.sharepoint.com/teams/10001579/#organization
 - https://gcxgce.sharepoint.com/teams/10001579/#position
 - https://gcxgce.sharepoint.com/teams/10001579/#tax_information
 - https://gcxgce.sharepoint.com/teams/10001579/#work_arrangement
-- https://schema.org/Organization
 draft: false
 ---
 
@@ -21,6 +21,7 @@ draft: false
 
 - [[area_employee]]
 - [[career_development]]
+- [[employee]]
 - [[employee_classification]]
 - [[employment_history]]
 - [[financial_institution_information]]
@@ -45,14 +46,14 @@ graph TD
   position["position"]
   employee_classification["employee_classification"]
   organization["organization"]
-  Employee-->|" subClassOf "|area_employee
-  Employee-->|" has "|tax_information
-  employee_classification-->|" isFor "|Employee
   Employee-->|" has "|medical_assessment
-  Employee-->|" has "|work_arrangement
-  Employee-->|" has "|career_development
-  organization-->|" employs "|Employee
-  Employee-->|" incumbentIn "|position
   Employee-->|" has "|employment_history
+  Employee-->|" has "|work_arrangement
+  Employee-->|" incumbentIn "|position
+  employee_classification-->|" isFor "|Employee
+  organization-->|" employs "|Employee
+  Employee-->|" subClassOf "|area_employee
+  Employee-->|" has "|career_development
+  Employee-->|" has "|tax_information
   Employee-->|" has "|financial_institution_information
 ```

@@ -3,8 +3,8 @@ uri: https://gcxgce.sharepoint.com/teams/10001579/#classification_standard
 title: Classification Standard
 mermaid_layers: 1
 entities:
-- http://www.thesaurus.gc.ca/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#area_classification
+- https://gcxgce.sharepoint.com/teams/10001579/#classification
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_standard
 - https://gcxgce.sharepoint.com/teams/10001579/#classification_standard_factor
 draft: false
@@ -14,6 +14,7 @@ draft: false
 
 - [[area_classification]]
 - [[classification]]
+- [[classification_standard]]
 - [[classification_standard_factor]]
 
 ## Semantic Connections
@@ -24,7 +25,7 @@ graph TD
   area_classification["area_classification"]
   classification_standard_factor["classification_standard_factor"]
   classification["classification"]
-  Classification_Standard-->|" subClassOf "|area_classification
   Classification_Standard-->|" rates "|classification_standard_factor
   classification-->|" brokenDownBy "|Classification_Standard
+  Classification_Standard-->|" subClassOf "|area_classification
 ```

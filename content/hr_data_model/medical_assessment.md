@@ -11,6 +11,7 @@ draft: false
 ## Related Links
 
 - [[area_employee]]
+- [[medical_assessment]]
 
 ## Semantic Connections
 

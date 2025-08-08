@@ -9,8 +9,7 @@ permalink: null
 subClassOf:
 - '[[Thing]]'
 entities:
-- https://schema.org/Intangible
-- https://schema.org/Thing
+- https://heidingaway.github.io/heidi2/intangible
 ---
 
 > A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.[^1]
@@ -19,13 +18,11 @@ entities:
 
 ## Related Links
 
-- [[Thing]]
+- [[intangible]]
 
 ## Semantic Connections
 
 ```mermaid
 graph TD
-  Intangible["Intangible<br>+ label: Intangible<br>+ comment: A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc."]:::current-page-node
-  Thing["Thing<br>+ label: Thing<br>+ comment: The most generic type of item."]
-  Intangible-->|" subClassOf "|Thing
+  Intangible["Intangible"]:::current-page-node
 ```

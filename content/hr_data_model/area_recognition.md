@@ -13,6 +13,7 @@ draft: false
 
 ## Related Links
 
+- [[area_recognition]]
 - [[award_program]]
 - [[hr_business_line_data]]
 - [[recognition]]
@@ -29,6 +30,6 @@ graph TD
   recognition["recognition"]
   recognition_status-->|" subClassOf "|Recognition
   recognition-->|" subClassOf "|Recognition
-  Recognition-->|" subClassOf "|hr_business_line_data
   award_program-->|" subClassOf "|Recognition
+  Recognition-->|" subClassOf "|hr_business_line_data
 ```

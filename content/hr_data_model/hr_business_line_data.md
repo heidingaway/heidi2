@@ -7,6 +7,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[hr_business_line_data]]
+
 ## Semantic Connections
 
 ```mermaid

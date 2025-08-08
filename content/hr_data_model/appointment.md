@@ -10,6 +10,7 @@ draft: false
 
 ## Related Links
 
+- [[appointment]]
 - [[area_compensation_leave_pension]]
 
 ## Semantic Connections

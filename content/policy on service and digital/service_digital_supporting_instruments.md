@@ -7,6 +7,10 @@ entities:
 draft: false
 ---
 
+## Related Links
+
+- [[service_digital_supporting_instruments]]
+
 ## Semantic Connections
 
 ```mermaid

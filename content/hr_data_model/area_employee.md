@@ -24,6 +24,7 @@ draft: false
 
 ## Related Links
 
+- [[area_employee]]
 - [[career_development]]
 - [[core_workforce_data]]
 - [[employee_classification]]
@@ -60,19 +61,19 @@ graph TD
   work_arrangement["work_arrangement"]
   medical_assessment["medical_assessment"]
   service_buy_back_election["service_buy_back_election"]
-  tax_information_status-->|" subClassOf "|Employee
   work_arrangement_schedule-->|" subClassOf "|Employee
-  employment_history-->|" subClassOf "|Employee
+  employee_classification-->|" subClassOf "|Employee
   financial_institution_information-->|" subClassOf "|Employee
-  offsite_location-->|" subClassOf "|Employee
+  work_arrangement_status-->|" subClassOf "|Employee
+  Employee-->|" subClassOf "|core_workforce_data
   work_arrangement-->|" subClassOf "|Employee
+  employment_history-->|" subClassOf "|Employee
+  medical_assessment-->|" subClassOf "|Employee
+  service_buy_back_election_status-->|" subClassOf "|Employee
+  career_development-->|" subClassOf "|Employee
+  offsite_location-->|" subClassOf "|Employee
   service_buy_back_election-->|" subClassOf "|Employee
   tax_information-->|" subClassOf "|Employee
-  service_buy_back_election_status-->|" subClassOf "|Employee
-  Employee-->|" subClassOf "|core_workforce_data
-  work_arrangement_status-->|" subClassOf "|Employee
-  medical_assessment-->|" subClassOf "|Employee
-  career_development-->|" subClassOf "|Employee
-  employee_classification-->|" subClassOf "|Employee
+  tax_information_status-->|" subClassOf "|Employee
   financial_institution_information_status-->|" subClassOf "|Employee
 ```
