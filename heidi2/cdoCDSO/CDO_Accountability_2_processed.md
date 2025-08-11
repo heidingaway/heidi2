@@ -3,7 +3,7 @@ title: CDO Accountability 2
 aliases:
   - CDO Accountability 2
 created: 2025-08-05
-modified: 2025-08-06
+modified: 2025-08-08
 tags: []
 draft: true
 mermaid_layers: 2
@@ -11,8 +11,8 @@ permalink:
 ---
 
 # CDO Accountability 2
-- [[leads_develops_governance_data_information_functions]] 
-	- [[develops_governance_data_information_functions]]  
+- [[leads_develops_governance_data_information_functions]]
+	- [[develops_governance_data_information_functions]]
 		-  [[organization_data_information_functions_policy_suite]]
 		- [[organization_data_information_functions_standard]]
 		- [[organization_data_information_functions_architecture]]
